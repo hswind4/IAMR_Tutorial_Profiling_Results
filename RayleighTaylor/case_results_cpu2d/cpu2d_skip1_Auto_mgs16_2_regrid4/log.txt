@@ -1,0 +1,2737 @@
+Initializing AMReX (20.06-2238-g47f539a33e6a)...
+MPI initialized with 4 MPI processes
+MPI initialized with thread support level 0
+AMReX (20.06-2238-g47f539a33e6a) initialized
+yhi set to pressure outflow.
+Using non-conservative scheme with do_mom_diff = 0
+Advancing grids at level 0 : starting time = 0 with dt = 0.05705518945
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.001766949054  0.002268446886
+max(abs(gpx/gpy/p)) = 0.06091136859  2.050812008  1.499826501
+Advancing grids at level 0 : starting time = 0 with dt = 0.05705518945
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.001775630604  0.002202170415
+max(abs(gpx/gpy/p)) = 0.06119743814  2.051126054  1.499826179
+Advancing grids at level 0 : starting time = 0 with dt = 0.05793086842
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.001799843264  0.002258317482
+max(abs(gpx/gpy/p)) = 0.06110210852  2.05097769  1.499824812
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.05793086842 with dt = 0.06372395526
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.003810021615  0.004748759807
+max(abs(gpx/gpy/p)) = 0.06206440706  2.051821911  1.499815917
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.1216548237 with dt = 0.07009635079
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.006088547595  0.007560184316
+max(abs(gpx/gpy/p)) = 0.06403857306  2.053421746  1.499792312
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.1917511745 with dt = 0.07710598587
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.008723053803  0.01079497314
+max(abs(gpx/gpy/p)) = 0.06747414271  2.05617429  1.499749245
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.2688571603 with dt = 0.08481658445
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.01183957538  0.01463686975
+max(abs(gpx/gpy/p)) = 0.07284722358  2.060377924  1.499677038
+Advancing grids at level 1 : starting time = 0.2688571603 with dt = 0.04240829223
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.01029795252  0.01271320767
+max(abs(gpx/gpy/p)) = 0.07317648107  2.04312735  1.064161733
+Advancing grids at level 1 : starting time = 0.3112654526 with dt = 0.04240829223
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.01190649572  0.01475765678
+max(abs(gpx/gpy/p)) = 0.07456697583  2.055190083  1.064161733
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.3536737448 with dt = 0.0932982429
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.0156700304  0.01928363243
+max(abs(gpx/gpy/p)) = 0.08070160479  2.066319292  1.499560287
+Advancing grids at level 1 : starting time = 0.3536737448 with dt = 0.04664912145
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.01380899788  0.01701714632
+max(abs(gpx/gpy/p)) = 0.08060687975  2.042633075  1.06427289
+Advancing grids at level 1 : starting time = 0.4003228662 with dt = 0.04664912145
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.01578213712  0.01952589468
+max(abs(gpx/gpy/p)) = 0.08276499761  2.059285003  1.06427289
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.4469719877 with dt = 0.1026280672
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.02049052486  0.02527996084
+max(abs(gpx/gpy/p)) = 0.09204082415  2.075491526  1.49936915
+Advancing grids at level 1 : starting time = 0.4469719877 with dt = 0.05131403359
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.0181731232  0.02236109862
+max(abs(gpx/gpy/p)) = 0.09166351816  2.038473443  1.064421327
+Advancing grids at level 2 : starting time = 0.4469719877 with dt = 0.0256570168
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.01695700863  0.02086355367
+max(abs(gpx/gpy/p)) = 0.08999897149  1.936492509  1.048999112
+Advancing grids at level 2 : starting time = 0.4726290045 with dt = 0.0256570168
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.01817476124  0.02241053882
+max(abs(gpx/gpy/p)) = 0.09019349452  1.931881812  1.048999112
+Advancing grids at level 1 : starting time = 0.4982860213 with dt = 0.05131403359
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.02058552895  0.02680258479
+max(abs(gpx/gpy/p)) = 0.0827861648  2.059758998  1.064421327
+Advancing grids at level 2 : starting time = 0.4982860213 with dt = 0.0256570168
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.01939374919  0.02422630187
+max(abs(gpx/gpy/p)) = 0.0903998336  1.928799124  1.048998772
+Advancing grids at level 2 : starting time = 0.5239430381 with dt = 0.0256570168
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.02062653369  0.02629420532
+max(abs(gpx/gpy/p)) = 0.09050696586  1.926081696  1.048998772
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.5496000549 with dt = 0.1128908739
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.02732338661  0.0332006039
+max(abs(gpx/gpy/p)) = 0.1318368378  2.149024715  1.499309608
+Advancing grids at level 1 : starting time = 0.5496000549 with dt = 0.05644543695
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.02455222231  0.03185122366
+max(abs(gpx/gpy/p)) = 0.2125868765  2.362973028  1.065500981
+Advancing grids at level 2 : starting time = 0.5496000549 with dt = 0.02822271848
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.02342016862  0.0264625408
+max(abs(gpx/gpy/p)) = 0.2898430789  2.276117536  1.047644882
+Advancing grids at level 2 : starting time = 0.5778227733 with dt = 0.02822271848
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.02419615564  0.03122285939
+max(abs(gpx/gpy/p)) = 0.2560613833  2.066507971  1.047644882
+Advancing grids at level 1 : starting time = 0.6060454918 with dt = 0.05644543695
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.03041221043  0.04824204349
+max(abs(gpx/gpy/p)) = 0.2929915671  2.62373719  1.065500981
+Advancing grids at level 2 : starting time = 0.6060454918 with dt = 0.02822271848
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.02779116646  0.03887437903
+max(abs(gpx/gpy/p)) = 0.2966984879  1.9647707  1.04764086
+Advancing grids at level 2 : starting time = 0.6342682103 with dt = 0.02822271848
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.03121021665  0.04589508965
+max(abs(gpx/gpy/p)) = 0.3630693173  1.978253067  1.04764086
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.6624909288 with dt = 0.1092873873
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.03578312927  0.04202001933
+max(abs(gpx/gpy/p)) = 0.143398264  2.179171397  1.498014616
+Advancing grids at level 1 : starting time = 0.6624909288 with dt = 0.05464369365
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.03144786457  0.03797982959
+max(abs(gpx/gpy/p)) = 0.2006625458  2.290266889  1.094743484
+Advancing grids at level 2 : starting time = 0.6624909288 with dt = 0.02732184682
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.02953762306  0.03604853769
+max(abs(gpx/gpy/p)) = 0.6295854861  2.72689195  1.076417134
+Advancing grids at level 2 : starting time = 0.6898127756 with dt = 0.02732184682
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.03070207665  0.03818867398
+max(abs(gpx/gpy/p)) = 0.3619260625  2.23790096  1.076417134
+Advancing grids at level 1 : starting time = 0.7171346224 with dt = 0.05464369365
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.03440372109  0.04505735378
+max(abs(gpx/gpy/p)) = 0.6539244469  3.407073474  1.094743484
+Advancing grids at level 2 : starting time = 0.7171346224 with dt = 0.02732184682
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.03255328445  0.04067231189
+max(abs(gpx/gpy/p)) = 0.5960179611  2.240779048  1.07643675
+Advancing grids at level 2 : starting time = 0.7444564692 with dt = 0.02732184682
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.03473221011  0.04350087049
+max(abs(gpx/gpy/p)) = 0.7177643443  2.263799763  1.07643675
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.7717783161 with dt = 0.1092873873
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.04387327658  0.05249310382
+max(abs(gpx/gpy/p)) = 0.2613100079  2.379478457  1.500330435
+Advancing grids at level 1 : starting time = 0.7717783161 with dt = 0.05464369365
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.03876822325  0.04886598235
+max(abs(gpx/gpy/p)) = 0.486245211  2.664786935  1.097879589
+Advancing grids at level 2 : starting time = 0.7717783161 with dt = 0.02732184682
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.04003423763  0.04106478046
+max(abs(gpx/gpy/p)) = 0.4926786982  2.682619765  1.078871993
+Advancing grids at level 2 : starting time = 0.7991001629 with dt = 0.02732184682
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.03875158979  0.04839501682
+max(abs(gpx/gpy/p)) = 0.4770500862  2.468948568  1.078871993
+Advancing grids at level 1 : starting time = 0.8264220097 with dt = 0.05464369365
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.04448992822  0.06766054544
+max(abs(gpx/gpy/p)) = 0.866872787  2.759852503  1.097879589
+Advancing grids at level 2 : starting time = 0.8264220097 with dt = 0.02732184682
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.04157358581  0.05741820454
+max(abs(gpx/gpy/p)) = 0.6356592759  2.524038668  1.078918963
+Advancing grids at level 2 : starting time = 0.8537438565 with dt = 0.02732184682
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.04560327483  0.06598734367
+max(abs(gpx/gpy/p)) = 0.8414385362  2.532826907  1.078918963
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.8810657034 with dt = 0.08794376608
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.05272458187  0.0615857928
+max(abs(gpx/gpy/p)) = 0.4178662  2.655263541  1.49891941
+Advancing grids at level 1 : starting time = 0.8810657034 with dt = 0.04397188304
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.04795272078  0.05874014557
+max(abs(gpx/gpy/p)) = 0.5830238645  2.531494907  1.096628278
+Advancing grids at level 2 : starting time = 0.8810657034 with dt = 0.02198594152
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.04522808524  0.05506292911
+max(abs(gpx/gpy/p)) = 1.78538571  3.065871765  1.079673477
+Advancing grids at level 2 : starting time = 0.9030516449 with dt = 0.02198594152
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.0474699785  0.05938589424
+max(abs(gpx/gpy/p)) = 0.8917989191  2.553377766  1.079673477
+Advancing grids at level 1 : starting time = 0.9250375864 with dt = 0.04397188304
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.05330315807  0.07169480201
+max(abs(gpx/gpy/p)) = 1.827976245  3.800669136  1.096628278
+Advancing grids at level 2 : starting time = 0.9250375864 with dt = 0.02198594152
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.0506054895  0.06387742994
+max(abs(gpx/gpy/p)) = 1.362756892  2.593530644  1.080028858
+Advancing grids at level 2 : starting time = 0.9470235279 with dt = 0.02198594152
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.05346958563  0.07167247018
+max(abs(gpx/gpy/p)) = 1.832479303  2.609532572  1.080028858
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.9690094694 with dt = 0.07461021272
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.06010287353  0.07191770734
+max(abs(gpx/gpy/p)) = 0.5618635226  2.965675772  1.49426856
+Advancing grids at level 1 : starting time = 0.9690094694 with dt = 0.03730510636
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.05641807091  0.06894302591
+max(abs(gpx/gpy/p)) = 1.125916206  3.158216648  1.09213346
+Advancing grids at level 2 : starting time = 0.9690094694 with dt = 0.01865255318
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.05943135407  0.0633239936
+max(abs(gpx/gpy/p)) = 1.00857833  3.168302572  1.071286851
+Advancing grids at level 2 : starting time = 0.9876620226 with dt = 0.01865255318
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.056546157  0.06941616355
+max(abs(gpx/gpy/p)) = 1.067034784  2.874192454  1.071286851
+Advancing grids at level 1 : starting time = 1.006314576 with dt = 0.03730510636
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.06174189287  0.0901746596
+max(abs(gpx/gpy/p)) = 1.771873009  5.275887883  1.09213346
+Advancing grids at level 2 : starting time = 1.006314576 with dt = 0.01865255318
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.0593569471  0.07771789805
+max(abs(gpx/gpy/p)) = 1.165356879  2.919183344  1.07111583
+Advancing grids at level 2 : starting time = 1.024967129 with dt = 0.01865255318
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.06198738027  0.0882287949
+max(abs(gpx/gpy/p)) = 1.863721784  2.922201338  1.07111583
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.043619682 with dt = 0.06289412843
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.06852282583  0.08030766863
+max(abs(gpx/gpy/p)) = 0.6360302185  3.420329083  1.491023881
+Advancing grids at level 1 : starting time = 1.043619682 with dt = 0.03144706421
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.06454538631  0.07810753363
+max(abs(gpx/gpy/p)) = 1.15239484  3.092318783  1.120630436
+Advancing grids at level 2 : starting time = 1.043619682 with dt = 0.01572353211
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.06267240858  0.07717753656
+max(abs(gpx/gpy/p)) = 3.736004161  4.941639695  1.097531316
+Advancing grids at level 2 : starting time = 1.059343214 with dt = 0.01572353211
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.06446416457  0.0793766139
+max(abs(gpx/gpy/p)) = 0.4734628374  2.37415127  1.097531316
+Advancing grids at level 1 : starting time = 1.075066746 with dt = 0.03144706421
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.06816146262  0.08353963125
+max(abs(gpx/gpy/p)) = 3.635345071  7.364375503  1.120630436
+Advancing grids at level 2 : starting time = 1.075066746 with dt = 0.01572353211
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.0664152443  0.08151675729
+max(abs(gpx/gpy/p)) = 0.3635015968  2.17407476  1.097559898
+Advancing grids at level 2 : starting time = 1.090790278 with dt = 0.01572353211
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.06843840418  0.08382439304
+max(abs(gpx/gpy/p)) = 0.3218974335  2.157650732  1.097559898
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.106513811 with dt = 0.06623687927
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.07640906703  0.09039851799
+max(abs(gpx/gpy/p)) = 0.1842016892  2.71238663  1.487535984
+Advancing grids at level 1 : starting time = 1.106513811 with dt = 0.03311843964
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.07272798089  0.08792399528
+max(abs(gpx/gpy/p)) = 0.5293534048  3.505278582  1.11773289
+Advancing grids at level 2 : starting time = 1.106513811 with dt = 0.01655921982
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.07140521922  0.08282660364
+max(abs(gpx/gpy/p)) = 0.5641261482  3.498851418  1.101349736
+Advancing grids at level 2 : starting time = 1.12307303 with dt = 0.01655921982
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.07276806558  0.08924745764
+max(abs(gpx/gpy/p)) = 0.6159452218  3.510570441  1.101349736
+Advancing grids at level 1 : starting time = 1.13963225 with dt = 0.03311843964
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.0753247381  0.1076381057
+max(abs(gpx/gpy/p)) = 0.926270607  4.026154811  1.11773289
+Advancing grids at level 2 : starting time = 1.13963225 with dt = 0.01655921982
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.07412055534  0.09611497312
+max(abs(gpx/gpy/p)) = 0.6496716466  3.563151796  1.101413055
+Advancing grids at level 2 : starting time = 1.15619147 with dt = 0.01655921982
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.0754898936  0.1091555337
+max(abs(gpx/gpy/p)) = 0.7924741624  3.553540107  1.101413055
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.17275069 with dt = 0.06319852288
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.08667749848  0.09989576455
+max(abs(gpx/gpy/p)) = 0.2172284052  3.399641208  1.48531526
+Advancing grids at level 1 : starting time = 1.17275069 with dt = 0.03159926144
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.08215861624  0.09733475948
+max(abs(gpx/gpy/p)) = 0.4041493019  3.000654007  1.111954207
+Advancing grids at level 2 : starting time = 1.17275069 with dt = 0.01579963072
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.08017319859  0.09544396805
+max(abs(gpx/gpy/p)) = 3.858026084  3.906962775  1.095506415
+Advancing grids at level 2 : starting time = 1.188550321 with dt = 0.01579963072
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.08225585415  0.09982098971
+max(abs(gpx/gpy/p)) = 2.285963648  3.688620854  1.095506415
+Advancing grids at level 1 : starting time = 1.204349951 with dt = 0.03159926144
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.08622090857  0.1072339359
+max(abs(gpx/gpy/p)) = 1.771639438  6.660063847  1.111954207
+Advancing grids at level 2 : starting time = 1.204349951 with dt = 0.01579963072
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.08449004253  0.1039630812
+max(abs(gpx/gpy/p)) = 2.309711126  3.994422392  1.095701329
+Advancing grids at level 2 : starting time = 1.220149582 with dt = 0.01579963072
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.08664672541  0.111426078
+max(abs(gpx/gpy/p)) = 2.493962323  4.04384026  1.095701329
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.235949213 with dt = 0.06098703205
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.09712382649  0.110048289
+max(abs(gpx/gpy/p)) = 0.8186445247  5.161542702  1.493244747
+Advancing grids at level 1 : starting time = 1.235949213 with dt = 0.03049351603
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.09264243316  0.1090060256
+max(abs(gpx/gpy/p)) = 1.875172569  5.133970172  1.11954493
+Advancing grids at level 2 : starting time = 1.235949213 with dt = 0.01524675801
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.09144681364  0.1055219766
+max(abs(gpx/gpy/p)) = 1.809537208  4.563972318  1.108919437
+Advancing grids at level 2 : starting time = 1.251195971 with dt = 0.01524675801
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.09312061834  0.111637261
+max(abs(gpx/gpy/p)) = 1.759734776  3.878067621  1.108919437
+Advancing grids at level 1 : starting time = 1.266442729 with dt = 0.03049351603
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.09573379427  0.1230486852
+max(abs(gpx/gpy/p)) = 3.380803581  8.980096717  1.11954493
+Advancing grids at level 2 : starting time = 1.266442729 with dt = 0.01524675801
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.09455872197  0.1180136422
+max(abs(gpx/gpy/p)) = 2.604541837  3.626008807  1.109037882
+Advancing grids at level 2 : starting time = 1.281689487 with dt = 0.01524675801
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.09603168164  0.1286428892
+max(abs(gpx/gpy/p)) = 3.639488261  3.785144168  1.109037882
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.296936245 with dt = 0.04765836626
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1061542721  0.117901424
+max(abs(gpx/gpy/p)) = 0.8999380503  5.174427098  1.489250374
+Advancing grids at level 1 : starting time = 1.296936245 with dt = 0.02382918313
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1028986098  0.1174762222
+max(abs(gpx/gpy/p)) = 1.71944062  4.355710247  1.149032707
+Advancing grids at level 2 : starting time = 1.296936245 with dt = 0.01191459157
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1014417208  0.1170890156
+max(abs(gpx/gpy/p)) = 5.79653738  9.43484846  1.118966938
+Advancing grids at level 2 : starting time = 1.308850836 with dt = 0.01191459157
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.103226014  0.1210642493
+max(abs(gpx/gpy/p)) = 2.352958045  3.225711543  1.118966938
+Advancing grids at level 1 : starting time = 1.320765428 with dt = 0.02382918313
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1062247833  0.1262373572
+max(abs(gpx/gpy/p)) = 5.761327191  12.54945498  1.149032707
+Advancing grids at level 2 : starting time = 1.320765428 with dt = 0.01191459157
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1050730679  0.1253899498
+max(abs(gpx/gpy/p)) = 3.086348435  3.431976126  1.118991077
+Advancing grids at level 2 : starting time = 1.332680019 with dt = 0.01191459157
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1068163686  0.1294374311
+max(abs(gpx/gpy/p)) = 3.188976478  3.511634614  1.118991077
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.344594611 with dt = 0.04685728606
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1131980112  0.1258839784
+max(abs(gpx/gpy/p)) = 0.936597509  5.072756251  1.491204206
+Advancing grids at level 1 : starting time = 1.344594611 with dt = 0.02342864303
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1119528239  0.1252670466
+max(abs(gpx/gpy/p)) = 1.958158028  3.907800088  1.153742421
+Advancing grids at level 2 : starting time = 1.344594611 with dt = 0.01171432152
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1115080837  0.1233141539
+max(abs(gpx/gpy/p)) = 1.561656996  4.480321481  1.129598526
+Advancing grids at level 2 : starting time = 1.356308933 with dt = 0.01171432152
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1122771179  0.1292403076
+max(abs(gpx/gpy/p)) = 1.52197488  4.006458183  1.129598526
+Advancing grids at level 1 : starting time = 1.368023254 with dt = 0.02342864303
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1130275354  0.1390515051
+max(abs(gpx/gpy/p)) = 4.181462762  9.868702091  1.153742421
+Advancing grids at level 2 : starting time = 1.368023254 with dt = 0.01171432152
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1129689598  0.1360085259
+max(abs(gpx/gpy/p)) = 1.616260957  4.20768776  1.129966886
+Advancing grids at level 2 : starting time = 1.379737576 with dt = 0.01171432152
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1136393486  0.1426373825
+max(abs(gpx/gpy/p)) = 1.720320856  4.174037353  1.129966886
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.391451897 with dt = 0.04032102663
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1208813696  0.1326372435
+max(abs(gpx/gpy/p)) = 0.9434012412  5.895712104  1.493486661
+Advancing grids at level 1 : starting time = 1.391451897 with dt = 0.02016051331
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1199830714  0.1344567293
+max(abs(gpx/gpy/p)) = 1.718594911  4.671963479  1.153608224
+Advancing grids at level 2 : starting time = 1.391451897 with dt = 0.01008025666
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1194685039  0.1342244639
+max(abs(gpx/gpy/p)) = 5.129836755  6.949717891  1.135778563
+Advancing grids at level 2 : starting time = 1.401532154 with dt = 0.01008025666
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.12070667  0.1374711969
+max(abs(gpx/gpy/p)) = 2.589152467  3.894982737  1.135778563
+Advancing grids at level 1 : starting time = 1.41161241 with dt = 0.02016051331
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.12231313  0.1412168738
+max(abs(gpx/gpy/p)) = 7.118505337  14.18170195  1.153608224
+Advancing grids at level 2 : starting time = 1.41161241 with dt = 0.01008025666
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1218522574  0.1408219757
+max(abs(gpx/gpy/p)) = 3.582372803  3.890990988  1.135809964
+Advancing grids at level 2 : starting time = 1.421692667 with dt = 0.01008025666
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1229899729  0.1437976338
+max(abs(gpx/gpy/p)) = 3.580146459  3.879383432  1.135809964
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.431772924 with dt = 0.03505875621
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1261938595  0.1388365909
+max(abs(gpx/gpy/p)) = 1.52896086  5.16935876  1.483411842
+Advancing grids at level 1 : starting time = 1.431772924 with dt = 0.01752937811
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1265864613  0.1422021007
+max(abs(gpx/gpy/p)) = 2.74228512  4.625573335  1.141869945
+Advancing grids at level 2 : starting time = 1.431772924 with dt = 0.008764689053
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1271932957  0.1416471202
+max(abs(gpx/gpy/p)) = 2.090565621  4.8467762  1.137309083
+Advancing grids at level 2 : starting time = 1.440537613 with dt = 0.008764689053
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.127835717  0.1451622675
+max(abs(gpx/gpy/p)) = 1.818883988  3.40735481  1.137309083
+Advancing grids at level 1 : starting time = 1.449302302 with dt = 0.01752937811
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1276757989  0.1498491691
+max(abs(gpx/gpy/p)) = 10.61248532  19.72079862  1.141869945
+Advancing grids at level 2 : starting time = 1.449302302 with dt = 0.008764689053
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1284035616  0.1490384208
+max(abs(gpx/gpy/p)) = 2.052039409  3.502054898  1.138047943
+Advancing grids at level 2 : starting time = 1.458066991 with dt = 0.008764689053
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1288319879  0.1529105262
+max(abs(gpx/gpy/p)) = 2.052960645  3.837902576  1.138047943
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.46683168 with dt = 0.0307814467
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1300440396  0.1453820707
+max(abs(gpx/gpy/p)) = 1.366286498  5.723114098  1.483035633
+Advancing grids at level 1 : starting time = 1.46683168 with dt = 0.01539072335
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1320195168  0.1496791285
+max(abs(gpx/gpy/p)) = 2.900818085  5.607236488  1.172532345
+Advancing grids at level 2 : starting time = 1.46683168 with dt = 0.007695361676
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1320005838  0.1504873267
+max(abs(gpx/gpy/p)) = 9.042654751  12.37385538  1.157468472
+Advancing grids at level 2 : starting time = 1.474527042 with dt = 0.007695361676
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1328841208  0.1528532449
+max(abs(gpx/gpy/p)) = 3.472172388  5.125546377  1.157468472
+Advancing grids at level 1 : starting time = 1.482222403 with dt = 0.01539072335
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1336503647  0.1537854452
+max(abs(gpx/gpy/p)) = 15.00448861  26.11431448  1.172532345
+Advancing grids at level 2 : starting time = 1.482222403 with dt = 0.007695361676
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1338954701  0.1546582131
+max(abs(gpx/gpy/p)) = 4.792351671  5.343871866  1.157419693
+Advancing grids at level 2 : starting time = 1.489917765 with dt = 0.007695361676
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1349330662  0.1570146775
+max(abs(gpx/gpy/p)) = 5.404686655  5.397058493  1.157419693
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.497613127 with dt = 0.03385959137
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1396292345  0.1515036416
+max(abs(gpx/gpy/p)) = 3.714199042  7.639268712  1.47605428
+Advancing grids at level 1 : starting time = 1.497613127 with dt = 0.01692979569
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1386379526  0.1561553459
+max(abs(gpx/gpy/p)) = 7.849407596  6.282632778  1.16658811
+Advancing grids at level 2 : starting time = 1.497613127 with dt = 0.008464897843
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1380414556  0.1550595573
+max(abs(gpx/gpy/p)) = 6.374093627  4.906910755  1.16658811
+Advancing grids at level 2 : starting time = 1.506078025 with dt = 0.008464897843
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.139255422  0.1590705982
+max(abs(gpx/gpy/p)) = 4.982570907  4.906320942  1.16658811
+Advancing grids at level 1 : starting time = 1.514542922 with dt = 0.01692979569
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1406840769  0.1659101355
+max(abs(gpx/gpy/p)) = 9.681519505  24.14357479  1.167000564
+Advancing grids at level 2 : starting time = 1.514542922 with dt = 0.008464897843
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1405778348  0.1639970435
+max(abs(gpx/gpy/p)) = 5.472344447  5.343412014  1.167000564
+Advancing grids at level 2 : starting time = 1.52300782 with dt = 0.008464897843
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1417493423  0.1727784127
+max(abs(gpx/gpy/p)) = 6.901355954  6.29253531  1.167000564
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.531472718 with dt = 0.03123776815
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1439960072  0.15765593
+max(abs(gpx/gpy/p)) = 3.261299588  7.693157575  1.477212292
+Advancing grids at level 1 : starting time = 1.531472718 with dt = 0.01561888408
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1464958453  0.1620462433
+max(abs(gpx/gpy/p)) = 5.190343926  4.812667839  1.167726442
+Advancing grids at level 2 : starting time = 1.531472718 with dt = 0.007809442038
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1460897304  0.1631515419
+max(abs(gpx/gpy/p)) = 16.17684169  13.22735634  1.163420672
+Advancing grids at level 2 : starting time = 1.53928216 with dt = 0.007809442038
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1475596408  0.1646624383
+max(abs(gpx/gpy/p)) = 1.991012429  3.122939131  1.157398347
+Advancing grids at level 1 : starting time = 1.547091602 with dt = 0.01561888408
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1494816952  0.1655418982
+max(abs(gpx/gpy/p)) = 19.58638267  28.57691493  1.167726442
+Advancing grids at level 2 : starting time = 1.547091602 with dt = 0.007809442038
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1492959685  0.1666528754
+max(abs(gpx/gpy/p)) = 0.8210998487  2.869386111  1.157965075
+Advancing grids at level 2 : starting time = 1.554901044 with dt = 0.007809442038
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.150792866  0.168791659
+max(abs(gpx/gpy/p)) = 0.7552703608  2.787036684  1.157965075
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.562710486 with dt = 0.03436154497
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1530736007  0.1676241386
+max(abs(gpx/gpy/p)) = 0.5754567456  3.387376071  1.474100566
+Advancing grids at level 1 : starting time = 1.562710486 with dt = 0.01718077248
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1546383729  0.1681192377
+max(abs(gpx/gpy/p)) = 0.79446486  4.791707369  1.162291929
+Advancing grids at level 2 : starting time = 1.562710486 with dt = 0.008590386242
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.154029856  0.1690503873
+max(abs(gpx/gpy/p)) = 0.8466787188  3.59460217  1.1553582
+Advancing grids at level 2 : starting time = 1.571300872 with dt = 0.008590386242
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1554525745  0.1721478699
+max(abs(gpx/gpy/p)) = 0.8328493268  3.20663752  1.1553582
+Advancing grids at level 1 : starting time = 1.579891259 with dt = 0.01718077248
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1565508945  0.1719235163
+max(abs(gpx/gpy/p)) = 4.808519749  16.53848317  1.162291929
+Advancing grids at level 2 : starting time = 1.579891259 with dt = 0.008590386242
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1569824239  0.1748457458
+max(abs(gpx/gpy/p)) = 0.8879006151  3.188920264  1.156427479
+Advancing grids at level 2 : starting time = 1.588481645 with dt = 0.008590386242
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1584240895  0.1773828656
+max(abs(gpx/gpy/p)) = 0.9147941608  3.164899475  1.156427479
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.597072031 with dt = 0.03587413756
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1600021121  0.1790457119
+max(abs(gpx/gpy/p)) = 0.6850806188  4.381612644  1.471617898
+Advancing grids at level 1 : starting time = 1.597072031 with dt = 0.01793706878
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1621983784  0.1741839728
+max(abs(gpx/gpy/p)) = 0.6719516847  3.542199581  1.193033624
+Advancing grids at level 2 : starting time = 1.597072031 with dt = 0.00896853439
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1616066303  0.1781032869
+max(abs(gpx/gpy/p)) = 1.98480236  6.590854255  1.160148462
+Advancing grids at level 2 : starting time = 1.606040566 with dt = 0.00896853439
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.163630841  0.1805708768
+max(abs(gpx/gpy/p)) = 1.337288393  3.015963161  1.157974225
+Advancing grids at level 1 : starting time = 1.6150091 with dt = 0.01793706878
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1659961744  0.1802387686
+max(abs(gpx/gpy/p)) = 5.727495398  21.848313  1.193033624
+Advancing grids at level 2 : starting time = 1.6150091 with dt = 0.00896853439
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.165430025  0.1823593571
+max(abs(gpx/gpy/p)) = 1.70531867  3.099848762  1.160322846
+Advancing grids at level 2 : starting time = 1.623977634 with dt = 0.00896853439
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1671027847  0.1854897123
+max(abs(gpx/gpy/p)) = 1.782927613  3.096851441  1.160322846
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.632946169 with dt = 0.03855711115
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1646923281  0.1934929257
+max(abs(gpx/gpy/p)) = 1.43539076  4.4535658  1.472738227
+Advancing grids at level 1 : starting time = 1.632946169 with dt = 0.01927855558
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.169356463  0.1876484427
+max(abs(gpx/gpy/p)) = 3.298686083  4.577368256  1.193541622
+Advancing grids at level 2 : starting time = 1.632946169 with dt = 0.009639277788
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1715244265  0.186011274
+max(abs(gpx/gpy/p)) = 3.215375268  3.988711479  1.191851463
+Advancing grids at level 2 : starting time = 1.642585447 with dt = 0.009639277788
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1717323981  0.1895346736
+max(abs(gpx/gpy/p)) = 3.050166493  4.092669444  1.191851463
+Advancing grids at level 1 : starting time = 1.652224724 with dt = 0.01927855558
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1716283477  0.1964714632
+max(abs(gpx/gpy/p)) = 8.893733138  13.26350307  1.193541622
+Advancing grids at level 2 : starting time = 1.652224724 with dt = 0.009639277788
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1723111948  0.1924473081
+max(abs(gpx/gpy/p)) = 3.540667956  4.359596445  1.192390993
+Advancing grids at level 2 : starting time = 1.661864002 with dt = 0.009639277788
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1733231976  0.1968295286
+max(abs(gpx/gpy/p)) = 4.339868287  4.365034825  1.192390993
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.67150328 with dt = 0.03605878952
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1756895007  0.2084338675
+max(abs(gpx/gpy/p)) = 1.285482768  4.545031753  1.471333527
+Advancing grids at level 1 : starting time = 1.67150328 with dt = 0.01802939476
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1784895489  0.2031557057
+max(abs(gpx/gpy/p)) = 1.908842052  4.07631238  1.192259927
+Advancing grids at level 2 : starting time = 1.67150328 with dt = 0.00901469738
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1785509949  0.1994675818
+max(abs(gpx/gpy/p)) = 6.603897487  5.714702329  1.181202019
+Advancing grids at level 2 : starting time = 1.680517977 with dt = 0.00901469738
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1798768193  0.2033897161
+max(abs(gpx/gpy/p)) = 2.397891667  4.31287951  1.181202019
+Advancing grids at level 1 : starting time = 1.689532675 with dt = 0.01802939476
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.181209255  0.2107692367
+max(abs(gpx/gpy/p)) = 13.43972606  14.81419348  1.192259927
+Advancing grids at level 2 : starting time = 1.689532675 with dt = 0.00901469738
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1812413332  0.2073823073
+max(abs(gpx/gpy/p)) = 2.918361983  4.493715805  1.181586821
+Advancing grids at level 2 : starting time = 1.698547372 with dt = 0.00901469738
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1829838932  0.2114415893
+max(abs(gpx/gpy/p)) = 2.976851399  4.524575335  1.181586821
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.707562069 with dt = 0.0333841589
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1826814854  0.2229291393
+max(abs(gpx/gpy/p)) = 1.912260305  3.330804374  1.456667832
+Advancing grids at level 1 : starting time = 1.707562069 with dt = 0.01669207945
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1843131796  0.2180550706
+max(abs(gpx/gpy/p)) = 4.191119803  4.401519817  1.182316964
+Advancing grids at level 2 : starting time = 1.707562069 with dt = 0.008346039724
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1898112482  0.2146084989
+max(abs(gpx/gpy/p)) = 5.112504008  3.955072448  1.182372629
+Advancing grids at level 2 : starting time = 1.715908109 with dt = 0.008346039724
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1880838352  0.2185843643
+max(abs(gpx/gpy/p)) = 2.951165341  3.931727327  1.18230038
+Advancing grids at level 1 : starting time = 1.724254149 with dt = 0.01669207945
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1868887895  0.2259464556
+max(abs(gpx/gpy/p)) = 4.891156799  13.52171522  1.183036602
+Advancing grids at level 2 : starting time = 1.724254149 with dt = 0.008346039724
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1883508026  0.2225858477
+max(abs(gpx/gpy/p)) = 3.079482872  4.042189485  1.183036602
+Advancing grids at level 2 : starting time = 1.732600189 with dt = 0.008346039724
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1890935941  0.2265699747
+max(abs(gpx/gpy/p)) = 3.004230076  4.630219768  1.183036602
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.740946228 with dt = 0.03113118479
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1854181941  0.2371968514
+max(abs(gpx/gpy/p)) = 1.91648818  3.642655738  1.45788936
+Advancing grids at level 1 : starting time = 1.740946228 with dt = 0.0155655924
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.192578805  0.2330279717
+max(abs(gpx/gpy/p)) = 3.196361521  3.834105563  1.208888447
+Advancing grids at level 2 : starting time = 1.740946228 with dt = 0.007782796199
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1939938454  0.2294810471
+max(abs(gpx/gpy/p)) = 9.348214049  7.102513435  1.184012815
+Advancing grids at level 2 : starting time = 1.748729024 with dt = 0.007782796199
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1948361348  0.2332941413
+max(abs(gpx/gpy/p)) = 1.636812423  3.263463426  1.178380111
+Advancing grids at level 1 : starting time = 1.756511821 with dt = 0.0155655924
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1931821002  0.2405545104
+max(abs(gpx/gpy/p)) = 11.21297728  18.8517045  1.208888447
+Advancing grids at level 2 : starting time = 1.756511821 with dt = 0.007782796199
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1958334316  0.2371772321
+max(abs(gpx/gpy/p)) = 2.302079147  3.019257574  1.178109007
+Advancing grids at level 2 : starting time = 1.764294617 with dt = 0.007782796199
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1963507079  0.2410594561
+max(abs(gpx/gpy/p)) = 2.566109746  3.026309951  1.178109007
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.772077413 with dt = 0.02930874462
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1913424122  0.2510283589
+max(abs(gpx/gpy/p)) = 2.022208463  4.419246514  1.488473923
+Advancing grids at level 1 : starting time = 1.772077413 with dt = 0.01465437231
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1977679034  0.2477481517
+max(abs(gpx/gpy/p)) = 4.957760579  6.760527774  1.248529687
+Advancing grids at level 2 : starting time = 1.772077413 with dt = 0.007327186154
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.200651605  0.2438633518
+max(abs(gpx/gpy/p)) = 4.930761673  4.717422964  1.248529687
+Advancing grids at level 2 : starting time = 1.779404599 with dt = 0.007327186154
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2009039727  0.2479203411
+max(abs(gpx/gpy/p)) = 4.741183492  4.653049279  1.248529687
+Advancing grids at level 1 : starting time = 1.786731785 with dt = 0.01465437231
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1980896442  0.2557631983
+max(abs(gpx/gpy/p)) = 10.17184468  15.45559715  1.249061117
+Advancing grids at level 2 : starting time = 1.786731785 with dt = 0.007327186154
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2005204323  0.252134716
+max(abs(gpx/gpy/p)) = 4.841193722  4.856241548  1.249061117
+Advancing grids at level 2 : starting time = 1.794058972 with dt = 0.007327186154
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2004611805  0.2563441181
+max(abs(gpx/gpy/p)) = 5.685154035  6.053209973  1.249061117
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.801386158 with dt = 0.0276572674
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.1985180585  0.2647871501
+max(abs(gpx/gpy/p)) = 1.645314191  4.144741245  1.483349123
+Advancing grids at level 1 : starting time = 1.801386158 with dt = 0.0138286337
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2024055484  0.2612808462
+max(abs(gpx/gpy/p)) = 2.194219564  4.623293955  1.237752511
+Advancing grids at level 2 : starting time = 1.801386158 with dt = 0.006914316849
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2057524645  0.2585645985
+max(abs(gpx/gpy/p)) = 7.020554469  8.562239743  1.232849215
+Advancing grids at level 2 : starting time = 1.808300475 with dt = 0.006914316849
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2060374798  0.2619810555
+max(abs(gpx/gpy/p)) = 2.133803933  3.163243507  1.224395226
+Advancing grids at level 1 : starting time = 1.815214791 with dt = 0.0138286337
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.204200765  0.2671299895
+max(abs(gpx/gpy/p)) = 15.36198285  20.74397555  1.237752511
+Advancing grids at level 2 : starting time = 1.815214791 with dt = 0.006914316849
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2066690464  0.2654294451
+max(abs(gpx/gpy/p)) = 2.119088364  3.216550586  1.225010719
+Advancing grids at level 2 : starting time = 1.822129108 with dt = 0.006914316849
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2072892981  0.2688981681
+max(abs(gpx/gpy/p)) = 2.185202516  3.179948411  1.225010719
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.829043425 with dt = 0.02620478772
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2000984248  0.2775048283
+max(abs(gpx/gpy/p)) = 2.022884791  3.280842672  1.443840915
+Advancing grids at level 1 : starting time = 1.829043425 with dt = 0.01310239386
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2085498912  0.2726786887
+max(abs(gpx/gpy/p)) = 5.143638798  5.665065003  1.200021157
+Advancing grids at level 2 : starting time = 1.829043425 with dt = 0.006551196931
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2109588203  0.2718264349
+max(abs(gpx/gpy/p)) = 4.004975909  6.155207509  1.198082342
+Advancing grids at level 2 : starting time = 1.835594622 with dt = 0.006551196931
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2114530248  0.2753339284
+max(abs(gpx/gpy/p)) = 3.95224032  6.074417261  1.198082342
+Advancing grids at level 1 : starting time = 1.842145819 with dt = 0.01310239386
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2078508845  0.2797460499
+max(abs(gpx/gpy/p)) = 6.744253958  15.15130601  1.200021157
+Advancing grids at level 2 : starting time = 1.842145819 with dt = 0.006551196931
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2114944023  0.2788378453
+max(abs(gpx/gpy/p)) = 4.649096409  6.169813609  1.198714046
+Advancing grids at level 2 : starting time = 1.848697016 with dt = 0.006551196931
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2114724217  0.282313989
+max(abs(gpx/gpy/p)) = 5.231914484  7.155147149  1.198714046
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.855248213 with dt = 0.02493433926
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2040212733  0.2889329265
+max(abs(gpx/gpy/p)) = 2.021798956  2.710087869  1.447554386
+Advancing grids at level 1 : starting time = 1.855248213 with dt = 0.01246716963
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2123377031  0.2869426875
+max(abs(gpx/gpy/p)) = 2.132063063  4.145451094  1.232020974
+Advancing grids at level 2 : starting time = 1.855248213 with dt = 0.006233584814
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2147778935  0.2852023964
+max(abs(gpx/gpy/p)) = 6.078715423  7.943569325  1.218614777
+Advancing grids at level 2 : starting time = 1.861481798 with dt = 0.006233584814
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.215489618  0.2886657866
+max(abs(gpx/gpy/p)) = 2.20583385  2.939933015  1.207849084
+Advancing grids at level 1 : starting time = 1.867715382 with dt = 0.01246716963
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2146150941  0.2942647912
+max(abs(gpx/gpy/p)) = 12.80938538  20.64657902  1.232020974
+Advancing grids at level 2 : starting time = 1.867715382 with dt = 0.006233584814
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.216343419  0.2922580315
+max(abs(gpx/gpy/p)) = 2.270123759  3.004992931  1.20795136
+Advancing grids at level 2 : starting time = 1.873948967 with dt = 0.006233584814
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2173611359  0.2958894347
+max(abs(gpx/gpy/p)) = 2.33654186  3.016704903  1.20795136
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.880182552 with dt = 0.02380873614
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.210476985  0.2982479039
+max(abs(gpx/gpy/p)) = 2.206362057  3.527336552  1.4694974
+Advancing grids at level 1 : starting time = 1.880182552 with dt = 0.01190436807
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2157119441  0.3013906861
+max(abs(gpx/gpy/p)) = 3.456341408  5.245960974  1.26622308
+Advancing grids at level 2 : starting time = 1.880182552 with dt = 0.005952184036
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2191617639  0.2988169435
+max(abs(gpx/gpy/p)) = 2.646986734  5.047289981  1.26622308
+Advancing grids at level 2 : starting time = 1.886134736 with dt = 0.005952184036
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2195191828  0.3023537543
+max(abs(gpx/gpy/p)) = 3.006038592  5.22922202  1.26622308
+Advancing grids at level 1 : starting time = 1.89208692 with dt = 0.01190436807
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2171219902  0.3085163838
+max(abs(gpx/gpy/p)) = 6.766892568  16.34618636  1.266685428
+Advancing grids at level 2 : starting time = 1.89208692 with dt = 0.005952184036
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2197919322  0.3059238404
+max(abs(gpx/gpy/p)) = 3.3299178  5.471556338  1.266685428
+Advancing grids at level 2 : starting time = 1.898039104 with dt = 0.005952184036
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2199275019  0.3094677287
+max(abs(gpx/gpy/p)) = 3.57107093  5.469837065  1.266685428
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.903991288 with dt = 0.02277361077
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2092233474  0.3068852229
+max(abs(gpx/gpy/p)) = 2.390949575  3.410787184  1.473196398
+Advancing grids at level 1 : starting time = 1.903991288 with dt = 0.01138680539
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2203315761  0.3149483879
+max(abs(gpx/gpy/p)) = 2.526464378  4.503459985  1.257637265
+Advancing grids at level 2 : starting time = 1.903991288 with dt = 0.005693402693
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2227634363  0.3120424692
+max(abs(gpx/gpy/p)) = 4.570966313  6.211254535  1.241092973
+Advancing grids at level 2 : starting time = 1.909684691 with dt = 0.005693402693
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2235476808  0.3152461862
+max(abs(gpx/gpy/p)) = 2.786537218  4.212436225  1.241092973
+Advancing grids at level 1 : starting time = 1.915378094 with dt = 0.01138680539
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2213219501  0.3206309903
+max(abs(gpx/gpy/p)) = 11.72891801  21.22702931  1.257637265
+Advancing grids at level 2 : starting time = 1.915378094 with dt = 0.005693402693
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2242234848  0.3186478384
+max(abs(gpx/gpy/p)) = 2.867455922  4.208965412  1.241423287
+Advancing grids at level 2 : starting time = 1.921071496 with dt = 0.005693402693
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2248972078  0.3220171772
+max(abs(gpx/gpy/p)) = 2.943383068  4.203689194  1.241423287
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.926764899 with dt = 0.02190140405
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2166013539  0.3213604245
+max(abs(gpx/gpy/p)) = 2.656807392  5.360437404  1.461420516
+Advancing grids at level 1 : starting time = 1.926764899 with dt = 0.01095070202
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.224699063  0.3258733172
+max(abs(gpx/gpy/p)) = 5.945290059  7.902490172  1.28474605
+Advancing grids at level 2 : starting time = 1.926764899 with dt = 0.005475351012
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2289130311  0.324487971
+max(abs(gpx/gpy/p)) = 4.480226079  5.71985696  1.28474605
+Advancing grids at level 2 : starting time = 1.93224025 with dt = 0.005475351012
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2274998352  0.3279679619
+max(abs(gpx/gpy/p)) = 4.275306632  5.675131823  1.28474605
+Advancing grids at level 1 : starting time = 1.937715601 with dt = 0.01095070202
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2216957681  0.3310573808
+max(abs(gpx/gpy/p)) = 14.13953527  25.0054906  1.285661042
+Advancing grids at level 2 : starting time = 1.937715601 with dt = 0.005475351012
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2268982957  0.3314232457
+max(abs(gpx/gpy/p)) = 4.46254122  6.133634411  1.285661042
+Advancing grids at level 2 : starting time = 1.943190952 with dt = 0.005475351012
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2257733909  0.3348343893
+max(abs(gpx/gpy/p)) = 5.858476487  7.166226082  1.285661042
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.948666303 with dt = 0.02106595362
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2186603777  0.3357745653
+max(abs(gpx/gpy/p)) = 2.836972466  4.636876862  1.471003911
+Advancing grids at level 1 : starting time = 1.948666303 with dt = 0.01053297681
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2282425024  0.337797844
+max(abs(gpx/gpy/p)) = 3.110089261  5.415686664  1.289101835
+Advancing grids at level 2 : starting time = 1.948666303 with dt = 0.005266488404
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2315577074  0.3369771225
+max(abs(gpx/gpy/p)) = 9.565671605  9.335098008  1.267702401
+Advancing grids at level 2 : starting time = 1.953932791 with dt = 0.005266488404
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2321159999  0.3398870158
+max(abs(gpx/gpy/p)) = 4.820381615  4.869216735  1.262381594
+Advancing grids at level 1 : starting time = 1.95919928 with dt = 0.01053297681
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.228972218  0.3443954774
+max(abs(gpx/gpy/p)) = 21.50487499  29.75576962  1.289101835
+Advancing grids at level 2 : starting time = 1.95919928 with dt = 0.005266488404
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2321264058  0.343100623
+max(abs(gpx/gpy/p)) = 6.170017417  5.14678655  1.262946796
+Advancing grids at level 2 : starting time = 1.964465768 with dt = 0.005266488404
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2327100187  0.3463270852
+max(abs(gpx/gpy/p)) = 6.13959521  5.199058898  1.262946796
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.969732257 with dt = 0.02033579048
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2211579096  0.3511309896
+max(abs(gpx/gpy/p)) = 3.093902065  5.652970132  1.447239863
+Advancing grids at level 1 : starting time = 1.969732257 with dt = 0.01016789524
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2317289731  0.3511308362
+max(abs(gpx/gpy/p)) = 7.227102549  6.336222659  1.266541491
+Advancing grids at level 2 : starting time = 1.969732257 with dt = 0.00508394762
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2355340095  0.3489218102
+max(abs(gpx/gpy/p)) = 5.347752889  7.099095936  1.258613125
+Advancing grids at level 2 : starting time = 1.974816204 with dt = 0.00508394762
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2359694448  0.3521687649
+max(abs(gpx/gpy/p)) = 5.238196419  7.632984037  1.258613125
+Advancing grids at level 1 : starting time = 1.979900152 with dt = 0.01016789524
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2327015158  0.3575004027
+max(abs(gpx/gpy/p)) = 21.14017362  35.01659293  1.266541491
+Advancing grids at level 2 : starting time = 1.979900152 with dt = 0.00508394762
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2358701893  0.3554901694
+max(abs(gpx/gpy/p)) = 5.756398205  8.85963413  1.259915468
+Advancing grids at level 2 : starting time = 1.9849841 with dt = 0.00508394762
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2360081294  0.3586649178
+max(abs(gpx/gpy/p)) = 6.707759847  9.723836782  1.259915468
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 1.990068047 with dt = 0.01962048819
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.236945588  0.3661054777
+max(abs(gpx/gpy/p)) = 3.36309188  6.735601796  1.461173072
+Advancing grids at level 1 : starting time = 1.990068047 with dt = 0.009810244094
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2417718971  0.3640176482
+max(abs(gpx/gpy/p)) = 3.682519902  5.309240855  1.280091621
+Advancing grids at level 2 : starting time = 1.990068047 with dt = 0.004905122047
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2420792666  0.3611800019
+max(abs(gpx/gpy/p)) = 10.21050915  10.11973172  1.299827429
+Advancing grids at level 2 : starting time = 1.994973169 with dt = 0.004905122047
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2487399172  0.3644560502
+max(abs(gpx/gpy/p)) = 4.115376664  5.484695698  1.261234129
+Advancing grids at level 1 : starting time = 1.999878291 with dt = 0.009810244094
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2585537118  0.3688950997
+max(abs(gpx/gpy/p)) = 26.50801088  40.30567208  1.280091621
+Advancing grids at level 2 : starting time = 1.999878291 with dt = 0.004905122047
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2555805623  0.3678640583
+max(abs(gpx/gpy/p)) = 4.290868598  5.432954469  1.262782034
+Advancing grids at level 2 : starting time = 2.004783413 with dt = 0.004905122047
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2624689855  0.3714579574
+max(abs(gpx/gpy/p)) = 4.365321686  5.494658491  1.262782034
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.009688535 with dt = 0.01894345136
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.262531949  0.3795823522
+max(abs(gpx/gpy/p)) = 3.588460046  4.424410327  1.462074561
+Advancing grids at level 1 : starting time = 2.009688535 with dt = 0.00947172568
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2720693239  0.3741556666
+max(abs(gpx/gpy/p)) = 5.018547573  5.181663963  1.280855853
+Advancing grids at level 2 : starting time = 2.009688535 with dt = 0.00473586284
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2687497  0.374721453
+max(abs(gpx/gpy/p)) = 4.34590501  4.535595067  1.279799942
+Advancing grids at level 2 : starting time = 2.014424398 with dt = 0.00473586284
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2755953964  0.3781697752
+max(abs(gpx/gpy/p)) = 4.442284243  4.630663821  1.279799942
+Advancing grids at level 1 : starting time = 2.019160261 with dt = 0.00947172568
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2838106366  0.3810091634
+max(abs(gpx/gpy/p)) = 15.38990932  26.89229939  1.280855853
+Advancing grids at level 2 : starting time = 2.019160261 with dt = 0.00473586284
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2829480893  0.3817606972
+max(abs(gpx/gpy/p)) = 4.544452506  4.781840554  1.280754505
+Advancing grids at level 2 : starting time = 2.023896124 with dt = 0.00473586284
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2895718911  0.3853012354
+max(abs(gpx/gpy/p)) = 4.626598045  4.791369979  1.280754505
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.028631987 with dt = 0.01826022883
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2810693055  0.3918840265
+max(abs(gpx/gpy/p)) = 3.809183905  4.68916531  1.465874618
+Advancing grids at level 1 : starting time = 2.028631987 with dt = 0.009130114414
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2937563387  0.3897253981
+max(abs(gpx/gpy/p)) = 4.268941003  4.717110405  1.311072895
+Advancing grids at level 2 : starting time = 2.028631987 with dt = 0.004565057207
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.2954884255  0.3885401036
+max(abs(gpx/gpy/p)) = 5.551931681  7.153686356  1.311215657
+Advancing grids at level 2 : starting time = 2.033197044 with dt = 0.004565057207
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3029762388  0.3917478587
+max(abs(gpx/gpy/p)) = 4.748222918  4.989495563  1.297091173
+Advancing grids at level 1 : starting time = 2.037762101 with dt = 0.009130114414
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3114425564  0.3965847628
+max(abs(gpx/gpy/p)) = 18.68043309  32.08695474  1.311072895
+Advancing grids at level 2 : starting time = 2.037762101 with dt = 0.004565057207
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3100990412  0.3959153655
+max(abs(gpx/gpy/p)) = 4.807429713  5.220632521  1.297051167
+Advancing grids at level 2 : starting time = 2.042327158 with dt = 0.004565057207
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3163444575  0.400597604
+max(abs(gpx/gpy/p)) = 4.857607388  5.465214722  1.297051167
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.046892216 with dt = 0.01757763621
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3028504743  0.4015683335
+max(abs(gpx/gpy/p)) = 4.028123793  6.297512477  1.448440741
+Advancing grids at level 1 : starting time = 2.046892216 with dt = 0.008788818104
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3242002185  0.4058875773
+max(abs(gpx/gpy/p)) = 5.897922999  11.14387581  1.311973652
+Advancing grids at level 2 : starting time = 2.046892216 with dt = 0.004394409052
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3223934375  0.40460544
+max(abs(gpx/gpy/p)) = 6.633783893  10.17038064  1.311973652
+Advancing grids at level 2 : starting time = 2.051286625 with dt = 0.004394409052
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3283795646  0.4092975569
+max(abs(gpx/gpy/p)) = 7.013212888  9.719214543  1.311973652
+Advancing grids at level 1 : starting time = 2.055681034 with dt = 0.008788818104
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3349946259  0.4142223789
+max(abs(gpx/gpy/p)) = 10.85284671  34.69779216  1.312214536
+Advancing grids at level 2 : starting time = 2.055681034 with dt = 0.004394409052
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3355544756  0.4143816682
+max(abs(gpx/gpy/p)) = 8.048460197  8.657363239  1.312214536
+Advancing grids at level 2 : starting time = 2.060075443 with dt = 0.004394409052
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3414992868  0.4189629358
+max(abs(gpx/gpy/p)) = 9.342089364  13.56518842  1.312214536
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.064469852 with dt = 0.0168084812
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3316718322  0.4163761489
+max(abs(gpx/gpy/p)) = 4.243619945  5.704003821  1.458486345
+Advancing grids at level 1 : starting time = 2.064469852 with dt = 0.008404240602
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3457876615  0.4232459124
+max(abs(gpx/gpy/p)) = 4.768132364  7.615230224  1.308281829
+Advancing grids at level 2 : starting time = 2.064469852 with dt = 0.004202120301
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3474797367  0.4231548083
+max(abs(gpx/gpy/p)) = 10.23283672  25.46766139  1.322414731
+Advancing grids at level 2 : starting time = 2.068671972 with dt = 0.004202120301
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3526112803  0.4272340736
+max(abs(gpx/gpy/p)) = 5.177740513  6.6795366  1.299318431
+Advancing grids at level 1 : starting time = 2.072874092 with dt = 0.008404240602
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3534885794  0.430189087
+max(abs(gpx/gpy/p)) = 15.42492101  38.55312012  1.308281829
+Advancing grids at level 2 : starting time = 2.072874092 with dt = 0.004202120301
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.356898605  0.4313729201
+max(abs(gpx/gpy/p)) = 5.203776413  6.939782565  1.299582385
+Advancing grids at level 2 : starting time = 2.077076213 with dt = 0.004202120301
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3635382639  0.434858081
+max(abs(gpx/gpy/p)) = 5.215437178  7.175121151  1.299582385
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.081278333 with dt = 0.01617466413
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3536399193  0.4267758155
+max(abs(gpx/gpy/p)) = 4.550781723  6.15293972  1.463854119
+Advancing grids at level 1 : starting time = 2.081278333 with dt = 0.008087332064
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3644728987  0.4389529465
+max(abs(gpx/gpy/p)) = 4.935047611  7.235644926  1.324767493
+Advancing grids at level 2 : starting time = 2.081278333 with dt = 0.004043666032
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3691032372  0.4381038426
+max(abs(gpx/gpy/p)) = 5.30842152  7.355148279  1.324767493
+Advancing grids at level 2 : starting time = 2.085321999 with dt = 0.004043666032
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.374084671  0.4416335159
+max(abs(gpx/gpy/p)) = 5.354590484  7.507075857  1.324767493
+Advancing grids at level 1 : starting time = 2.089365665 with dt = 0.008087332064
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.376375566  0.4430915947
+max(abs(gpx/gpy/p)) = 14.07903782  30.08180532  1.325328877
+Advancing grids at level 2 : starting time = 2.089365665 with dt = 0.004043666032
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3787305922  0.4458540322
+max(abs(gpx/gpy/p)) = 5.374956057  7.609938312  1.325328877
+Advancing grids at level 2 : starting time = 2.093409331 with dt = 0.004043666032
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3824604613  0.4494204242
+max(abs(gpx/gpy/p)) = 5.482402808  7.886169994  1.325328877
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.097452997 with dt = 0.01565132853
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3656370849  0.4327726808
+max(abs(gpx/gpy/p)) = 4.893922174  6.180959457  1.465271745
+Advancing grids at level 1 : starting time = 2.097452997 with dt = 0.007825664264
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.384609672  0.4505168529
+max(abs(gpx/gpy/p)) = 5.569208275  7.833489524  1.343111389
+Advancing grids at level 2 : starting time = 2.097452997 with dt = 0.003912832132
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3853789695  0.4527904701
+max(abs(gpx/gpy/p)) = 5.679633324  8.101523415  1.309431649
+Advancing grids at level 2 : starting time = 2.101365829 with dt = 0.003912832132
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3898323789  0.4551287713
+max(abs(gpx/gpy/p)) = 5.857835336  8.248969488  1.309431649
+Advancing grids at level 1 : starting time = 2.105278661 with dt = 0.007825664264
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3932121376  0.4514522087
+max(abs(gpx/gpy/p)) = 19.1615392  34.18165196  1.343111389
+Advancing grids at level 2 : starting time = 2.105278661 with dt = 0.003912832132
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3949236708  0.4581092287
+max(abs(gpx/gpy/p)) = 6.08128256  8.341701324  1.309688737
+Advancing grids at level 2 : starting time = 2.109191493 with dt = 0.003912832132
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.399023428  0.4594274479
+max(abs(gpx/gpy/p)) = 6.335982215  8.394886543  1.309688737
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.113104326 with dt = 0.01531505418
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3709665388  0.4441483138
+max(abs(gpx/gpy/p)) = 5.250129142  5.874313743  1.466760411
+Advancing grids at level 1 : starting time = 2.113104326 with dt = 0.007657527088
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3994750118  0.4582862019
+max(abs(gpx/gpy/p)) = 8.091427369  7.759602539  1.354035595
+Advancing grids at level 2 : starting time = 2.113104326 with dt = 0.003828763544
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4027875707  0.4614664433
+max(abs(gpx/gpy/p)) = 6.556584149  8.541813234  1.354035595
+Advancing grids at level 2 : starting time = 2.116933089 with dt = 0.003828763544
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4058914997  0.4622282759
+max(abs(gpx/gpy/p)) = 6.74807219  8.758436065  1.354035595
+Advancing grids at level 1 : starting time = 2.120761853 with dt = 0.007657527088
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4020627566  0.4593830603
+max(abs(gpx/gpy/p)) = 14.23153065  37.63500369  1.354434413
+Advancing grids at level 2 : starting time = 2.120761853 with dt = 0.003828763544
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4081756286  0.4640277928
+max(abs(gpx/gpy/p)) = 6.901939841  8.892967094  1.354434413
+Advancing grids at level 2 : starting time = 2.124590616 with dt = 0.003828763544
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4097587009  0.4652175604
+max(abs(gpx/gpy/p)) = 7.04719941  8.965503988  1.354434413
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.12841938 with dt = 0.01512927018
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3696469614  0.458103736
+max(abs(gpx/gpy/p)) = 5.776997901  6.753958255  1.465482312
+Advancing grids at level 1 : starting time = 2.12841938 with dt = 0.007564635092
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4035089242  0.4640700833
+max(abs(gpx/gpy/p)) = 6.991307517  8.480544281  1.346429879
+Advancing grids at level 2 : starting time = 2.12841938 with dt = 0.003782317546
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4108771962  0.4670851122
+max(abs(gpx/gpy/p)) = 7.557800062  8.982664964  1.334807229
+Advancing grids at level 2 : starting time = 2.132201697 with dt = 0.003782317546
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4146728434  0.4677128881
+max(abs(gpx/gpy/p)) = 7.386074007  9.0136405  1.331589558
+Advancing grids at level 1 : starting time = 2.135984015 with dt = 0.007564635092
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4041117231  0.4661951328
+max(abs(gpx/gpy/p)) = 20.44366264  40.58782699  1.346429879
+Advancing grids at level 2 : starting time = 2.135984015 with dt = 0.003782317546
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4181650581  0.4692172632
+max(abs(gpx/gpy/p)) = 7.541018821  8.992298746  1.332228538
+Advancing grids at level 2 : starting time = 2.139766332 with dt = 0.003782317546
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4212442808  0.4705604644
+max(abs(gpx/gpy/p)) = 7.718904294  9.083952954  1.332228538
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.14354865 with dt = 0.01496303352
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3675508625  0.4701932298
+max(abs(gpx/gpy/p)) = 6.223745445  7.341388773  1.463822852
+Advancing grids at level 1 : starting time = 2.14354865 with dt = 0.007481516759
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4118383129  0.4731180114
+max(abs(gpx/gpy/p)) = 8.644440583  8.780071781  1.379068213
+Advancing grids at level 2 : starting time = 2.14354865 with dt = 0.003740758379
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4233802712  0.4732902951
+max(abs(gpx/gpy/p)) = 7.846007051  9.187596059  1.379068213
+Advancing grids at level 2 : starting time = 2.147289408 with dt = 0.003740758379
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4250957907  0.4779190264
+max(abs(gpx/gpy/p)) = 7.995186708  9.257038188  1.379068213
+Advancing grids at level 1 : starting time = 2.151030167 with dt = 0.007481516759
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4200409829  0.4770048431
+max(abs(gpx/gpy/p)) = 13.5688883  27.58266339  1.380084047
+Advancing grids at level 2 : starting time = 2.151030167 with dt = 0.003740758379
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4263261249  0.4820967558
+max(abs(gpx/gpy/p)) = 8.150046891  9.299239669  1.380084047
+Advancing grids at level 2 : starting time = 2.154770925 with dt = 0.003740758379
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4271079046  0.4863817371
+max(abs(gpx/gpy/p)) = 9.031897993  9.38947037  1.380084047
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.158511683 with dt = 0.01447208268
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3782027828  0.4807476478
+max(abs(gpx/gpy/p)) = 6.589009283  7.652310528  1.463376216
+Advancing grids at level 1 : starting time = 2.158511683 with dt = 0.007236041341
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.425235774  0.4843871434
+max(abs(gpx/gpy/p)) = 8.127863211  8.673787099  1.376235688
+Advancing grids at level 2 : starting time = 2.158511683 with dt = 0.00361802067
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4271846988  0.4902376462
+max(abs(gpx/gpy/p)) = 13.12076553  9.39195723  1.390842235
+Advancing grids at level 2 : starting time = 2.162129704 with dt = 0.00361802067
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4276343047  0.4942018658
+max(abs(gpx/gpy/p)) = 8.608313517  9.425637667  1.37011619
+Advancing grids at level 1 : starting time = 2.165747725 with dt = 0.007236041341
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4297763067  0.4908548973
+max(abs(gpx/gpy/p)) = 24.49700847  32.11605883  1.376235688
+Advancing grids at level 2 : starting time = 2.165747725 with dt = 0.00361802067
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4294700062  0.4977569595
+max(abs(gpx/gpy/p)) = 8.749855332  9.447620052  1.370121952
+Advancing grids at level 2 : starting time = 2.169365745 with dt = 0.00361802067
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4320736239  0.5015125437
+max(abs(gpx/gpy/p)) = 8.870104252  9.429302596  1.370121952
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.172983766 with dt = 0.01402307572
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.3910312277  0.4921870287
+max(abs(gpx/gpy/p)) = 6.825948742  7.735514613  1.473452934
+Advancing grids at level 1 : starting time = 2.172983766 with dt = 0.007011537861
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4327389107  0.5014038729
+max(abs(gpx/gpy/p)) = 8.495013443  8.361233466  1.389117916
+Advancing grids at level 2 : starting time = 2.172983766 with dt = 0.00350576893
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4339787608  0.5053146993
+max(abs(gpx/gpy/p)) = 9.010395713  9.379312494  1.389117916
+Advancing grids at level 2 : starting time = 2.176489535 with dt = 0.00350576893
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4359880696  0.509123241
+max(abs(gpx/gpy/p)) = 9.102074017  9.386093776  1.389117916
+Advancing grids at level 1 : starting time = 2.179995304 with dt = 0.007011537861
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4342126167  0.5049245587
+max(abs(gpx/gpy/p)) = 16.48721121  26.5349841  1.389208886
+Advancing grids at level 2 : starting time = 2.179995304 with dt = 0.00350576893
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4376141343  0.5127751321
+max(abs(gpx/gpy/p)) = 9.201416668  9.343274063  1.389208886
+Advancing grids at level 2 : starting time = 2.183501073 with dt = 0.00350576893
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4388124557  0.5161506845
+max(abs(gpx/gpy/p)) = 9.312253593  9.295365849  1.389208886
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.187006842 with dt = 0.01362960348
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4018282507  0.5074107562
+max(abs(gpx/gpy/p)) = 6.97274416  7.677159882  1.464761455
+Advancing grids at level 1 : starting time = 2.187006842 with dt = 0.006814801739
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4348529194  0.5133932209
+max(abs(gpx/gpy/p)) = 8.78042755  8.354947602  1.377133852
+Advancing grids at level 2 : starting time = 2.187006842 with dt = 0.003407400869
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4393411724  0.5195955608
+max(abs(gpx/gpy/p)) = 9.370481462  9.240378343  1.417459098
+Advancing grids at level 2 : starting time = 2.190414243 with dt = 0.003407400869
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.439719845  0.5233215875
+max(abs(gpx/gpy/p)) = 9.435613455  9.246996556  1.370886236
+Advancing grids at level 1 : starting time = 2.193821644 with dt = 0.006814801739
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4339838106  0.5175613899
+max(abs(gpx/gpy/p)) = 24.32404491  29.49104687  1.377133852
+Advancing grids at level 2 : starting time = 2.193821644 with dt = 0.003407400869
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4400104184  0.5267019206
+max(abs(gpx/gpy/p)) = 9.513494304  9.314268604  1.370918457
+Advancing grids at level 2 : starting time = 2.197229044 with dt = 0.003407400869
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4403051709  0.5296679738
+max(abs(gpx/gpy/p)) = 9.554355501  9.306796461  1.370918457
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.200636445 with dt = 0.01328102597
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4110600703  0.5192944083
+max(abs(gpx/gpy/p)) = 7.328653575  7.498471387  1.473530931
+Advancing grids at level 1 : starting time = 2.200636445 with dt = 0.006640512984
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4339107054  0.5250251163
+max(abs(gpx/gpy/p)) = 8.987556745  8.246079348  1.385376195
+Advancing grids at level 2 : starting time = 2.200636445 with dt = 0.003320256492
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4406088951  0.532656628
+max(abs(gpx/gpy/p)) = 9.578462341  9.250495737  1.385376195
+Advancing grids at level 2 : starting time = 2.203956702 with dt = 0.003320256492
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4407263108  0.535807364
+max(abs(gpx/gpy/p)) = 9.602119417  9.163013296  1.385376195
+Advancing grids at level 1 : starting time = 2.207276958 with dt = 0.006640512984
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4324270668  0.5265771251
+max(abs(gpx/gpy/p)) = 16.93027008  18.90519093  1.385583788
+Advancing grids at level 2 : starting time = 2.207276958 with dt = 0.003320256492
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4413902049  0.5385858205
+max(abs(gpx/gpy/p)) = 9.613844389  9.178938662  1.385583788
+Advancing grids at level 2 : starting time = 2.210597215 with dt = 0.003320256492
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4428104647  0.540943467
+max(abs(gpx/gpy/p)) = 9.623852867  9.148881804  1.385583788
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.213917471 with dt = 0.01300416228
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4195944109  0.5255587599
+max(abs(gpx/gpy/p)) = 7.464208143  7.573878094  1.473025261
+Advancing grids at level 1 : starting time = 2.213917471 with dt = 0.006502081139
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4330888232  0.5328149852
+max(abs(gpx/gpy/p)) = 8.956649116  8.347867669  1.411837748
+Advancing grids at level 2 : starting time = 2.213917471 with dt = 0.00325104057
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4448933535  0.5432392038
+max(abs(gpx/gpy/p)) = 9.623098164  9.267076267  1.405180119
+Advancing grids at level 2 : starting time = 2.217168512 with dt = 0.00325104057
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4465669467  0.5457414623
+max(abs(gpx/gpy/p)) = 9.616690501  9.086868771  1.382488245
+Advancing grids at level 1 : starting time = 2.220419552 with dt = 0.006502081139
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4340133834  0.5340928791
+max(abs(gpx/gpy/p)) = 20.34171026  21.15520012  1.411837748
+Advancing grids at level 2 : starting time = 2.220419552 with dt = 0.00325104057
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4480842859  0.5477693809
+max(abs(gpx/gpy/p)) = 9.644240639  9.050506644  1.38265141
+Advancing grids at level 2 : starting time = 2.223670593 with dt = 0.00325104057
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4495603863  0.5492659515
+max(abs(gpx/gpy/p)) = 9.654340133  8.98069568  1.38265141
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.226921634 with dt = 0.01280541968
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.426801742  0.5256214341
+max(abs(gpx/gpy/p)) = 7.358906261  7.894279492  1.491011232
+Advancing grids at level 1 : starting time = 2.226921634 with dt = 0.006402709839
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4351518902  0.5387915948
+max(abs(gpx/gpy/p)) = 11.12506054  8.87532965  1.433425981
+Advancing grids at level 2 : starting time = 2.226921634 with dt = 0.003201354919
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4512640572  0.5510459939
+max(abs(gpx/gpy/p)) = 9.626643031  8.995569842  1.433001048
+Advancing grids at level 2 : starting time = 2.230122988 with dt = 0.003201354919
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4526371865  0.5527495319
+max(abs(gpx/gpy/p)) = 9.619366908  9.304569076  1.433001048
+Advancing grids at level 1 : starting time = 2.233324343 with dt = 0.006402709839
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4367910931  0.5388253065
+max(abs(gpx/gpy/p)) = 20.52960095  26.00815697  1.433402291
+Advancing grids at level 2 : starting time = 2.233324343 with dt = 0.003201354919
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4539209401  0.554037127
+max(abs(gpx/gpy/p)) = 9.626513201  9.869245615  1.433309582
+Advancing grids at level 2 : starting time = 2.236525698 with dt = 0.003201354919
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4551062433  0.5550220174
+max(abs(gpx/gpy/p)) = 9.590868233  9.872212613  1.433309582
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.239727053 with dt = 0.01267765029
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4330733827  0.5329319425
+max(abs(gpx/gpy/p)) = 7.157649794  8.327145127  1.487552795
+Advancing grids at level 1 : starting time = 2.239727053 with dt = 0.006338825143
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4402324258  0.5429840435
+max(abs(gpx/gpy/p)) = 8.803559337  9.607467698  1.428390896
+Advancing grids at level 2 : starting time = 2.239727053 with dt = 0.003169412571
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4563996071  0.5556000558
+max(abs(gpx/gpy/p)) = 11.54048785  11.9780446  1.402653992
+Advancing grids at level 2 : starting time = 2.242896466 with dt = 0.003169412571
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4573904119  0.5565563469
+max(abs(gpx/gpy/p)) = 9.492832262  10.01119427  1.402653992
+Advancing grids at level 1 : starting time = 2.246065878 with dt = 0.006338825143
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4429453387  0.5423564704
+max(abs(gpx/gpy/p)) = 27.97010842  30.86954275  1.428390896
+Advancing grids at level 2 : starting time = 2.246065878 with dt = 0.003169412571
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4582663767  0.5571950077
+max(abs(gpx/gpy/p)) = 9.476191687  10.19042931  1.402705534
+Advancing grids at level 2 : starting time = 2.249235291 with dt = 0.003169412571
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4590806211  0.557545389
+max(abs(gpx/gpy/p)) = 9.403749477  10.31855984  1.402705534
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.252404704 with dt = 0.01261164612
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4377571062  0.5361780014
+max(abs(gpx/gpy/p)) = 7.15680272  9.169430208  1.479156144
+Advancing grids at level 1 : starting time = 2.252404704 with dt = 0.006305823058
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.445404171  0.545259988
+max(abs(gpx/gpy/p)) = 8.65763851  10.20888958  1.419005704
+Advancing grids at level 2 : starting time = 2.252404704 with dt = 0.003152911529
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4599297463  0.5576951794
+max(abs(gpx/gpy/p)) = 9.338993461  10.55725755  1.418789394
+Advancing grids at level 2 : starting time = 2.255557615 with dt = 0.003152911529
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.460750329  0.5580621736
+max(abs(gpx/gpy/p)) = 9.425361839  10.74686887  1.418789394
+Advancing grids at level 1 : starting time = 2.258710527 with dt = 0.006305823058
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4476044326  0.5448596882
+max(abs(gpx/gpy/p)) = 12.24054123  29.03400274  1.419005704
+Advancing grids at level 2 : starting time = 2.258710527 with dt = 0.003152911529
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4615106864  0.5584560533
+max(abs(gpx/gpy/p)) = 9.391912082  10.85061533  1.418893901
+Advancing grids at level 2 : starting time = 2.261863438 with dt = 0.003152911529
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.46220323  0.558712682
+max(abs(gpx/gpy/p)) = 9.294730869  11.09632526  1.418893901
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.26501635 with dt = 0.0125885286
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.439594561  0.535814098
+max(abs(gpx/gpy/p)) = 7.011659787  9.268035924  1.478644436
+Advancing grids at level 1 : starting time = 2.26501635 with dt = 0.006294264301
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4491741513  0.5466349255
+max(abs(gpx/gpy/p)) = 8.379349042  10.84772804  1.448167815
+Advancing grids at level 2 : starting time = 2.26501635 with dt = 0.003147132151
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.462696275  0.5586133778
+max(abs(gpx/gpy/p)) = 9.185774075  11.32182879  1.414739457
+Advancing grids at level 2 : starting time = 2.268163482 with dt = 0.003147132151
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4631792005  0.5585580843
+max(abs(gpx/gpy/p)) = 9.205973329  11.50611444  1.414739457
+Advancing grids at level 1 : starting time = 2.271310614 with dt = 0.006294264301
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4505031564  0.5459731739
+max(abs(gpx/gpy/p)) = 16.54196186  32.4490889  1.448167815
+Advancing grids at level 2 : starting time = 2.271310614 with dt = 0.003147132151
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4635664475  0.5582557503
+max(abs(gpx/gpy/p)) = 9.220686533  11.48370194  1.4147495
+Advancing grids at level 2 : starting time = 2.274457746 with dt = 0.003147132151
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4638589467  0.5582944761
+max(abs(gpx/gpy/p)) = 9.152518219  11.7880286  1.4147495
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.277604878 with dt = 0.01258824098
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4400426048  0.5334157239
+max(abs(gpx/gpy/p)) = 6.789019084  9.007769417  1.504537095
+Advancing grids at level 1 : starting time = 2.277604878 with dt = 0.00629412049
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4518638853  0.5481813968
+max(abs(gpx/gpy/p)) = 10.71174941  10.73874226  1.473926333
+Advancing grids at level 2 : starting time = 2.277604878 with dt = 0.003147060245
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4639963185  0.5580828046
+max(abs(gpx/gpy/p)) = 9.063995361  11.92226404  1.453424993
+Advancing grids at level 2 : starting time = 2.280751938 with dt = 0.003147060245
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4640608631  0.5578137157
+max(abs(gpx/gpy/p)) = 8.976783853  12.02401184  1.453424993
+Advancing grids at level 1 : starting time = 2.283898999 with dt = 0.00629412049
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.453356204  0.5470859502
+max(abs(gpx/gpy/p)) = 15.67835228  36.03109309  1.473926333
+Advancing grids at level 2 : starting time = 2.283898999 with dt = 0.003147060245
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4640843076  0.5572765385
+max(abs(gpx/gpy/p)) = 8.894417603  11.96109478  1.453540682
+Advancing grids at level 2 : starting time = 2.287046059 with dt = 0.003147060245
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.464373317  0.5565082886
+max(abs(gpx/gpy/p)) = 8.902457869  12.24483317  1.453540682
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.290193119 with dt = 0.01260498496
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4404526453  0.5312990289
+max(abs(gpx/gpy/p)) = 6.467428808  9.993923589  1.500578858
+Advancing grids at level 1 : starting time = 2.290193119 with dt = 0.006302492481
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4539765401  0.5476269649
+max(abs(gpx/gpy/p)) = 8.05941165  11.56705789  1.470022276
+Advancing grids at level 2 : starting time = 2.290193119 with dt = 0.00315124624
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4649744149  0.5555660679
+max(abs(gpx/gpy/p)) = 9.463925697  12.35285482  1.448391514
+Advancing grids at level 2 : starting time = 2.293344365 with dt = 0.00315124624
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4655403958  0.554858168
+max(abs(gpx/gpy/p)) = 8.905879596  12.41214214  1.448391514
+Advancing grids at level 1 : starting time = 2.296495612 with dt = 0.006302492481
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4551814476  0.5469119306
+max(abs(gpx/gpy/p)) = 25.21389701  39.98879883  1.470022276
+Advancing grids at level 2 : starting time = 2.296495612 with dt = 0.00315124624
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4661021055  0.5540637883
+max(abs(gpx/gpy/p)) = 8.840163084  12.33511457  1.448375078
+Advancing grids at level 2 : starting time = 2.299646858 with dt = 0.00315124624
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4666141346  0.5532077851
+max(abs(gpx/gpy/p)) = 8.760939713  12.55442256  1.448375078
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.302798104 with dt = 0.01267212929
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4405658223  0.5276525531
+max(abs(gpx/gpy/p)) = 6.501377675  10.56073303  1.495499271
+Advancing grids at level 1 : starting time = 2.302798104 with dt = 0.006336064643
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4553185057  0.5472959118
+max(abs(gpx/gpy/p)) = 16.49902929  14.86048137  1.464858978
+Advancing grids at level 2 : starting time = 2.302798104 with dt = 0.003168032321
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.467206146  0.5522355894
+max(abs(gpx/gpy/p)) = 14.46977031  15.45167737  1.441670907
+Advancing grids at level 2 : starting time = 2.305966137 with dt = 0.003168032321
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4676754194  0.5513420517
+max(abs(gpx/gpy/p)) = 14.09755324  15.45090097  1.441670907
+Advancing grids at level 1 : starting time = 2.309134169 with dt = 0.006336064643
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4548620115  0.5473132052
+max(abs(gpx/gpy/p)) = 29.6940377  33.89735504  1.464858978
+Advancing grids at level 2 : starting time = 2.309134169 with dt = 0.003168032321
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4683433619  0.5504024019
+max(abs(gpx/gpy/p)) = 19.55934462  19.47810212  1.441844127
+Advancing grids at level 2 : starting time = 2.312302201 with dt = 0.003168032321
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4690611266  0.5494954947
+max(abs(gpx/gpy/p)) = 24.57940343  22.76450732  1.441844127
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.315470233 with dt = 0.01275264839
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4408421432  0.5265645923
+max(abs(gpx/gpy/p)) = 7.160835701  10.35812857  1.491503942
+Advancing grids at level 1 : starting time = 2.315470233 with dt = 0.006376324196
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4551503478  0.5476073323
+max(abs(gpx/gpy/p)) = 9.293573042  11.52765904  1.486417623
+Advancing grids at level 2 : starting time = 2.315470233 with dt = 0.003188162098
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4701644901  0.5484064056
+max(abs(gpx/gpy/p)) = 33.34715184  21.92319947  1.454520584
+Advancing grids at level 2 : starting time = 2.318658396 with dt = 0.003188162098
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4709951733  0.5486595288
+max(abs(gpx/gpy/p)) = 9.175642793  12.71152419  1.453753331
+Advancing grids at level 1 : starting time = 2.321846558 with dt = 0.006376324196
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4578879097  0.5467859783
+max(abs(gpx/gpy/p)) = 47.3995377  35.79410781  1.486417623
+Advancing grids at level 2 : starting time = 2.321846558 with dt = 0.003188162098
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4718461636  0.549040484
+max(abs(gpx/gpy/p)) = 9.409199299  12.68059147  1.453709558
+Advancing grids at level 2 : starting time = 2.32503472 with dt = 0.003188162098
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4726193343  0.549399302
+max(abs(gpx/gpy/p)) = 9.46994007  12.59689057  1.453709558
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.328222882 with dt = 0.01280643101
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4409349988  0.5251680788
+max(abs(gpx/gpy/p)) = 7.598506494  9.619727256  1.512633989
+Advancing grids at level 1 : starting time = 2.328222882 with dt = 0.006403215505
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4617529581  0.5469932995
+max(abs(gpx/gpy/p)) = 9.046888596  11.37793005  1.507847636
+Advancing grids at level 2 : starting time = 2.328222882 with dt = 0.003201607753
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4732928902  0.5493803447
+max(abs(gpx/gpy/p)) = 9.70416371  12.65396504  1.475876791
+Advancing grids at level 2 : starting time = 2.33142449 with dt = 0.003201607753
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4740214379  0.5495926534
+max(abs(gpx/gpy/p)) = 10.04933582  12.68310434  1.475876791
+Advancing grids at level 1 : starting time = 2.334626097 with dt = 0.006403215505
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4597151183  0.5461355546
+max(abs(gpx/gpy/p)) = 32.99257045  17.24804433  1.507847636
+Advancing grids at level 2 : starting time = 2.334626097 with dt = 0.003201607753
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4748969562  0.5499221709
+max(abs(gpx/gpy/p)) = 10.27852462  12.63802525  1.475911479
+Advancing grids at level 2 : starting time = 2.337827705 with dt = 0.003201607753
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4756858587  0.5501100499
+max(abs(gpx/gpy/p)) = 10.31890345  12.53097537  1.475911479
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.341029313 with dt = 0.01278590021
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4400166597  0.5235239169
+max(abs(gpx/gpy/p)) = 7.073636641  9.499988206  1.502829025
+Advancing grids at level 1 : starting time = 2.341029313 with dt = 0.006392950104
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4629552591  0.5461279663
+max(abs(gpx/gpy/p)) = 9.787744181  11.15772696  1.497134932
+Advancing grids at level 2 : starting time = 2.341029313 with dt = 0.003196475052
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4761928487  0.5495943862
+max(abs(gpx/gpy/p)) = 10.2245887  12.46665127  1.46333976
+Advancing grids at level 2 : starting time = 2.344225788 with dt = 0.003196475052
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4763890441  0.5494304976
+max(abs(gpx/gpy/p)) = 10.57649058  12.37110363  1.46333976
+Advancing grids at level 1 : starting time = 2.347422263 with dt = 0.006392950104
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.465089437  0.5447503939
+max(abs(gpx/gpy/p)) = 37.11197021  20.30053313  1.497134932
+Advancing grids at level 2 : starting time = 2.347422263 with dt = 0.003196475052
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4762939041  0.5491718258
+max(abs(gpx/gpy/p)) = 10.83778731  12.38264596  1.463385688
+Advancing grids at level 2 : starting time = 2.350618738 with dt = 0.003196475052
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4760624164  0.5488559906
+max(abs(gpx/gpy/p)) = 10.94722871  12.30572958  1.463385688
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.353815213 with dt = 0.01279734498
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4367687752  0.521703047
+max(abs(gpx/gpy/p)) = 7.938200269  9.801124013  1.487486977
+Advancing grids at level 1 : starting time = 2.353815213 with dt = 0.006398672489
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4678752997  0.5444537518
+max(abs(gpx/gpy/p)) = 9.620738677  11.01161173  1.487486977
+Advancing grids at level 2 : starting time = 2.353815213 with dt = 0.003199336245
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4754178314  0.5481672684
+max(abs(gpx/gpy/p)) = 10.80737075  12.18695962  1.449320338
+Advancing grids at level 2 : starting time = 2.357014549 with dt = 0.003199336245
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4755771274  0.5477896622
+max(abs(gpx/gpy/p)) = 10.93712695  12.02533513  1.449320338
+Advancing grids at level 1 : starting time = 2.360213886 with dt = 0.006398672489
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4691741864  0.5434525547
+max(abs(gpx/gpy/p)) = 17.2602795  23.66126179  1.487486977
+Advancing grids at level 2 : starting time = 2.360213886 with dt = 0.003199336245
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4758476838  0.5478005073
+max(abs(gpx/gpy/p)) = 11.31223703  12.01613611  1.449352246
+Advancing grids at level 2 : starting time = 2.363413222 with dt = 0.003199336245
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4761163424  0.5482832081
+max(abs(gpx/gpy/p)) = 11.39129375  11.9275938  1.449352246
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.366612558 with dt = 0.01283097425
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4316968856  0.5207335304
+max(abs(gpx/gpy/p)) = 8.909978678  9.763262235  1.490115118
+Advancing grids at level 1 : starting time = 2.366612558 with dt = 0.006415487124
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4715297029  0.5447445592
+max(abs(gpx/gpy/p)) = 10.22134683  10.56500428  1.491234148
+Advancing grids at level 2 : starting time = 2.366612558 with dt = 0.003207743562
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4763848674  0.548464458
+max(abs(gpx/gpy/p)) = 11.36397798  11.90066969  1.473731823
+Advancing grids at level 2 : starting time = 2.369820302 with dt = 0.003207743562
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4765698981  0.5490312173
+max(abs(gpx/gpy/p)) = 11.1459735  11.72732552  1.473731823
+Advancing grids at level 1 : starting time = 2.373028045 with dt = 0.006415487124
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4719032124  0.544619517
+max(abs(gpx/gpy/p)) = 22.70448544  27.18955418  1.491207095
+Advancing grids at level 2 : starting time = 2.373028045 with dt = 0.003207743562
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.47670583  0.5496043514
+max(abs(gpx/gpy/p)) = 11.44522253  11.65375755  1.473810772
+Advancing grids at level 2 : starting time = 2.376235789 with dt = 0.003207743562
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4767689236  0.5501472685
+max(abs(gpx/gpy/p)) = 11.59401891  11.65523935  1.473810772
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.379443532 with dt = 0.01278971107
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4241292289  0.5205244902
+max(abs(gpx/gpy/p)) = 9.071411729  9.559588566  1.511541306
+Advancing grids at level 1 : starting time = 2.379443532 with dt = 0.006394855535
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4734292849  0.5457031792
+max(abs(gpx/gpy/p)) = 9.836358704  10.61080534  1.511570274
+Advancing grids at level 2 : starting time = 2.379443532 with dt = 0.003197427768
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4767871017  0.5502358955
+max(abs(gpx/gpy/p)) = 11.63049055  11.62792673  1.481571528
+Advancing grids at level 2 : starting time = 2.38264096 with dt = 0.003197427768
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.476763034  0.5505491649
+max(abs(gpx/gpy/p)) = 11.37339091  11.55070976  1.481571528
+Advancing grids at level 1 : starting time = 2.385838388 with dt = 0.006394855535
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4724849665  0.5449127382
+max(abs(gpx/gpy/p)) = 18.29706497  30.46320139  1.511572403
+Advancing grids at level 2 : starting time = 2.385838388 with dt = 0.003197427768
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4766611888  0.5506280297
+max(abs(gpx/gpy/p)) = 11.32715693  11.49766598  1.481647933
+Advancing grids at level 2 : starting time = 2.389035816 with dt = 0.003197427768
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4763437972  0.5508682037
+max(abs(gpx/gpy/p)) = 11.51634056  11.37735267  1.481647933
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.392233243 with dt = 0.01276950976
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4244347824  0.5191904354
+max(abs(gpx/gpy/p)) = 8.710088483  9.102552376  1.500636538
+Advancing grids at level 1 : starting time = 2.392233243 with dt = 0.006384754881
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4727637648  0.5442964755
+max(abs(gpx/gpy/p)) = 10.04731261  10.40831545  1.50111321
+Advancing grids at level 2 : starting time = 2.392233243 with dt = 0.003192377441
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4759577804  0.5503225422
+max(abs(gpx/gpy/p)) = 11.62523303  11.24153598  1.496239141
+Advancing grids at level 2 : starting time = 2.395425621 with dt = 0.003192377441
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4753657377  0.5501037095
+max(abs(gpx/gpy/p)) = 11.56303592  11.23071531  1.496239141
+Advancing grids at level 1 : starting time = 2.398617998 with dt = 0.006384754881
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4709999585  0.5424880367
+max(abs(gpx/gpy/p)) = 22.47009669  33.76199919  1.501128462
+Advancing grids at level 2 : starting time = 2.398617998 with dt = 0.003192377441
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4743396744  0.5497673672
+max(abs(gpx/gpy/p)) = 11.57873403  11.20663836  1.496457018
+Advancing grids at level 2 : starting time = 2.401810376 with dt = 0.003192377441
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4744652577  0.549350694
+max(abs(gpx/gpy/p)) = 11.38200508  11.13959066  1.496457018
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.405002753 with dt = 0.01278173724
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4240433378  0.5165589154
+max(abs(gpx/gpy/p)) = 8.018109248  8.712672421  1.493078582
+Advancing grids at level 1 : starting time = 2.405002753 with dt = 0.006390868619
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4695491642  0.5410403002
+max(abs(gpx/gpy/p)) = 10.04368597  9.934677156  1.493078582
+Advancing grids at level 2 : starting time = 2.405002753 with dt = 0.00319543431
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4746993458  0.548409012
+max(abs(gpx/gpy/p)) = 11.36498771  11.06658438  1.470625045
+Advancing grids at level 2 : starting time = 2.408198187 with dt = 0.00319543431
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4747991338  0.5477853138
+max(abs(gpx/gpy/p)) = 11.40709658  10.91189994  1.470625045
+Advancing grids at level 1 : starting time = 2.411393622 with dt = 0.006390868619
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4654517952  0.538897048
+max(abs(gpx/gpy/p)) = 15.84106507  37.36636132  1.493078582
+Advancing grids at level 2 : starting time = 2.411393622 with dt = 0.00319543431
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4748674538  0.5474535514
+max(abs(gpx/gpy/p)) = 11.51329772  10.84070351  1.470985283
+Advancing grids at level 2 : starting time = 2.414589056 with dt = 0.00319543431
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4748751366  0.5472227756
+max(abs(gpx/gpy/p)) = 11.40988665  10.80585263  1.470985283
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.41778449 with dt = 0.01283573909
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4299257053  0.5153338266
+max(abs(gpx/gpy/p)) = 7.888286681  8.447745647  1.490366331
+Advancing grids at level 1 : starting time = 2.41778449 with dt = 0.006417869547
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4605788014  0.5376381588
+max(abs(gpx/gpy/p)) = 9.82870629  9.960168255  1.507485871
+Advancing grids at level 2 : starting time = 2.41778449 with dt = 0.003208934774
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4749354704  0.5464808396
+max(abs(gpx/gpy/p)) = 11.86248891  12.26165391  1.474944269
+Advancing grids at level 2 : starting time = 2.420993425 with dt = 0.003208934774
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4748537685  0.5460328965
+max(abs(gpx/gpy/p)) = 11.32263655  10.80859448  1.474944269
+Advancing grids at level 1 : starting time = 2.42420236 with dt = 0.006417869547
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4610507676  0.5353213803
+max(abs(gpx/gpy/p)) = 24.24781823  41.04002617  1.507720516
+Advancing grids at level 2 : starting time = 2.42420236 with dt = 0.003208934774
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4746632753  0.5456329167
+max(abs(gpx/gpy/p)) = 11.08673373  10.74013012  1.475265348
+Advancing grids at level 2 : starting time = 2.427411295 with dt = 0.003208934774
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.473970793  0.5457482358
+max(abs(gpx/gpy/p)) = 10.9076215  10.66803008  1.475265348
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.430620229 with dt = 0.01287698441
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4361127083  0.5327963557
+max(abs(gpx/gpy/p)) = 8.012095096  8.739519798  1.490942553
+Advancing grids at level 1 : starting time = 2.430620229 with dt = 0.006438492206
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.464399777  0.5435507164
+max(abs(gpx/gpy/p)) = 9.377144099  10.10489806  1.508705678
+Advancing grids at level 2 : starting time = 2.430620229 with dt = 0.003219246103
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.473250508  0.5457289287
+max(abs(gpx/gpy/p)) = 10.92856034  10.61216137  1.469891303
+Advancing grids at level 2 : starting time = 2.433839476 with dt = 0.003219246103
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4724679383  0.545848852
+max(abs(gpx/gpy/p)) = 10.74718701  10.49380026  1.469891303
+Advancing grids at level 1 : starting time = 2.437058722 with dt = 0.006438492206
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4656761759  0.5483038735
+max(abs(gpx/gpy/p)) = 15.58732785  17.83067474  1.509022143
+Advancing grids at level 2 : starting time = 2.437058722 with dt = 0.003219246103
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4724414399  0.548749859
+max(abs(gpx/gpy/p)) = 10.69434431  10.45884326  1.470407839
+Advancing grids at level 2 : starting time = 2.440277968 with dt = 0.003219246103
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.472379471  0.5519460696
+max(abs(gpx/gpy/p)) = 10.54868697  10.57751251  1.470407839
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.443497214 with dt = 0.01274392206
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.43986259  0.5322794723
+max(abs(gpx/gpy/p)) = 8.143311507  8.993497011  1.491153781
+Advancing grids at level 1 : starting time = 2.443497214 with dt = 0.00637196103
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4675061792  0.5544257517
+max(abs(gpx/gpy/p)) = 9.147370429  10.02232047  1.508961846
+Advancing grids at level 2 : starting time = 2.443497214 with dt = 0.003185980515
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4722297698  0.555672302
+max(abs(gpx/gpy/p)) = 10.36711728  10.73458393  1.486635462
+Advancing grids at level 2 : starting time = 2.446683194 with dt = 0.003185980515
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4721028922  0.5596178649
+max(abs(gpx/gpy/p)) = 10.24185491  10.81107495  1.482851948
+Advancing grids at level 1 : starting time = 2.449869175 with dt = 0.00637196103
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.467526409  0.5563337446
+max(abs(gpx/gpy/p)) = 17.47979206  20.36095733  1.509304994
+Advancing grids at level 2 : starting time = 2.449869175 with dt = 0.003185980515
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4719059181  0.5629725905
+max(abs(gpx/gpy/p)) = 10.10611903  10.75996062  1.483290735
+Advancing grids at level 2 : starting time = 2.453055155 with dt = 0.003185980515
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4715754006  0.5659585655
+max(abs(gpx/gpy/p)) = 10.04625665  10.73012004  1.483290735
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.456241136 with dt = 0.01242603377
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4418743259  0.5390711308
+max(abs(gpx/gpy/p)) = 8.135390963  9.110965758  1.499919956
+Advancing grids at level 1 : starting time = 2.456241136 with dt = 0.006213016884
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4677577349  0.5678516166
+max(abs(gpx/gpy/p)) = 8.900550225  9.944001831  1.526001616
+Advancing grids at level 2 : starting time = 2.456241136 with dt = 0.003106508442
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4714269049  0.5685024528
+max(abs(gpx/gpy/p)) = 10.07723997  10.72425967  1.511143791
+Advancing grids at level 2 : starting time = 2.459347644 with dt = 0.003106508442
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4710712158  0.5712453093
+max(abs(gpx/gpy/p)) = 10.06195566  10.87972537  1.511143791
+Advancing grids at level 1 : starting time = 2.462454153 with dt = 0.006213016884
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4660866684  0.5725720609
+max(abs(gpx/gpy/p)) = 11.12590034  22.6930744  1.526382189
+Advancing grids at level 2 : starting time = 2.462454153 with dt = 0.003106508442
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4705540807  0.5746831435
+max(abs(gpx/gpy/p)) = 9.971552389  10.89895141  1.512126156
+Advancing grids at level 2 : starting time = 2.465560661 with dt = 0.003106508442
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4696405419  0.5786100778
+max(abs(gpx/gpy/p)) = 9.898624561  10.97804902  1.512126156
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.46866717 with dt = 0.01215542844
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4428871645  0.5496699527
+max(abs(gpx/gpy/p)) = 7.900275933  9.117844753  1.493900226
+Advancing grids at level 1 : starting time = 2.46866717 with dt = 0.006077714221
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4658372825  0.5800181471
+max(abs(gpx/gpy/p)) = 8.783798762  10.02884119  1.513803619
+Advancing grids at level 2 : starting time = 2.46866717 with dt = 0.00303885711
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4684462955  0.5811871395
+max(abs(gpx/gpy/p)) = 9.876152008  10.93240561  1.489967236
+Advancing grids at level 2 : starting time = 2.471706027 with dt = 0.00303885711
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4675360312  0.5841155203
+max(abs(gpx/gpy/p)) = 9.882053005  10.57124849  1.489967236
+Advancing grids at level 1 : starting time = 2.474744884 with dt = 0.006077714221
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.462337366  0.5829864518
+max(abs(gpx/gpy/p)) = 16.29742554  25.39853476  1.514220279
+Advancing grids at level 2 : starting time = 2.474744884 with dt = 0.00303885711
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.467302186  0.5864085254
+max(abs(gpx/gpy/p)) = 9.926209307  10.6663146  1.49040569
+Advancing grids at level 2 : starting time = 2.477783741 with dt = 0.00303885711
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.467068263  0.5871825977
+max(abs(gpx/gpy/p)) = 9.904370312  10.78780372  1.49040569
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.480822598 with dt = 0.01198266611
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4418813444  0.5600636583
+max(abs(gpx/gpy/p)) = 7.511334849  9.002249159  1.467666435
+Advancing grids at level 1 : starting time = 2.480822598 with dt = 0.005991333054
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4602847559  0.5816858513
+max(abs(gpx/gpy/p)) = 16.20025485  9.680214052  1.461635521
+Advancing grids at level 2 : starting time = 2.480822598 with dt = 0.002995666527
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4666733794  0.5892332421
+max(abs(gpx/gpy/p)) = 10.68393172  12.59605053  1.43657008
+Advancing grids at level 2 : starting time = 2.483818265 with dt = 0.002995666527
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4665765309  0.5926689856
+max(abs(gpx/gpy/p)) = 11.65266087  14.78854828  1.43657008
+Advancing grids at level 1 : starting time = 2.486813931 with dt = 0.005991333054
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4554221299  0.5846354112
+max(abs(gpx/gpy/p)) = 17.20277995  27.96874925  1.462083177
+Advancing grids at level 2 : starting time = 2.486813931 with dt = 0.002995666527
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4664630736  0.5952336777
+max(abs(gpx/gpy/p)) = 15.61556258  18.43333179  1.437283684
+Advancing grids at level 2 : starting time = 2.489809598 with dt = 0.002995666527
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4662557958  0.5982023544
+max(abs(gpx/gpy/p)) = 21.7121708  21.98192427  1.437283684
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.492805264 with dt = 0.01176103031
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4384133553  0.5738718746
+max(abs(gpx/gpy/p)) = 7.350215151  8.867965268  1.472776732
+Advancing grids at level 1 : starting time = 2.492805264 with dt = 0.005880515153
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4503583648  0.5892858013
+max(abs(gpx/gpy/p)) = 8.434774103  10.17740998  1.471818183
+Advancing grids at level 2 : starting time = 2.492805264 with dt = 0.002940257577
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4655362048  0.5994795026
+max(abs(gpx/gpy/p)) = 20.55421251  16.83268345  1.460108131
+Advancing grids at level 2 : starting time = 2.495745522 with dt = 0.002940257577
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4650512124  0.6008858034
+max(abs(gpx/gpy/p)) = 9.685789076  10.99310122  1.460108131
+Advancing grids at level 1 : starting time = 2.498685779 with dt = 0.005880515153
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4498971732  0.5918138186
+max(abs(gpx/gpy/p)) = 39.54680885  30.48811489  1.472367057
+Advancing grids at level 2 : starting time = 2.498685779 with dt = 0.002940257577
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.464529745  0.6017304468
+max(abs(gpx/gpy/p)) = 9.591227414  10.89384238  1.460667883
+Advancing grids at level 2 : starting time = 2.501626037 with dt = 0.002940257577
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4640216724  0.6007803766
+max(abs(gpx/gpy/p)) = 9.550991248  10.72458345  1.460667883
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.504566295 with dt = 0.01168504941
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4332261626  0.5754272113
+max(abs(gpx/gpy/p)) = 13.67721375  22.07506429  1.574589712
+Advancing grids at level 1 : starting time = 2.504566295 with dt = 0.005842524703
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4517041249  0.5991795201
+max(abs(gpx/gpy/p)) = 34.60768184  50.87424269  1.6732096
+Advancing grids at level 2 : starting time = 2.504566295 with dt = 0.002921262352
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4644522513  0.6024880479
+max(abs(gpx/gpy/p)) = 38.86587826  77.61044538  1.6732096
+Advancing grids at level 2 : starting time = 2.507487557 with dt = 0.002921262352
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.463162019  0.6050346451
+max(abs(gpx/gpy/p)) = 40.89196629  53.88673912  1.6732096
+Advancing grids at level 1 : starting time = 2.510408819 with dt = 0.005842524703
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4486055066  0.5989352042
+max(abs(gpx/gpy/p)) = 38.88134008  58.11295532  1.673816936
+Advancing grids at level 2 : starting time = 2.510408819 with dt = 0.002921262352
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4615814788  0.6074873562
+max(abs(gpx/gpy/p)) = 54.50029697  51.81103271  1.673816936
+Advancing grids at level 2 : starting time = 2.513330082 with dt = 0.002921262352
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4601104516  0.6095644599
+max(abs(gpx/gpy/p)) = 69.0049488  89.51347974  1.673816936
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.516251344 with dt = 0.01157431497
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.428935133  0.5821806215
+max(abs(gpx/gpy/p)) = 15.19338218  30.30573657  1.539254206
+Advancing grids at level 1 : starting time = 2.516251344 with dt = 0.005787157484
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4530742612  0.6029301124
+max(abs(gpx/gpy/p)) = 19.07519031  40.88474427  1.603256862
+Advancing grids at level 2 : starting time = 2.516251344 with dt = 0.002893578742
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4607092099  0.6078762456
+max(abs(gpx/gpy/p)) = 54.99019876  119.4120951  1.614535969
+Advancing grids at level 2 : starting time = 2.519144923 with dt = 0.002893578742
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.459942141  0.6092322744
+max(abs(gpx/gpy/p)) = 9.606036174  20.30712117  1.597473364
+Advancing grids at level 1 : starting time = 2.522038501 with dt = 0.005787157484
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4518236352  0.6001982255
+max(abs(gpx/gpy/p)) = 88.07717175  138.8362715  1.603817258
+Advancing grids at level 2 : starting time = 2.522038501 with dt = 0.002893578742
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4595983753  0.6088431288
+max(abs(gpx/gpy/p)) = 9.639968533  11.44836088  1.597918118
+Advancing grids at level 2 : starting time = 2.52493208 with dt = 0.002893578742
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4592022715  0.6093424864
+max(abs(gpx/gpy/p)) = 9.680802093  11.39129983  1.597918118
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.527825659 with dt = 0.01154110988
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4266420292  0.5709145209
+max(abs(gpx/gpy/p)) = 7.069530453  8.411466806  1.487307939
+Advancing grids at level 1 : starting time = 2.527825659 with dt = 0.005770554942
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4533708985  0.6014016252
+max(abs(gpx/gpy/p)) = 7.97948764  10.20898523  1.499859114
+Advancing grids at level 2 : starting time = 2.527825659 with dt = 0.002885277471
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4588645333  0.6073571422
+max(abs(gpx/gpy/p)) = 9.604189455  11.30369412  1.475092921
+Advancing grids at level 2 : starting time = 2.530710936 with dt = 0.002885277471
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4585920532  0.607680778
+max(abs(gpx/gpy/p)) = 9.456292581  11.35397171  1.475092921
+Advancing grids at level 1 : starting time = 2.533596214 with dt = 0.005770554942
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4518869131  0.597347803
+max(abs(gpx/gpy/p)) = 18.59493443  39.36994293  1.500286517
+Advancing grids at level 2 : starting time = 2.533596214 with dt = 0.002885277471
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4582822726  0.6083951061
+max(abs(gpx/gpy/p)) = 9.511122032  11.51770457  1.475477573
+Advancing grids at level 2 : starting time = 2.536481491 with dt = 0.002885277471
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.457953444  0.6084794591
+max(abs(gpx/gpy/p)) = 9.510734056  11.65764047  1.475477573
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.539366769 with dt = 0.01155704563
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.42650311  0.5719075282
+max(abs(gpx/gpy/p)) = 7.250891434  8.258610636  1.484120747
+Advancing grids at level 1 : starting time = 2.539366769 with dt = 0.005778522813
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4531122449  0.5982457505
+max(abs(gpx/gpy/p)) = 7.936680437  10.54979413  1.492408907
+Advancing grids at level 2 : starting time = 2.539366769 with dt = 0.002889261406
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4574842824  0.6085564014
+max(abs(gpx/gpy/p)) = 9.607601531  11.80352332  1.4778103
+Advancing grids at level 2 : starting time = 2.54225603 with dt = 0.002889261406
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4570632707  0.6073730924
+max(abs(gpx/gpy/p)) = 9.578548605  11.81530552  1.4778103
+Advancing grids at level 1 : starting time = 2.545145292 with dt = 0.005778522813
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4507273936  0.5931506658
+max(abs(gpx/gpy/p)) = 21.57122582  42.26093007  1.492784381
+Advancing grids at level 2 : starting time = 2.545145292 with dt = 0.002889261406
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4565769172  0.6070047218
+max(abs(gpx/gpy/p)) = 9.39062785  11.82115003  1.478239654
+Advancing grids at level 2 : starting time = 2.548034553 with dt = 0.002889261406
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4560076322  0.6049246617
+max(abs(gpx/gpy/p)) = 9.402620789  11.7500635  1.478239654
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.550923814 with dt = 0.01157645054
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4269998019  0.5691444808
+max(abs(gpx/gpy/p)) = 7.324223185  8.354246336  1.468822194
+Advancing grids at level 1 : starting time = 2.550923814 with dt = 0.005788225268
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4511610047  0.5957827892
+max(abs(gpx/gpy/p)) = 10.26005053  10.76455718  1.46109635
+Advancing grids at level 2 : starting time = 2.550923814 with dt = 0.002894112634
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4555081405  0.6045324666
+max(abs(gpx/gpy/p)) = 9.3413134  11.61445695  1.4459502
+Advancing grids at level 2 : starting time = 2.553817927 with dt = 0.002894112634
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4549789045  0.602207897
+max(abs(gpx/gpy/p)) = 9.397459649  11.53143122  1.4459502
+Advancing grids at level 1 : starting time = 2.55671204 with dt = 0.005788225268
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4477871637  0.5924949563
+max(abs(gpx/gpy/p)) = 22.95420238  44.93205721  1.461381799
+Advancing grids at level 2 : starting time = 2.55671204 with dt = 0.002894112634
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4543850222  0.6014287106
+max(abs(gpx/gpy/p)) = 9.292918964  11.67243104  1.446266923
+Advancing grids at level 2 : starting time = 2.559606152 with dt = 0.002894112634
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.45368224  0.5996788954
+max(abs(gpx/gpy/p)) = 9.519876265  11.76825387  1.446266923
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.562500265 with dt = 0.01167573102
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4273792528  0.5736476092
+max(abs(gpx/gpy/p)) = 7.157119853  8.565547794  1.481070879
+Advancing grids at level 1 : starting time = 2.562500265 with dt = 0.005837865509
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4465665872  0.5931537859
+max(abs(gpx/gpy/p)) = 8.502096131  10.46259458  1.484834624
+Advancing grids at level 2 : starting time = 2.562500265 with dt = 0.002918932754
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4530553403  0.5988934095
+max(abs(gpx/gpy/p)) = 12.75156058  13.98300091  1.491482488
+Advancing grids at level 2 : starting time = 2.565419198 with dt = 0.002918932754
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4528645413  0.5973427889
+max(abs(gpx/gpy/p)) = 9.221905173  11.88783457  1.484743649
+Advancing grids at level 1 : starting time = 2.568338131 with dt = 0.005837865509
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.442809407  0.5875314343
+max(abs(gpx/gpy/p)) = 25.38173355  47.71817465  1.484975412
+Advancing grids at level 2 : starting time = 2.568338131 with dt = 0.002918932754
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4530937765  0.5959746967
+max(abs(gpx/gpy/p)) = 9.462108089  11.91059344  1.484891345
+Advancing grids at level 2 : starting time = 2.571257063 with dt = 0.002918932754
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.45674738  0.5939537919
+max(abs(gpx/gpy/p)) = 9.474584968  11.85554333  1.484891345
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.574175996 with dt = 0.01177082102
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4255035162  0.579005643
+max(abs(gpx/gpy/p)) = 6.818303597  8.607864198  1.502042038
+Advancing grids at level 1 : starting time = 2.574175996 with dt = 0.00588541051
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4518199342  0.5873481238
+max(abs(gpx/gpy/p)) = 9.352030722  10.40500641  1.526844499
+Advancing grids at level 2 : starting time = 2.574175996 with dt = 0.002942705255
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4619072263  0.592227119
+max(abs(gpx/gpy/p)) = 9.500339118  11.76260912  1.526844499
+Advancing grids at level 2 : starting time = 2.577118701 with dt = 0.002942705255
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4695894686  0.5901339008
+max(abs(gpx/gpy/p)) = 9.667915523  11.62425312  1.526844499
+Advancing grids at level 1 : starting time = 2.580061407 with dt = 0.00588541051
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4638812142  0.5887932247
+max(abs(gpx/gpy/p)) = 27.38301237  49.91054038  1.527374748
+Advancing grids at level 2 : starting time = 2.580061407 with dt = 0.002942705255
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4757024973  0.5894745678
+max(abs(gpx/gpy/p)) = 9.511604922  11.85194416  1.527374748
+Advancing grids at level 2 : starting time = 2.583004112 with dt = 0.002942705255
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4804541379  0.5905913406
+max(abs(gpx/gpy/p)) = 9.55298868  12.19464648  1.527374748
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.585946817 with dt = 0.01190996871
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4445985409  0.5832787499
+max(abs(gpx/gpy/p)) = 6.455060045  8.569777261  1.491174479
+Advancing grids at level 1 : starting time = 2.585946817 with dt = 0.005954984355
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4777151429  0.5916640774
+max(abs(gpx/gpy/p)) = 8.604763851  10.49959196  1.505527992
+Advancing grids at level 2 : starting time = 2.585946817 with dt = 0.002977492177
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4868742875  0.5915119643
+max(abs(gpx/gpy/p)) = 9.593161215  12.12506282  1.506311131
+Advancing grids at level 2 : starting time = 2.588924309 with dt = 0.002977492177
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.490796453  0.5923527604
+max(abs(gpx/gpy/p)) = 9.6174029  13.06759734  1.505527992
+Advancing grids at level 1 : starting time = 2.591901801 with dt = 0.005954984355
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4772758099  0.5923179229
+max(abs(gpx/gpy/p)) = 29.73968915  51.79257922  1.505778529
+Advancing grids at level 2 : starting time = 2.591901801 with dt = 0.002977492177
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4958139624  0.5931440829
+max(abs(gpx/gpy/p)) = 9.650540364  13.06904713  1.505778529
+Advancing grids at level 2 : starting time = 2.594879294 with dt = 0.002977492177
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5010987481  0.5934318969
+max(abs(gpx/gpy/p)) = 9.72125427  13.55341665  1.505778529
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.597856786 with dt = 0.01184933549
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4507484498  0.5843099708
+max(abs(gpx/gpy/p)) = 6.867356367  9.054854062  1.47244655
+Advancing grids at level 1 : starting time = 2.597856786 with dt = 0.005924667746
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4927501499  0.5937236626
+max(abs(gpx/gpy/p)) = 10.57446158  13.4090019  1.467086061
+Advancing grids at level 2 : starting time = 2.597856786 with dt = 0.002962333873
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5059789557  0.5947026671
+max(abs(gpx/gpy/p)) = 10.65843137  13.77905208  1.467086061
+Advancing grids at level 2 : starting time = 2.60081912 with dt = 0.002962333873
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5109229684  0.5962369511
+max(abs(gpx/gpy/p)) = 11.14084303  13.33570916  1.467086061
+Advancing grids at level 1 : starting time = 2.603781453 with dt = 0.005924667746
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4953414635  0.5925892254
+max(abs(gpx/gpy/p)) = 27.86812743  49.48917955  1.46756822
+Advancing grids at level 2 : starting time = 2.603781453 with dt = 0.002962333873
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5126108311  0.5978437522
+max(abs(gpx/gpy/p)) = 11.56386705  14.42209643  1.46756822
+Advancing grids at level 2 : starting time = 2.606743787 with dt = 0.002962333873
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5165827341  0.5994861204
+max(abs(gpx/gpy/p)) = 12.01492696  14.33853854  1.46756822
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.609706121 with dt = 0.01173353633
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4517447018  0.5816662188
+max(abs(gpx/gpy/p)) = 7.060263923  8.994014888  1.479400808
+Advancing grids at level 1 : starting time = 2.609706121 with dt = 0.005866768166
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.505145862  0.5929285593
+max(abs(gpx/gpy/p)) = 10.04783422  11.95206465  1.481426605
+Advancing grids at level 2 : starting time = 2.609706121 with dt = 0.002933384083
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5207164379  0.6010315117
+max(abs(gpx/gpy/p)) = 15.80390309  17.98591139  1.478404544
+Advancing grids at level 2 : starting time = 2.612639505 with dt = 0.002933384083
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5239854956  0.602124742
+max(abs(gpx/gpy/p)) = 13.13428659  15.39761199  1.478404544
+Advancing grids at level 1 : starting time = 2.615572889 with dt = 0.005866768166
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5093267031  0.5961509423
+max(abs(gpx/gpy/p)) = 31.19710706  51.73757742  1.481833613
+Advancing grids at level 2 : starting time = 2.615572889 with dt = 0.002933384083
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5282803203  0.6033410669
+max(abs(gpx/gpy/p)) = 13.92259025  15.16943305  1.478748069
+Advancing grids at level 2 : starting time = 2.618506273 with dt = 0.002933384083
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5291733358  0.6040867855
+max(abs(gpx/gpy/p)) = 14.78493839  15.71368745  1.478748069
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.621439658 with dt = 0.01165385615
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4631279015  0.582785377
+max(abs(gpx/gpy/p)) = 9.332951286  23.64920205  1.5894785
+Advancing grids at level 1 : starting time = 2.621439658 with dt = 0.005826928073
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5119027168  0.6009326404
+max(abs(gpx/gpy/p)) = 28.82648673  48.67999834  1.747212396
+Advancing grids at level 2 : starting time = 2.621439658 with dt = 0.002913464036
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5315145002  0.6046905906
+max(abs(gpx/gpy/p)) = 28.18852741  30.10863562  1.763272003
+Advancing grids at level 2 : starting time = 2.624353122 with dt = 0.002913464036
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5348410187  0.6057635716
+max(abs(gpx/gpy/p)) = 29.60423165  29.87762748  1.741751282
+Advancing grids at level 1 : starting time = 2.627266586 with dt = 0.005826928073
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.514223278  0.6043143576
+max(abs(gpx/gpy/p)) = 30.99424657  45.19740709  1.781710637
+Advancing grids at level 2 : starting time = 2.627266586 with dt = 0.002913464036
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5362153872  0.6069898395
+max(abs(gpx/gpy/p)) = 34.71675199  32.73428536  1.781710637
+Advancing grids at level 2 : starting time = 2.63018005 with dt = 0.002913464036
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.539466211  0.6089251754
+max(abs(gpx/gpy/p)) = 39.83949008  32.96341237  1.781710637
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.633093514 with dt = 0.01158380181
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4800437198  0.5788029163
+max(abs(gpx/gpy/p)) = 7.331868882  18.31168745  1.531194878
+Advancing grids at level 1 : starting time = 2.633093514 with dt = 0.005791900903
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.527548336  0.6073279632
+max(abs(gpx/gpy/p)) = 16.55238448  38.04437566  1.585347462
+Advancing grids at level 2 : starting time = 2.633093514 with dt = 0.002895950452
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5388558502  0.6083895106
+max(abs(gpx/gpy/p)) = 47.47248948  109.5415815  1.656030029
+Advancing grids at level 2 : starting time = 2.635989464 with dt = 0.002895950452
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5406036639  0.6102606933
+max(abs(gpx/gpy/p)) = 17.90076172  16.26507523  1.579689437
+Advancing grids at level 1 : starting time = 2.638885415 with dt = 0.005791900903
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5201621619  0.6101684671
+max(abs(gpx/gpy/p)) = 59.66901282  107.7816673  1.585849515
+Advancing grids at level 2 : starting time = 2.638885415 with dt = 0.002895950452
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5426817072  0.6121578719
+max(abs(gpx/gpy/p)) = 17.38308766  16.5275353  1.580096927
+Advancing grids at level 2 : starting time = 2.641781365 with dt = 0.002895950452
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5415956981  0.6139400162
+max(abs(gpx/gpy/p)) = 17.96179432  15.84880527  1.580096927
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.644677316 with dt = 0.01147163237
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4672480126  0.5830343536
+max(abs(gpx/gpy/p)) = 8.107152798  9.034540355  1.485988277
+Advancing grids at level 1 : starting time = 2.644677316 with dt = 0.005735816184
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5272931768  0.612775146
+max(abs(gpx/gpy/p)) = 14.42373529  12.62313254  1.494953668
+Advancing grids at level 2 : starting time = 2.644677316 with dt = 0.002867908092
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5431227442  0.6141704173
+max(abs(gpx/gpy/p)) = 18.93755605  16.62624498  1.494953668
+Advancing grids at level 2 : starting time = 2.647545224 with dt = 0.002867908092
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.544014702  0.6155736572
+max(abs(gpx/gpy/p)) = 19.36420933  16.81709479  1.494953668
+Advancing grids at level 1 : starting time = 2.650413132 with dt = 0.005735816184
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5315544985  0.6140699332
+max(abs(gpx/gpy/p)) = 15.0356848  29.96806596  1.495872886
+Advancing grids at level 2 : starting time = 2.650413132 with dt = 0.002867908092
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5426756123  0.61684725
+max(abs(gpx/gpy/p)) = 18.73660952  16.64773  1.495872886
+Advancing grids at level 2 : starting time = 2.65328104 with dt = 0.002867908092
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5441182678  0.6178760306
+max(abs(gpx/gpy/p)) = 18.46209103  16.54413458  1.495872886
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.656148948 with dt = 0.01138296137
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4743534263  0.5904385342
+max(abs(gpx/gpy/p)) = 7.526081438  8.211494018  1.47910651
+Advancing grids at level 1 : starting time = 2.656148948 with dt = 0.005691480683
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5205431148  0.6171065874
+max(abs(gpx/gpy/p)) = 14.89012743  13.6010792  1.482321396
+Advancing grids at level 2 : starting time = 2.656148948 with dt = 0.002845740341
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5436550616  0.6188945937
+max(abs(gpx/gpy/p)) = 19.66522532  17.79847203  1.493632824
+Advancing grids at level 2 : starting time = 2.658994688 with dt = 0.002845740341
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5425861827  0.6194557268
+max(abs(gpx/gpy/p)) = 19.65334659  18.21658038  1.473679288
+Advancing grids at level 1 : starting time = 2.661840429 with dt = 0.005691480683
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.527312021  0.6165130756
+max(abs(gpx/gpy/p)) = 19.67834936  32.86984065  1.483094306
+Advancing grids at level 2 : starting time = 2.661840429 with dt = 0.002845740341
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5432364653  0.6202186019
+max(abs(gpx/gpy/p)) = 18.69060425  17.73876863  1.474458195
+Advancing grids at level 2 : starting time = 2.664686169 with dt = 0.002845740341
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5430192081  0.6204407739
+max(abs(gpx/gpy/p)) = 18.84903778  17.75393638  1.474458195
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.667531909 with dt = 0.01133566979
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4912012075  0.5958923419
+max(abs(gpx/gpy/p)) = 7.635417456  8.384613748  1.479899958
+Advancing grids at level 1 : starting time = 2.667531909 with dt = 0.005667834897
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5308767838  0.6191105564
+max(abs(gpx/gpy/p)) = 15.27673446  14.54855435  1.484073701
+Advancing grids at level 2 : starting time = 2.667531909 with dt = 0.002833917448
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5418231449  0.6208836673
+max(abs(gpx/gpy/p)) = 19.4879953  18.78496331  1.484073701
+Advancing grids at level 2 : starting time = 2.670365827 with dt = 0.002833917448
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5411413119  0.620881537
+max(abs(gpx/gpy/p)) = 18.96697045  18.97906469  1.484073701
+Advancing grids at level 1 : starting time = 2.673199744 with dt = 0.005667834897
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5219190822  0.6179047393
+max(abs(gpx/gpy/p)) = 17.13262893  35.04731721  1.485124906
+Advancing grids at level 2 : starting time = 2.673199744 with dt = 0.002833917448
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5410608274  0.6212247429
+max(abs(gpx/gpy/p)) = 17.73368231  18.35833962  1.485124906
+Advancing grids at level 2 : starting time = 2.676033662 with dt = 0.002833917448
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5405137651  0.6217003136
+max(abs(gpx/gpy/p)) = 18.42175108  17.8658549  1.485124906
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.678867579 with dt = 0.01131684922
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4836502682  0.5997396163
+max(abs(gpx/gpy/p)) = 8.740393975  8.522549329  1.475711477
+Advancing grids at level 1 : starting time = 2.678867579 with dt = 0.005658424608
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5234392757  0.6198169271
+max(abs(gpx/gpy/p)) = 14.04289206  14.37786737  1.476159753
+Advancing grids at level 2 : starting time = 2.678867579 with dt = 0.002829212304
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5383873616  0.6225754898
+max(abs(gpx/gpy/p)) = 25.86578366  18.77513243  1.493969202
+Advancing grids at level 2 : starting time = 2.681696791 with dt = 0.002829212304
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5376689185  0.6234337051
+max(abs(gpx/gpy/p)) = 17.56574937  19.01739575  1.470743312
+Advancing grids at level 1 : starting time = 2.684526004 with dt = 0.005658424608
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5223689522  0.6180016862
+max(abs(gpx/gpy/p)) = 38.62713984  37.33233791  1.477204384
+Advancing grids at level 2 : starting time = 2.684526004 with dt = 0.002829212304
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.537550976  0.6242268227
+max(abs(gpx/gpy/p)) = 17.64094826  18.80515127  1.471628884
+Advancing grids at level 2 : starting time = 2.687355216 with dt = 0.002829212304
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5354098944  0.6249780425
+max(abs(gpx/gpy/p)) = 17.64678707  18.5471285  1.471628884
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.690184428 with dt = 0.01124911039
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4707638459  0.6018582275
+max(abs(gpx/gpy/p)) = 9.15457193  9.45401533  1.453816448
+Advancing grids at level 1 : starting time = 2.690184428 with dt = 0.005624555197
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5243195754  0.6194345239
+max(abs(gpx/gpy/p)) = 14.71570373  15.92620181  1.431259073
+Advancing grids at level 2 : starting time = 2.690184428 with dt = 0.002812277598
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5340343842  0.6260248579
+max(abs(gpx/gpy/p)) = 17.57723851  17.87393933  1.431259073
+Advancing grids at level 2 : starting time = 2.692996706 with dt = 0.002812277598
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5337833813  0.6269384555
+max(abs(gpx/gpy/p)) = 17.83995844  18.00333788  1.431259073
+Advancing grids at level 1 : starting time = 2.695808983 with dt = 0.005624555197
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5128323128  0.6184940149
+max(abs(gpx/gpy/p)) = 16.27275617  40.07820655  1.432269101
+Advancing grids at level 2 : starting time = 2.695808983 with dt = 0.002812277598
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5328114778  0.6277878644
+max(abs(gpx/gpy/p)) = 18.16508664  18.41930374  1.432269101
+Advancing grids at level 2 : starting time = 2.698621261 with dt = 0.002812277598
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5305736073  0.6285793224
+max(abs(gpx/gpy/p)) = 17.99166806  18.63467108  1.432269101
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.701433539 with dt = 0.01118954134
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4813717243  0.6057582503
+max(abs(gpx/gpy/p)) = 8.712794121  8.516838584  1.462533597
+Advancing grids at level 1 : starting time = 2.701433539 with dt = 0.00559477067
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.518396066  0.6195068643
+max(abs(gpx/gpy/p)) = 14.12567672  14.20109858  1.449405198
+Advancing grids at level 2 : starting time = 2.701433539 with dt = 0.002797385335
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5289843605  0.6292462377
+max(abs(gpx/gpy/p)) = 18.19193452  20.02498946  1.456443084
+Advancing grids at level 2 : starting time = 2.704230924 with dt = 0.002797385335
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5285889623  0.6299339133
+max(abs(gpx/gpy/p)) = 18.45976064  18.02427916  1.44651881
+Advancing grids at level 1 : starting time = 2.707028309 with dt = 0.00559477067
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5159012617  0.6184263505
+max(abs(gpx/gpy/p)) = 33.94767517  43.32577786  1.450075368
+Advancing grids at level 2 : starting time = 2.707028309 with dt = 0.002797385335
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5269333476  0.6304719607
+max(abs(gpx/gpy/p)) = 18.78361852  17.70925583  1.44723876
+Advancing grids at level 2 : starting time = 2.709825695 with dt = 0.002797385335
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5251782209  0.6310467928
+max(abs(gpx/gpy/p)) = 18.36773059  17.00180987  1.44723876
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.71262308 with dt = 0.01115235956
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.477571117  0.6083174745
+max(abs(gpx/gpy/p)) = 7.235630866  12.95215272  1.45107916
+Advancing grids at level 1 : starting time = 2.71262308 with dt = 0.005576179781
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5121192634  0.6204285744
+max(abs(gpx/gpy/p)) = 17.30304991  26.84911496  1.426168982
+Advancing grids at level 2 : starting time = 2.71262308 with dt = 0.002788089891
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5253844564  0.6310844605
+max(abs(gpx/gpy/p)) = 18.33592508  21.68573087  1.426168982
+Advancing grids at level 2 : starting time = 2.71541117 with dt = 0.002788089891
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5231775379  0.6316582038
+max(abs(gpx/gpy/p)) = 18.53981715  22.36794185  1.426168982
+Advancing grids at level 1 : starting time = 2.71819926 with dt = 0.005576179781
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5037164577  0.6196350387
+max(abs(gpx/gpy/p)) = 24.8080798  46.02644469  1.427079742
+Advancing grids at level 2 : starting time = 2.71819926 with dt = 0.002788089891
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5212108956  0.6324411186
+max(abs(gpx/gpy/p)) = 26.97954651  23.63665238  1.427079742
+Advancing grids at level 2 : starting time = 2.72098735 with dt = 0.002788089891
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5191126004  0.6330095036
+max(abs(gpx/gpy/p)) = 35.55135098  32.8960973  1.427079742
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.72377544 with dt = 0.01111763577
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4624441361  0.6098270606
+max(abs(gpx/gpy/p)) = 9.646783706  10.96328864  1.455916688
+Advancing grids at level 1 : starting time = 2.72377544 with dt = 0.005558817883
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5060361174  0.6203073136
+max(abs(gpx/gpy/p)) = 14.68611594  15.29481817  1.435693305
+Advancing grids at level 2 : starting time = 2.72377544 with dt = 0.002779408941
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5169632532  0.6327753543
+max(abs(gpx/gpy/p)) = 23.90817428  50.82330179  1.45612341
+Advancing grids at level 2 : starting time = 2.726554849 with dt = 0.002779408941
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5161866933  0.632622778
+max(abs(gpx/gpy/p)) = 19.97353108  16.9076722  1.422561229
+Advancing grids at level 1 : starting time = 2.729334257 with dt = 0.005558817883
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5035783922  0.6191953781
+max(abs(gpx/gpy/p)) = 43.49114447  63.89318992  1.436517213
+Advancing grids at level 2 : starting time = 2.729334257 with dt = 0.002779408941
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5154769706  0.6325065733
+max(abs(gpx/gpy/p)) = 19.09958528  16.56111223  1.423106756
+Advancing grids at level 2 : starting time = 2.732113666 with dt = 0.002779408941
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5135170034  0.6322552277
+max(abs(gpx/gpy/p)) = 19.38147624  17.14186559  1.423106756
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.734893075 with dt = 0.01111302547
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4516101252  0.6106600909
+max(abs(gpx/gpy/p)) = 9.035617002  9.405516122  1.516647631
+Advancing grids at level 1 : starting time = 2.734893075 with dt = 0.005556512734
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4983352835  0.6209779269
+max(abs(gpx/gpy/p)) = 16.15844054  14.55368321  1.551013766
+Advancing grids at level 2 : starting time = 2.734893075 with dt = 0.002778256367
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5116953355  0.6325906149
+max(abs(gpx/gpy/p)) = 20.30785616  18.04669802  1.551013766
+Advancing grids at level 2 : starting time = 2.737671332 with dt = 0.002778256367
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.508316861  0.6326259523
+max(abs(gpx/gpy/p)) = 20.23085344  18.62764494  1.551013766
+Advancing grids at level 1 : starting time = 2.740449588 with dt = 0.005556512734
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4937402787  0.6215042426
+max(abs(gpx/gpy/p)) = 18.46198271  51.80040541  1.551822207
+Advancing grids at level 2 : starting time = 2.740449588 with dt = 0.002778256367
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5069836471  0.6325435738
+max(abs(gpx/gpy/p)) = 19.21896847  18.40203061  1.551822207
+Advancing grids at level 2 : starting time = 2.743227844 with dt = 0.002778256367
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5047567124  0.6323251772
+max(abs(gpx/gpy/p)) = 19.7407423  18.00581702  1.551822207
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.746006101 with dt = 0.01111430526
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4450494251  0.6114052323
+max(abs(gpx/gpy/p)) = 9.209815137  9.83842454  1.498935573
+Advancing grids at level 1 : starting time = 2.746006101 with dt = 0.00555715263
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.485314819  0.6225261024
+max(abs(gpx/gpy/p)) = 15.90047277  15.5401204  1.51586012
+Advancing grids at level 2 : starting time = 2.746006101 with dt = 0.002778576315
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5041915131  0.6320795782
+max(abs(gpx/gpy/p)) = 20.02763671  18.73245153  1.51586012
+Advancing grids at level 2 : starting time = 2.748784677 with dt = 0.002778576315
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.5011486419  0.6318970372
+max(abs(gpx/gpy/p)) = 19.60515607  19.36885902  1.51586012
+Advancing grids at level 1 : starting time = 2.751563253 with dt = 0.00555715263
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4828871129  0.6225701768
+max(abs(gpx/gpy/p)) = 16.06295181  54.73541593  1.516637981
+Advancing grids at level 2 : starting time = 2.751563253 with dt = 0.002778576315
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4993352536  0.6316268824
+max(abs(gpx/gpy/p)) = 19.40960484  19.79182903  1.516637981
+Advancing grids at level 2 : starting time = 2.75434183 with dt = 0.002778576315
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4954853876  0.631284983
+max(abs(gpx/gpy/p)) = 20.09010817  20.42188131  1.516637981
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.757120406 with dt = 0.01112711463
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4408534168  0.6132964494
+max(abs(gpx/gpy/p)) = 9.405779629  10.66336318  1.559627017
+Advancing grids at level 1 : starting time = 2.757120406 with dt = 0.005563557316
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.475043353  0.6231667073
+max(abs(gpx/gpy/p)) = 15.1527173  18.95976707  1.637874553
+Advancing grids at level 2 : starting time = 2.757120406 with dt = 0.002781778658
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4938214296  0.6309196568
+max(abs(gpx/gpy/p)) = 19.9262393  20.04797957  1.637874553
+Advancing grids at level 2 : starting time = 2.759902185 with dt = 0.002781778658
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4918748011  0.6307459521
+max(abs(gpx/gpy/p)) = 18.96765998  19.33963901  1.637874553
+Advancing grids at level 1 : starting time = 2.762683963 with dt = 0.005563557316
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4728545602  0.6232703082
+max(abs(gpx/gpy/p)) = 17.68205261  55.82889809  1.638668892
+Advancing grids at level 2 : starting time = 2.762683963 with dt = 0.002781778658
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.489896307  0.6305479974
+max(abs(gpx/gpy/p)) = 19.14483634  19.72317626  1.638668892
+Advancing grids at level 2 : starting time = 2.765465742 with dt = 0.002781778658
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4877665804  0.6303481249
+max(abs(gpx/gpy/p)) = 19.23627975  20.46158523  1.638668892
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 2.768247521 with dt = 0.01114759015
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.430069808  0.6141177614
+max(abs(gpx/gpy/p)) = 8.453137236  11.16633104  1.520761258
+Advancing grids at level 1 : starting time = 2.768247521 with dt = 0.005573795075
+NavierStokes::advance(): exiting.
+max(abs(u/v))  = 0.4651066152  0.6238176016
+max(abs(gpx/gpy/p)) = 15.9931127  16.25799312  1.562896751
+Advancing grids at level 2 : starting time = 2.768247521 with dt = 0.002786897538
