@@ -201,14 +201,8 @@ def CollectData(case):
                     #             if found_start:
                     #                 line_data = line.split()
                     #                 if "cpu" in type:
-                    #                     cpu_function_name_list = getattr(case_res, "cpu_function_name")
-                    #                     cpu_function_name_list.append(line_data[0])
-                    #                     setattr(case_res, "cpu_function_name", cpu_function_name_list)
-                    #                     cpu_function_percent_list = getattr(case_res, "cpu_function_percent")
-                    #                     cpu_function_percent_list.append(line_data[len(line_data)-2])
-                    #                     setattr(case_res, "cpu_function_percent", cpu_function_percent_list)
-
-                                    
+                    #                       getattr(case_res, "cpu_function_name").append(line_data[0])
+                    #                       getattr(case_res, "cpu_function_percent").append(line_data[len(line_data)-2])                     
                     #                 if "gpu" in type:
                     #                     setattr(case_res, "gpu_time", numbers[0])
                     #                     break                                        
