@@ -87,7 +87,7 @@ def CheckInput(path_input, case_res):
 
 # 打印列表 [Result1, Result2, ... ]
 def Print(list_result):
-    header = ["skip_level_projector", "cycling", "max_level", "max_grid_size", "regrid_int", "cpu time", "cpu step", "gpu time", "gpu step"]
+    header = ["skip_level_projector", "cycling", "max_level", "max_grid_size", "regrid_int", "cpu_time", "cpu_step", "gpu_time", "gpu_memory", "gpu step"]
     table = []
     for v in list_result:
         # cpu2d_skip0_Auto_mgs16_1_regrid8
@@ -100,6 +100,7 @@ def Print(list_result):
         row.append(v.cpu_time)
         row.append(v.cpu_step)
         row.append(v.gpu_time)
+        row.append(v.gpu_memory)
         row.append(v.gpu_step)
         table.append(row)
             
@@ -122,9 +123,9 @@ def CollectData(case):
         """
         1. 读取某个 case 文件夹下，所有参数组合的结果 log，提取其中的关键信息，如 cpu_time, gpu_time, function and time...
         2. 提供 check input 功能，保证结果文件夹名和实际算例所用的参数是一致的
-        3. return: 返回一个 list = [Result1, Result2, ... ] 用以存取结果
+        3. return: 返回一个 list = [Result1, Result2, ... Result32] 用以存取结果
         """
-        flag = True
+        flag_checkInput = True
         res = []
         types = ["case_results_cpu2d", "case_results_gpu2d"]
         for type in types:
@@ -167,7 +168,7 @@ def CollectData(case):
                     pattern = f"{file_path}/input*"
                     input_files = glob.glob(pattern)
                     if not CheckInput(input_files[0],case_res):
-                        flag = False
+                        flag_checkInput = False
 
 
 
@@ -220,7 +221,6 @@ def CollectData(case):
                                 if "Total Timers" in line:
                                     numbers = [float(s) for s in line.split() if s.replace('.', '', 1).isdigit()]
                                     case_res.cpu_time = numbers[0]
-
                                     break
                                 
                                 if line == '':
@@ -279,8 +279,8 @@ def CollectData(case):
                     if not found:
                         res.append(case_res)
         
-
-        if not flag:
+        if not flag_checkInput:
+            print("已退出")
             exit()
 
         return res
@@ -437,5 +437,10 @@ def GetFuncOnEveryCase(dictionary, str):
 # # 调整数据 按时间排序, 按max_grid_size排序 相同的max_grid_size 按时间排序
 # AdjustResult(cases_res, "skip")
 
+
+
+# 不同 case 的前十个函数的交集等
+# 单个函数, 每个case的调用情况
+# GetFuncOnEveryCase(res, "scalar_diffusion_update")
 
 
