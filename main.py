@@ -1,11 +1,9 @@
-
 # 基于 getCaseResult 提供的处理单个 case 的能力，本文件对所有的 case 进行处理
 
 import getCaseResult
 import os
 import re
 import glob
-
 
 
 
@@ -69,9 +67,9 @@ def Get(cases):
         print("cpu_time 排序")
         getCaseResult.Print(res)
         # # gpu_time 排序
-        getCaseResult.AdjustResult(res, "gpu_time")
-        print("gpu_time 排序")
-        getCaseResult.Print(res)
+        # getCaseResult.AdjustResult(res, "gpu_time")
+        # print("gpu_time 排序")
+        # getCaseResult.Print(res)
         # # cycling 排序
         # getResult.AdjustResult(res, "cycling")
         # print("cycling 排序")
@@ -83,10 +81,10 @@ def Get(cases):
         # getResult.CompareAndShow(res, "cycling", "gpu")
         # getResult.CompareAndShow(res, "max_level")
         # getResult.CompareAndShow(res, "max_level", "gpu")
-        getCaseResult.CompareAndShow(res, "regrid_int")
-        getCaseResult.CompareAndShow(res, "regrid_int", "gpu")
-        getCaseResult.CompareAndShow(res, "skip")
-        getCaseResult.CompareAndShow(res, "skip", "gpu")
+        # getCaseResult.CompareAndShow(res, "regrid_int")
+        # getCaseResult.CompareAndShow(res, "regrid_int", "gpu")
+        # getCaseResult.CompareAndShow(res, "skip")
+        # getCaseResult.CompareAndShow(res, "skip", "gpu")
         
         
         # getResult.TopFunc(res)
@@ -94,9 +92,9 @@ def Get(cases):
         cases_res[case] = res
     return cases_res
 
-cases_check = os.listdir(os.getcwd())
+# cases_check = os.listdir(os.getcwd())
 # cases_check = ["LidDrivenCavity"]
-Check(cases_check)
+# Check(cases_check)
 
 cases_get = ["LidDrivenCavity", "FlowPastCylinder"] #  "Bubble" , ，"Bubble", "ConvectedVortex", "DoubleShearLayer", 
 cases_res = Get(cases_get)
@@ -105,9 +103,6 @@ cases_res = Get(cases_get)
 
 # ans = getResult.Get(cases_res["LidDrivenCavity"], {"skip" : [1], "cycling" : ['None'], "max_grid_size": [8], "max_level": [2], "regrid_int": [4]})
 # getResult.Print(ans)
-
-# 保存时间, step
-# SaveToCsv(cases_res)
 
 
 # 提取前十个最主要的函数

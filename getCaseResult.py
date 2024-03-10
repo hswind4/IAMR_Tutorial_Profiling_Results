@@ -14,19 +14,22 @@ import io
 class Result:
     def __init__(self) -> None:
 
-        self.skip:int = 0
-        self.cycling:str = "None"
-        self.max_level:int = 1
-        self.max_grid_size:int = 8
-        self.regrid_int:int = 4
+        self.skip:int = -1 
+        self.cycling:str = ""
+        self.max_level:int = -1
+        self.max_grid_size:int = -1
+        self.regrid_int:int = -1
+
         self.cpu_time:float = -1
-        self.cpu_step:int = 0
+        self.cpu_step:int = -1
         self.cpu_function_name = []
         self.cpu_function_percent = []
+
         self.gpu_time:float = -1 
-        self.gpu_step:int = 0
+        self.gpu_step:int = -1
         self.gpu_function_name = []
         self.gpu_function_percent = []
+        self.gpu_memory = -1 
 
     def __str__(self):
         return f"{self.skip} {self.cycling} {self.max_level} {self.max_grid_size} {self.regrid_int} {self.cpu_time} {self.gpu_step} {self.gpu_time} {self.cpu_step}"
@@ -36,27 +39,25 @@ class Result:
     
     def __eq__(self, other):
         if isinstance(other, Result):
-            # return self.name == other.name
             return self.skip == other.skip and self.cycling == other.cycling and self.max_grid_size == other.max_grid_size and self.max_level == other.max_level and self.regrid_int == other.regrid_int
         return False
     
     def Update(self, other):
-        if self.cpu_time <= 0 or self.cpu_step <= 0:
+        if self.cpu_time < 0 : 
             self.cpu_time = other.cpu_time
             self.cpu_step = other.cpu_step
             self.cpu_function_name = other.cpu_function_name
             self.cpu_function_percent = other.cpu_function_percent
-        if self.gpu_time <=0 or  self.gpu_step <=0:
+        if self.gpu_time < 0 : 
             self.gpu_time = other.gpu_time
             self.gpu_step = other.gpu_step
             self.gpu_function_name = other.gpu_function_name
             self.gpu_function_percent = other.gpu_function_percent
-
-
-        # str = cpu2d_skip0_Auto_mgs16_1_regrid8 or gpu2d_skip0_Auto_mgs16_1_regrid8
+            self.gpu_memory = other.gpu_memory
 
         
 def CheckInput(path_input, case_res):
+    flag = True
     with open(path_input, 'r') as file:
         while(True):
             line = file.readline()
@@ -73,12 +74,16 @@ def CheckInput(path_input, case_res):
                             print("\033[0;31mERROR: 参数和文件名不同\033[0m")
                             print(f"path : {path_input}")  
                             print(f"line : {line}")
+                            flag = False
                     else:
                         print("\033[0;31mERROR: 注释，未生效\033[0m")
                         print(f"path : {path_input}")
                         print(f"line : {line}")
+                        flag = False
             if line == '':
-                break            
+                break
+
+    return flag            
 
 # 打印列表 [Result1, Result2, ... ]
 def Print(list_result):
@@ -112,10 +117,14 @@ def Save(list_result):
     # 恢复标准输出
     sys.stdout = sys.__stdout__
 
-def PrintCase():
-    return
 
 def CollectData(case):
+        """
+        1. 读取某个 case 文件夹下，所有参数组合的结果 log，提取其中的关键信息，如 cpu_time, gpu_time, function and time...
+        2. 提供 check input 功能，保证结果文件夹名和实际算例所用的参数是一致的
+        3. return: 返回一个 list = [Result1, Result2, ... ] 用以存取结果
+        """
+        flag = True
         res = []
         types = ["case_results_cpu2d", "case_results_gpu2d"]
         for type in types:
@@ -123,14 +132,13 @@ def CollectData(case):
             if os.path.exists(path):
                 folders = os.listdir(path)
                 for folder in folders:
+                    # folder = cpu2d_skip0_Auto_mgs16_1_regrid8
+
                     file_path = f"{case}/{type}/{folder}"
                     files = os.listdir(file_path)
                     
-                    # folder = cpu2d_skip0_Auto_mgs16_1_regrid8
-                    # name = folder[6:]
                     case_res = Result()
-                    if "128" in folder or "64" in folder or "32" in folder:
-                        continue
+
                     match = re.search(r'skip(\d+)', folder)
                     if match:
                         skip = match.group(1)
@@ -155,30 +163,67 @@ def CollectData(case):
                         regrid = match.group(1)
                         case_res.regrid_int = int(regrid)             
                     
+
                     pattern = f"{file_path}/input*"
                     input_files = glob.glob(pattern)
+                    if not CheckInput(input_files[0],case_res):
+                        flag = False
+
+
+
+                    # with open(f"{file_path}/log.txt", 'r') as file:
+                    #     while(True):
+                    #         line = file.readline()
+                    #         if "Total Timers" in line:
+                    #             numbers = [float(s) for s in line.split() if s.replace('.', '', 1).isdigit()]
+                    #             if "cpu" in type:
+                    #                 setattr(case_res, "cpu_time", numbers[0])
+                    #                 break
+                    #             if "gpu" in type:
+                    #                 setattr(case_res, "gpu_time", numbers[0])
+                    #                 break
+
+                    #         if line == '':
+                    #             break                    
                     
-                    # CheckInput(input_files[0],case_res)
+                    # with open(f"{file_path}/log.txt", 'r') as file:                      
+                    #         found_start = False
+                    #         flag = 2
+                    #         for line in file:
+                    #             if "Function Name" in line:
+                    #                 flag -= 1 
+                    #                 if flag == 0:
+                    #                     found_start = True
+                    #                 continue
+                    #             elif "=====" in line: 
+                    #                 break
+                    #             if found_start:
+                    #                 line_data = line.split()
+                    #                 if "cpu" in type:
+                    #                     cpu_function_name_list = getattr(case_res, "cpu_function_name")
+                    #                     cpu_function_name_list.append(line_data[0])
+                    #                     setattr(case_res, "cpu_function_name", cpu_function_name_list)
+                    #                     cpu_function_percent_list = getattr(case_res, "cpu_function_percent")
+                    #                     cpu_function_percent_list.append(line_data[len(line_data)-2])
+                    #                     setattr(case_res, "cpu_function_percent", cpu_function_percent_list)
 
+                                    
+                    #                 if "gpu" in type:
+                    #                     setattr(case_res, "gpu_time", numbers[0])
+                    #                     break                                        
+
+                    
                     if "cpu" in type:
-                        for file in files:
-                            step = 0
-                            match = re.match(r"chk(\d+)", file)
-                            if match:
-                                case_res.cpu_step = max(int(match.group(1)), step)
-                        
-
                         with open(f"{file_path}/log.txt", 'r') as file:
-                            line = file.readline()
                             while(True):
                                 line = file.readline()
                                 if "Total Timers" in line:
                                     numbers = [float(s) for s in line.split() if s.replace('.', '', 1).isdigit()]
                                     case_res.cpu_time = numbers[0]
+
                                     break
                                 
                                 if line == '':
-                                    case_res.cpu_time = -1 
                                     break
                         
                         with open(f"{file_path}/log.txt", 'r') as file:                      
@@ -194,22 +239,11 @@ def CollectData(case):
                                         break
                                     if found_start:
                                         line_data = line.split()
-                                        # temp = {}
-                                        # temp[line_data[0]] = line_data[7] # + line_data[8]
-                                        
-                                        temp = []
                                         case_res.cpu_function_name.append(line_data[0])
                                         case_res.cpu_function_percent.append(line_data[len(line_data)-2])
                     
                     if "gpu" in type:
-                        for file in files:
-                            step = 0
-                            match = re.match(r"chk(\d+)", file)
-                            if match:
-                                case_res.gpu_step = max(int(match.group(1)), step)
-                        
                         with open(f"{file_path}/log.txt", 'r') as file:
-                            line = file.readline()
                             while(True):
                                 line = file.readline()
                                 if "Total Timers" in line:
@@ -218,7 +252,6 @@ def CollectData(case):
                                     break
                                 
                                 if line == '':
-                                    case_res.gpu_time = -1 
                                     break
                         
                         with open(f"{file_path}/log.txt", 'r') as file:                      
@@ -234,10 +267,6 @@ def CollectData(case):
                                         break
                                     if found_start:
                                         line_data = line.split()
-                                        # temp = {}
-                                        # temp[line_data[0]] = line_data[7] # + line_data[8]
-                                        
-                                        temp = []
                                         case_res.gpu_function_name.append(line_data[0])
                                         case_res.gpu_function_percent.append(line_data[len(line_data)-2])
                                         
@@ -250,6 +279,10 @@ def CollectData(case):
                     if not found:
                         res.append(case_res)
         
+
+        if not flag:
+            exit()
+
         return res
    
 # 从所有结果中挑选符合输入参数的结果， 如输入参数factors = {"skip" : [1]} 则会找到所有skip = 1的结果， 本例子中则有16个，并返回该列表
