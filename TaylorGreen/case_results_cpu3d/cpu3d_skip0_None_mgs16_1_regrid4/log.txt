@@ -1,0 +1,772 @@
+Initializing AMReX (20.06-2238-g47f539a33e6a)...
+MPI initialized with 4 MPI processes
+MPI initialized with thread support level 0
+AMReX (20.06-2238-g47f539a33e6a) initialized
+Using non-conservative scheme with do_mom_diff = 0
+Advancing grids at level 0 : starting time = 0 with dt = 0.01628468308
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.9773037962  0.9773037962  2.324587447e-17
+max(abs(gpx/gpy/gpz/p)) = 0  0  0  0
+Advancing grids at level 1 : starting time = 0 with dt = 0.01628468308
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.7084189744  0.7084189744  2.545639296e-16
+max(abs(gpx/gpy/gpz/p)) = 0  0  0  0
+Advancing grids at level 0 : starting time = 0 with dt = 0.01628468308
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.9799310945  0.9799310945  9.662558754e-14
+max(abs(gpx/gpy/gpz/p)) = 3.10739217  3.10739217  7.560618798e-14  0.5056744243
+Advancing grids at level 1 : starting time = 0 with dt = 0.01628468308
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.6613387718  0.6613387718  6.551344868e-14
+max(abs(gpx/gpy/gpz/p)) = 3.113048204  3.113048204  2.153832668e-13  0.4748767556
+Advancing grids at level 0 : starting time = 0 with dt = 0.01628468308
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.9773718305  0.9773718305  6.479248453e-14
+max(abs(gpx/gpy/gpz/p)) = 3.07720345  3.07720345  3.868572129e-12  0.5203224897
+Advancing grids at level 1 : starting time = 0 with dt = 0.01628468308
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.662772635  0.662772635  1.623066163e-13
+max(abs(gpx/gpy/gpz/p)) = 3.209869106  3.209869106  1.174171871e-11  0.4711247461
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.01628468308 with dt = 0.01280325058
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.967458929  0.967458929  4.564636542e-14
+max(abs(gpx/gpy/gpz/p)) = 3.009754337  3.009754337  6.849187884e-12  0.5088491591
+Advancing grids at level 1 : starting time = 0.01628468308 with dt = 0.01280325058
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.65616  0.65616  1.237643654e-13
+max(abs(gpx/gpy/gpz/p)) = 3.161617342  3.161617342  1.041566833e-11  0.4612477217
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.02908793365 with dt = 0.01297236087
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.9575280072  0.9575280072  3.844110227e-14
+max(abs(gpx/gpy/gpz/p)) = 2.951274035  2.951274035  5.546230142e-12  0.4986117279
+Advancing grids at level 1 : starting time = 0.02908793365 with dt = 0.01297236087
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.6494489792  0.6494489792  1.207697878e-13
+max(abs(gpx/gpy/gpz/p)) = 3.106386179  3.106386179  1.153921403e-11  0.4519359557
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.04206029453 with dt = 0.01310558587
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.9475853704  0.9475853704  3.741632879e-14
+max(abs(gpx/gpy/gpz/p)) = 2.893150792  2.893150792  5.365485833e-12  0.4884727636
+Advancing grids at level 1 : starting time = 0.04206029453 with dt = 0.01310558587
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.6427410009  0.6427410009  1.200001087e-13
+max(abs(gpx/gpy/gpz/p)) = 3.049028121  3.049028121  1.196287513e-11  0.4427226419
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.05516588039 with dt = 0.01324150242
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.9376373589  0.9376373589  3.776012243e-14
+max(abs(gpx/gpy/gpz/p)) = 2.834932117  2.834932117  5.267786207e-12  0.478431925
+Advancing grids at level 1 : starting time = 0.05516588039 with dt = 0.01324150242
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.6360351069  0.6360351069  1.19250479e-13
+max(abs(gpx/gpy/gpz/p)) = 2.990508976  2.990508976  1.215116896e-11  0.433598386
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.06840738281 with dt = 0.01337996278
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.927691824  0.927691824  3.870695585e-14
+max(abs(gpx/gpy/gpz/p)) = 2.776853962  2.776853962  5.178968365e-12  0.4684942299
+Advancing grids at level 1 : starting time = 0.06840738281 with dt = 0.01337996278
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.6293318226  0.6293318226  1.184113063e-13
+max(abs(gpx/gpy/gpz/p)) = 2.931574712  2.931574712  1.223643409e-11  0.4245675812
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.08178734559 with dt = 0.01352118872
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.9177622717  0.9177622717  3.993131386e-14
+max(abs(gpx/gpy/gpz/p)) = 2.719041157  2.719041157  5.08659781e-12  0.4586614129
+Advancing grids at level 1 : starting time = 0.08178734559 with dt = 0.01352118872
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.6226307201  0.6226307201  1.177735597e-13
+max(abs(gpx/gpy/gpz/p)) = 2.872640246  2.872640246  1.226752033e-11  0.4156317506
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.09530853431 with dt = 0.01366534179
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.9078350867  0.9078350867  4.12776192e-14
+max(abs(gpx/gpy/gpz/p)) = 2.661615635  2.661615635  4.992894986e-12  0.4489341538
+Advancing grids at level 1 : starting time = 0.09530853431 with dt = 0.01366534179
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.6159312356  0.6159312356  1.170096366e-13
+max(abs(gpx/gpy/gpz/p)) = 2.813943421  2.813943421  1.226663215e-11  0.4067916167
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.1089738761 with dt = 0.01381256849
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.897912057  0.897912057  4.27713572e-14
+max(abs(gpx/gpy/gpz/p)) = 2.60466769  2.60466769  4.904077144e-12  0.4393126983
+Advancing grids at level 1 : starting time = 0.1089738761 with dt = 0.01381256849
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.9051693409  0.9051326823  2.022369765e-13
+max(abs(gpx/gpy/gpz/p)) = 2.683857733  2.689710655  1.596589527e-11  0.3986389252
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.1227864446 with dt = 0.01204848352
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8892007812  0.8892074262  3.030705087e-14
+max(abs(gpx/gpy/gpz/p)) = 2.547757413  2.547740107  4.455547042e-12  0.4303932992
+Advancing grids at level 1 : starting time = 0.1227864446 with dt = 0.01204848352
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8972469529  0.8968373502  1.77468212e-13
+max(abs(gpx/gpy/gpz/p)) = 2.604525948  2.652758389  1.767119784e-11  0.3910198139
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.1348349281 with dt = 0.01207703525
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8806897185  0.8806615387  2.515064706e-14
+max(abs(gpx/gpy/gpz/p)) = 2.497495881  2.497487199  3.940847648e-12  0.4222288378
+Advancing grids at level 1 : starting time = 0.1348349281 with dt = 0.01207703525
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8890177185  0.8884508815  1.788953809e-13
+max(abs(gpx/gpy/gpz/p)) = 2.553966177  2.627863122  1.965982932e-11  0.3836141314
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.1469119634 with dt = 0.01218898664
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8723340635  0.8721352274  2.383084021e-14
+max(abs(gpx/gpy/gpz/p)) = 2.449102024  2.449071758  3.865796572e-12  0.4142033213
+Advancing grids at level 1 : starting time = 0.1469119634 with dt = 0.01218898664
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8806474692  0.8799656708  1.791558135e-13
+max(abs(gpx/gpy/gpz/p)) = 2.502807612  2.586026987  2.053068826e-11  0.3762899401
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.15910095 with dt = 0.01230181947
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8639547331  0.863622236  2.372060799e-14
+max(abs(gpx/gpy/gpz/p)) = 2.401654493  2.401588186  3.823386052e-12  0.406258487
+Advancing grids at level 1 : starting time = 0.15910095 with dt = 0.01230181947
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8722170715  0.8714486976  1.784242248e-13
+max(abs(gpx/gpy/gpz/p)) = 2.4541882  2.538440487  2.089883822e-11  0.3690395558
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.1714027695 with dt = 0.01241873835
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.855559424  0.855147341  2.408886374e-14
+max(abs(gpx/gpy/gpz/p)) = 2.35477199  2.354661378  3.786970737e-12  0.3983911768
+Advancing grids at level 1 : starting time = 0.1714027695 with dt = 0.01241873835
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.863756887  0.8629219405  1.774753786e-13
+max(abs(gpx/gpy/gpz/p)) = 2.406785708  2.489189029  2.098632379e-11  0.3618660098
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.1838215078 with dt = 0.01253876706
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8471537494  0.846691928  2.467355432e-14
+max(abs(gpx/gpy/gpz/p)) = 2.308498538  2.308657719  3.750999511e-12  0.390600156
+Advancing grids at level 1 : starting time = 0.1838215078 with dt = 0.01253876706
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8552801867  0.8543932105  1.76495602e-13
+max(abs(gpx/gpy/gpz/p)) = 2.359535631  2.439878077  2.092948037e-11  0.3547680108
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.1963602749 with dt = 0.01266157539
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8387411664  0.8382385979  2.538886474e-14
+max(abs(gpx/gpy/gpz/p)) = 2.26307711  2.263263817  3.719247132e-12  0.3828850735
+Advancing grids at level 1 : starting time = 0.1963602749 with dt = 0.01266157539
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.846793324  0.8458675988  1.754832901e-13
+max(abs(gpx/gpy/gpz/p)) = 2.312631323  2.391060372  2.080380312e-11  0.3477434187
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.2090218503 with dt = 0.01278705993
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8303238183  0.8297891189  2.618947616e-14
+max(abs(gpx/gpy/gpz/p)) = 2.218007114  2.218221608  3.692379735e-12  0.3752457832
+Advancing grids at level 1 : starting time = 0.2090218503 with dt = 0.01278705993
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8382996447  0.8373440782  1.744978302e-13
+max(abs(gpx/gpy/gpz/p)) = 2.266181453  2.342886182  2.06443751e-11  0.3407917831
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.2218089102 with dt = 0.01291521162
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8219031029  0.8213425215  2.711373785e-14
+max(abs(gpx/gpy/gpz/p)) = 2.173322748  2.173565488  3.659739178e-12  0.3676822459
+Advancing grids at level 1 : starting time = 0.2218089102 with dt = 0.01291521162
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.829801146  0.8288223394  1.734928546e-13
+max(abs(gpx/gpy/gpz/p)) = 2.220226066  2.295362332  2.046274261e-11  0.3339122809
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.2347241218 with dt = 0.01304606389
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8134800077  0.812898097  2.803698115e-14
+max(abs(gpx/gpy/gpz/p)) = 2.129046172  2.129318823  3.63375996e-12  0.3601976474
+Advancing grids at level 1 : starting time = 0.2347241218 with dt = 0.01304606389
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8212991648  0.8203019883  1.724080689e-13
+max(abs(gpx/gpy/gpz/p)) = 2.174763838  2.248456546  2.02675654e-11  0.3271041859
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.2477701857 with dt = 0.01317967118
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8050552037  0.8044551299  2.896810316e-14
+max(abs(gpx/gpy/gpz/p)) = 2.085197424  2.085499186  3.609779142e-12  0.3527910484
+Advancing grids at level 1 : starting time = 0.2477701857 with dt = 0.01317967118
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.812794595  0.8117826479  1.712148794e-13
+max(abs(gpx/gpy/gpz/p)) = 2.129806674  2.202132474  2.00619521e-11  0.3203670849
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.2609498569 with dt = 0.01331609985
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.7966292121  0.7960130572  2.996055179e-14
+max(abs(gpx/gpy/gpz/p)) = 2.041786968  2.04211489  3.584021968e-12  0.3454612804
+Advancing grids at level 1 : starting time = 0.2609498569 with dt = 0.01331609985
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.8042881249  0.8032639448  1.700752153e-13
+max(abs(gpx/gpy/gpz/p)) = 2.085360229  2.156361853  1.984812315e-11  0.3137007101
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.2742659567 with dt = 0.01345542517
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.7882023525  0.7875714274  3.101094097e-14
+max(abs(gpx/gpy/gpz/p)) = 1.998820297  1.999178066  3.56337182e-12  0.3382080976
+Advancing grids at level 1 : starting time = 0.2742659567 with dt = 0.01345542517
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.7957802041  0.7947454848  1.68819796e-13
+max(abs(gpx/gpy/gpz/p)) = 2.041418896  2.111120983  1.962696672e-11  0.307104809
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.2877213819 with dt = 0.01359772887
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.7797748487  0.7791303678  3.206634025e-14
+max(abs(gpx/gpy/gpz/p)) = 1.956304029  1.956691738  3.539835092e-12  0.331031779
+Advancing grids at level 1 : starting time = 0.2877213819 with dt = 0.01359772887
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.7872711522  0.7862267949  1.675901904e-13
+max(abs(gpx/gpy/gpz/p)) = 1.997966507  2.066395087  1.940048122e-11  0.3005792505
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.3013191108 with dt = 0.01374309975
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.7713468347  0.7706891846  3.316790403e-14
+max(abs(gpx/gpy/gpz/p)) = 1.914242102  1.914659708  3.518296765e-12  0.3239324344
+Advancing grids at level 1 : starting time = 0.3013191108 with dt = 0.01374309975
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.7787611743  0.7777079254  1.662555816e-13
+max(abs(gpx/gpy/gpz/p)) = 1.955008418  2.022174345  1.917133119e-11  0.2941241576
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.3150622105 with dt = 0.01389163242
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.7629183781  0.7622476518  3.431212601e-14
+max(abs(gpx/gpy/gpz/p)) = 1.872637201  1.873084575  3.499645018e-12  0.3169101713
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.3289538429 with dt = 0.01528079566
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.7537005432  0.753157592  4.391986747e-14
+max(abs(gpx/gpy/gpz/p)) = 1.831667613  1.832142618  2.599143123e-12  0.3096948073
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.3442346386 with dt = 0.01680887522
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.7437224721  0.7432785916  6.181973481e-14
+max(abs(gpx/gpy/gpz/p)) = 1.785855074  1.786219852  3.318872954e-12  0.3019626263
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.3610435138 with dt = 0.01848976275
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.732926531  0.7325579373  8.425124613e-14
+max(abs(gpx/gpy/gpz/p)) = 1.736276984  1.73658458  4.208966509e-12  0.2936890904
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.3795332766 with dt = 0.02033873902
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.7212560484  0.7209427526  1.103912703e-13
+max(abs(gpx/gpy/gpz/p)) = 1.683422272  1.683685541  5.169670247e-12  0.2848636778
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.3998720156 with dt = 0.02237261292
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.7086565704  0.7083818107  1.374958046e-13
+max(abs(gpx/gpy/gpz/p)) = 1.628945587  1.628531239  6.029454713e-12  0.275476845
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.4222446285 with dt = 0.02460987422
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.6950762547  0.6948260202  1.610954498e-13
+max(abs(gpx/gpy/gpz/p)) = 1.572802791  1.572490755  6.580347378e-12  0.2655253491
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.4468545027 with dt = 0.02707086164
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.6804654934  0.6802433667  1.732690304e-13
+max(abs(gpx/gpy/gpz/p)) = 1.513683219  1.513477967  6.564915278e-12  0.2550136678
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.4739253644 with dt = 0.0297779478
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.6647770324  0.6645699714  1.589891297e-13
+max(abs(gpx/gpy/gpz/p)) = 1.45166787  1.451527896  5.679401394e-12  0.2439537414
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.5037033122 with dt = 0.03214711137
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.6482695767  0.6480664487  1.110149783e-13
+max(abs(gpx/gpy/gpz/p)) = 1.387638971  1.387330088  3.989308883e-12  0.2324638201
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.5358504236 with dt = 0.0329057698
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.6318000755  0.6316229793  7.243138346e-14
+max(abs(gpx/gpy/gpz/p)) = 1.32309067  1.322771548  2.671460275e-12  0.2209552452
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.5687561934 with dt = 0.03374367823
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.6153467703  0.6151938798  3.123389808e-14
+max(abs(gpx/gpy/gpz/p)) = 1.259387078  1.259097214  1.338040789e-12  0.2097495268
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.6024998716 with dt = 0.03462329437
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.5989137621  0.5987786477  1.628502682e-14
+max(abs(gpx/gpy/gpz/p)) = 1.196540959  1.196303499  6.807610031e-13  0.1988509078
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.637123166 with dt = 0.0355490612
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.5825032797  0.582380423  9.763455296e-15
+max(abs(gpx/gpy/gpz/p)) = 1.134700384  1.134524981  3.893413369e-13  0.188258111
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.6726722272 with dt = 0.03652445708
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.5661166522  0.5660015176  7.712978625e-15
+max(abs(gpx/gpy/gpz/p)) = 1.074065562  1.073951406  2.903371987e-13  0.1779698293
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.7091966842 with dt = 0.03755343663
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.5497545321  0.5496435239  7.999276718e-15
+max(abs(gpx/gpy/gpz/p)) = 1.014816111  1.014755675  2.906425101e-13  0.1679849076
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.7467501209 with dt = 0.03864044613
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.5334171636  0.533307543  9.789965981e-15
+max(abs(gpx/gpy/gpz/p)) = 0.9570900712  0.9570724148  3.422540029e-13  0.158302301
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.785390567 with dt = 0.03979048598
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.5171046518  0.5169944386  1.228204802e-14
+max(abs(gpx/gpy/gpz/p)) = 0.9009853597  0.9009985368  4.252015406e-13  0.148921053
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.825181053 with dt = 0.04100917911
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.5008171911  0.5007050426  1.530606369e-14
+max(abs(gpx/gpy/gpz/p)) = 0.8465676007  0.8466002716  5.232481115e-13  0.1398402735
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.8661902321 with dt = 0.04230284899
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.4845552212  0.4844403164  1.880134013e-14
+max(abs(gpx/gpy/gpz/p)) = 0.7938785238  0.7939208776  6.30412389e-13  0.1310591219
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.9084930811 with dt = 0.04367861246
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.4683195181  0.4682014362  2.266159963e-14
+max(abs(gpx/gpy/gpz/p)) = 0.7429428519  0.7429871975  7.465417173e-13  0.1225767928
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.9521716935 with dt = 0.04514449343
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.4521112092  0.4519898275  2.691126424e-14
+max(abs(gpx/gpy/gpz/p)) = 0.6937740827  0.6938147313  8.707895516e-13  0.1143924924
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Advancing grids at level 0 : starting time = 0.997316187 with dt = 0.002683813041
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 0.4511837109  0.4510641092  9.826652132e-15
+max(abs(gpx/gpy/gpz/p)) = 0.6534824936  0.6535658617  4.956313138e-12  0.1103660236
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Run time = 10.08250467
+
+
+Total times -----------------------------------------------------------------------------------------------------------------------------
+                                      Function Name      NCalls         Min         Avg         Max      StdDev    CoeffVar     Percent %
+                            AMRErrorTag::operator()          13      0.0001      0.0001      0.0001      0.0000      1.1678        0.00 %
+                                Amr::FinalizeInit()           1      0.0010      0.0013      0.0014      0.0001     11.5897        0.01 %
+                                     Amr::InitAmr()           1      0.0001      0.0001      0.0001      0.0000      2.1457        0.00 %
+                              Amr::InitializeInit()           1      0.0000      0.0000      0.0000      0.0000     43.4235        0.00 %
+                               Amr::bldFineLevels()           1      0.0009      0.0010      0.0012      0.0001     11.1246        0.01 %
+                                  Amr::checkPoint()           2      0.0014      0.0183      0.0245      0.0098     53.3607        0.18 %
+                              Amr::coarseTimeStep()          47      0.0016      0.0024      0.0029      0.0005     22.7706        0.02 %
+                                Amr::defBaseLevel()           1      0.0003      0.0003      0.0003      0.0000      1.0636        0.00 %
+                                 Amr::grid_places()          13      0.0000      0.0000      0.0000      0.0000      2.1989        0.00 %
+                                        Amr::init()           1      0.0000      0.0000      0.0000      0.0000     17.6663        0.00 %
+                                Amr::initSubcycle()           1      0.0000      0.0000      0.0000      0.0000      1.3329        0.00 %
+                                 Amr::initialInit()           1      0.0000      0.0000      0.0000      0.0000     22.0781        0.00 %
+                                      Amr::regrid()          12      0.0035      0.0035      0.0036      0.0001      1.5271        0.03 %
+                                    Amr::timeStep()          71      0.0001      0.0001      0.0002      0.0000      4.3086        0.00 %
+                               Amr::writePlotFile()           2      0.0014      0.0046      0.0057      0.0018     39.6767        0.05 %
+                             AmrLevel::AmrLevel(dm)           8      0.0000      0.0000      0.0000      0.0000      4.9931        0.00 %
+                        AmrLevel::FillCoarsePatch()          24      0.0009      0.0009      0.0011      0.0001      8.8501        0.01 %
+                              AmrLevel::FillPatch()         865      0.0011      0.0012      0.0012      0.0000      1.4767        0.01 %
+                             AmrLevel::checkPoint()           3      0.0000      0.0000      0.0000      0.0000     75.1038        0.00 %
+                         AmrLevel::checkPointPost()           3      0.0000      0.0000      0.0000      0.0000     20.8526        0.00 %
+                          AmrLevel::checkPointPre()           3      0.0000      0.0000      0.0000      0.0000     19.0016        0.00 %
+                                 AmrLevel::derive()          13      0.0000      0.0000      0.0000      0.0000      3.5817        0.00 %
+                          AmrLevel::writePlotFile()           3      0.0000      0.0001      0.0001      0.0000     51.3692        0.00 %
+                                    AmrMesh-cluster           7      0.0000      0.0000      0.0000      0.0000    173.2051        0.00 %
+                            AmrMesh::MakeNewGrids()          13      0.0008      0.0009      0.0010      0.0001      6.9669        0.01 %
+                                BndryData::define()         445      0.0230      0.0233      0.0239      0.0004      1.5617        0.23 %
+                              BoxList::complementIn          26      0.0000      0.0000      0.0000      0.0000      5.0972        0.00 %
+                    BoxList::parallelComplementIn()          26      0.0000      0.0000      0.0000      0.0000      5.4396        0.00 %
+                   CellConservativeLinear::interp()        8006      0.1762      0.1803      0.1831      0.0026      1.4523        1.79 %
+                                ClusterList::chop()           7      0.0000      0.0000      0.0001      0.0000    173.2051        0.00 %
+                           ClusterList::intersect()           7      0.0000      0.0000      0.0000      0.0000    173.2051        0.00 %
+                  DistributionMapping::Distribute()         687      0.0001      0.0001      0.0001      0.0000      1.9632        0.00 %
+                DistributionMapping::KnapSackDoIt()           9      0.0000      0.0000      0.0000      0.0000      2.9262        0.00 %
+               DistributionMapping::LeastUsedCPUs()          12      0.0001      0.0001      0.0001      0.0000      7.9033        0.00 %
+         DistributionMapping::SFCProcessorMapDoIt()           3      0.0000      0.0000      0.0000      0.0000     14.0206        0.00 %
+                           FAbArray::OverrideSync()       15184      0.0028      0.0029      0.0030      0.0001      3.2672        0.03 %
+                                   FPinfo::FPinfo()           9      0.0009      0.0011      0.0013      0.0002     13.9940        0.01 %
+                              FabArray::BuildMask()         650      0.0068      0.0069      0.0070      0.0001      1.2242        0.07 %
+                           FabArray::FillBoundary()      107828      0.0144      0.0161      0.0205      0.0026     15.9108        0.16 %
+                           FabArray::ParallelCopy()       19231      0.0039      0.0041      0.0042      0.0001      2.9297        0.04 %
+                    FabArray::ParallelCopyToGhost()          78      0.0000      0.0000      0.0000      0.0000      1.5072        0.00 %
+                    FabArray::ParallelCopy_finish()       19309      0.3684      0.6160      0.7353      0.1455     23.6153        6.11 %
+                    FabArray::ParallelCopy_nowait()       19309      0.2051      0.2081      0.2158      0.0044      2.1287        2.06 %
+                         FabArray::RecvLayoutMask()          34      0.0000      0.0000      0.0000      0.0000     13.7333        0.00 %
+                                  FabArray::Saxpy()      103623      0.0289      0.0333      0.0397      0.0041     12.4461        0.33 %
+                                   FabArray::Xpay()       37633      0.0547      0.0554      0.0558      0.0005      0.8283        0.55 %
+                                 FabArray::invert()         297      0.0023      0.0023      0.0024      0.0000      1.5700        0.02 %
+                                   FabArray::mult()        1030      0.0106      0.0109      0.0111      0.0002      1.8454        0.11 %
+                                FabArray::norminf()       68296      0.0819      0.0942      0.1110      0.0105     11.1933        0.93 %
+                            FabArray::norminf(mask)         134      0.0020      0.0020      0.0020      0.0000      0.2120        0.02 %
+                                   FabArray::plus()        2816      0.0029      0.0029      0.0031      0.0001      2.9056        0.03 %
+                         FabArray::setDomainBndry()        1995      0.0011      0.0012      0.0012      0.0000      2.3474        0.01 %
+                                 FabArray::setVal()       29481      0.1257      0.1275      0.1290      0.0012      0.9621        1.26 %
+        FabArray::setVal(val, thecmd, scomp, ncomp)       10201      0.0097      0.0102      0.0106      0.0004      3.5034        0.10 %
+                                    FabArray::sum()        1451      0.0039      0.0075      0.0088      0.0021     28.2033        0.07 %
+                        FabArrayBase::CPC::define()        7191      0.0547      0.0597      0.0682      0.0055      9.2446        0.59 %
+                             FabArrayBase::FB::FB()        1128      0.0025      0.0052      0.0105      0.0033     63.3207        0.05 %
+                          FabArrayBase::TheFPinfo()         478      0.0003      0.0003      0.0003      0.0000      7.6457        0.00 %
+                             FabArrayBase::getCPC()       28782      0.0139      0.0141      0.0144      0.0002      1.4192        0.14 %
+                              FabArrayBase::getFB()      123365      0.0088      0.0097      0.0121      0.0014     14.3854        0.10 %
+                           FaceLinear::interp_arr()         370      0.0097      0.0098      0.0099      0.0001      0.8960        0.10 %
+                              FillBoundary_finish()      122715      0.4339      0.5244      0.6876      0.1002     19.1010        5.20 %
+                              FillBoundary_nowait()      122715      0.5036      0.5312      0.5587      0.0248      4.6692        5.27 %
+                               FillPatchInterp(Fab)         476      0.0015      0.0015      0.0015      0.0000      1.6994        0.01 %
+                FillPatchIterator::FillFromLevel0()         903      0.0004      0.0004      0.0004      0.0000      2.5239        0.00 %
+             FillPatchIterator::FillFromTwoLevels()         460      0.0003      0.0003      0.0004      0.0000      7.4918        0.00 %
+                      FillPatchIterator::Initialize        1363      0.0028      0.0029      0.0030      0.0001      1.7690        0.03 %
+                               FillPatchSingleLevel        2220      0.0008      0.0008      0.0008      0.0000      2.6259        0.01 %
+                                 FillPatchTwoLevels         460      0.0071      0.0074      0.0077      0.0002      2.6076        0.07 %
+                    FillPatchTwoLevels (Array<MF*>)          26      0.0018      0.0018      0.0019      0.0000      0.8903        0.02 %
+                             FluxRegister::Reflux()         432      0.0058      0.0058      0.0059      0.0000      0.4775        0.06 %
+                           MLABecLaplacian::FFlux()        3496      0.0104      0.0108      0.0109      0.0002      2.0501        0.11 %
+                          MLABecLaplacian::Fapply()       15032      0.1684      0.1704      0.1729      0.0018      1.0355        1.69 %
+                         MLABecLaplacian::Fsmooth()       41264      1.2506      1.2550      1.2665      0.0066      0.5296       12.44 %
+               MLABecLaplacian::averageDownCoeffs()         445      0.0004      0.0004      0.0005      0.0000      3.9015        0.00 %
+                          MLABecLaplacian::define()         445      0.0042      0.0043      0.0046      0.0002      3.8421        0.04 %
+                       MLABecLaplacian::normalize()        9429      0.0067      0.0079      0.0092      0.0010     13.0805        0.08 %
+                 MLABecLaplacian::prepareForSolve()         445      0.0004      0.0004      0.0005      0.0000      8.1176        0.00 %
+                      MLCGSolver::ParallelAllReduce      136416      0.0139      0.0472      0.1001      0.0320     67.8814        0.47 %
+                               MLCGSolver::bicgstab        2318      0.0102      0.0204      0.0456      0.0146     71.6839        0.20 %
+                                     MLCGSolver::cg         116      0.0000      0.0014      0.0057      0.0025    173.2051        0.01 %
+                               MLCellLinOp::apply()       15032      0.0027      0.0031      0.0038      0.0004     13.1469        0.03 %
+                             MLCellLinOp::applyBC()       56495      0.1922      0.1961      0.2035      0.0044      2.2359        1.94 %
+                            MLCellLinOp::compFlux()         199      0.0168      0.0173      0.0179      0.0004      2.3819        0.17 %
+                  MLCellLinOp::correctionResidual()        5158      0.0011      0.0011      0.0012      0.0000      2.4561        0.01 %
+                       MLCellLinOp::defineAuxData()         445      0.0238      0.0248      0.0261      0.0009      3.6744        0.25 %
+                            MLCellLinOp::defineBC()         445      0.0016      0.0017      0.0018      0.0001      3.4610        0.02 %
+                     MLCellLinOp::prepareForSolve()         445      0.0065      0.0071      0.0079      0.0005      6.9998        0.07 %
+                          MLCellLinOp::setLevelBC()         445      0.0461      0.0471      0.0478      0.0007      1.4360        0.47 %
+                              MLCellLinOp::smooth()       20632      0.0079      0.0082      0.0089      0.0004      4.7114        0.08 %
+                    MLCellLinOp::solutionResidual()        1935      0.0007      0.0007      0.0007      0.0000      3.5165        0.01 %
+                                  MLLinOp::define()         546      0.0004      0.0004      0.0004      0.0000      7.2744        0.00 %
+                             MLLinOp::defineGrids()         546      0.0026      0.0027      0.0028      0.0001      3.9237        0.03 %
+                      MLLinOp::makeAgglomeratedDMap         219      0.0001      0.0001      0.0002      0.0000      3.5080        0.00 %
+                    MLLinOp::makeConsolidatedDMap()          27      0.0000      0.0000      0.0000      0.0000      6.3179        0.00 %
+                     MLLinOp::makeSubCommunicator()         246      0.0069      0.0108      0.0171      0.0040     36.6433        0.11 %
+                               MLMG::MLResNormInf()         374      0.0004      0.0006      0.0008      0.0001     25.0385        0.01 %
+                               MLMG::MLRhsNormInf()         294      0.0001      0.0001      0.0001      0.0000      2.3478        0.00 %
+                                 MLMG::ResNormInf()        2719      0.0134      0.0181      0.0259      0.0050     27.8791        0.18 %
+                          MLMG::actualBottomSolve()        2318      0.0005      0.0011      0.0030      0.0011     93.5494        0.01 %
+                        MLMG::addInterpCorrection()        8150      0.0679      0.0683      0.0687      0.0004      0.5790        0.68 %
+                                      MLMG::apply()         249      0.0012      0.0013      0.0013      0.0000      3.5444        0.01 %
+                          MLMG::computeMLResidual()         374      0.0024      0.0024      0.0025      0.0000      0.4725        0.02 %
+               MLMG::computeResWithCrseCorFineCor()         292      0.0002      0.0002      0.0002      0.0000      0.7335        0.00 %
+               MLMG::computeResWithCrseSolFineCor()         292      0.0022      0.0022      0.0022      0.0000      0.9426        0.02 %
+                            MLMG::computeResidual()        2318      0.0131      0.0136      0.0140      0.0003      2.4658        0.14 %
+                                  MLMG::getFluxes()         374      0.0003      0.0003      0.0003      0.0000      1.2750        0.00 %
+                           MLMG::interpCorrection_1         292      0.0178      0.0186      0.0192      0.0005      2.6804        0.18 %
+                                   MLMG::mgVcycle()        2902      0.0027      0.0028      0.0029      0.0001      2.6743        0.03 %
+                              MLMG::mgVcycle_bottom        2902      0.0007      0.0008      0.0008      0.0000      2.8746        0.01 %
+                             MLMG::mgVcycle_down::0        2318      0.0017      0.0017      0.0018      0.0000      2.2167        0.02 %
+                             MLMG::mgVcycle_down::1        2318      0.0013      0.0013      0.0013      0.0000      1.2930        0.01 %
+                             MLMG::mgVcycle_down::2        1757      0.0008      0.0008      0.0009      0.0000      3.9568        0.01 %
+                             MLMG::mgVcycle_down::3        1757      0.0007      0.0007      0.0007      0.0000      2.5925        0.01 %
+                               MLMG::mgVcycle_up::0        2318      0.0010      0.0010      0.0010      0.0000      1.6919        0.01 %
+                               MLMG::mgVcycle_up::1        2318      0.0009      0.0009      0.0009      0.0000      1.5415        0.01 %
+                               MLMG::mgVcycle_up::2        1757      0.0005      0.0005      0.0006      0.0000      7.1453        0.01 %
+                               MLMG::mgVcycle_up::3        1757      0.0006      0.0006      0.0006      0.0000      3.9556        0.01 %
+                                  MLMG::miniCycle()         584      0.0001      0.0001      0.0001      0.0000      3.2955        0.00 %
+                                    MLMG::oneIter()        2318      0.0097      0.0105      0.0113      0.0006      5.2928        0.10 %
+                            MLMG::prepareForSolve()         294      0.0134      0.0143      0.0148      0.0006      3.9908        0.14 %
+                                      MLMG::solve()         294      0.0054      0.0062      0.0077      0.0009     14.8603        0.06 %
+                      MLMG:computeResOfCorrection()        8150      0.0017      0.0018      0.0019      0.0001      3.0100        0.02 %
+                          MLNodeLaplacian::Fapply()       41081      0.5480      0.5572      0.5700      0.0087      1.5687        5.52 %
+               MLNodeLaplacian::FillBoundaryCoeff()         469      0.0001      0.0001      0.0002      0.0000      4.3886        0.00 %
+                         MLNodeLaplacian::Fsmooth()       14064      2.3493      2.3958      2.4530      0.0384      1.6018       23.75 %
+                     MLNodeLaplacian::SyncResCrse()          24      0.0066      0.0067      0.0067      0.0000      0.5705        0.07 %
+                     MLNodeLaplacian::SyncResFine()          24      0.0073      0.0076      0.0078      0.0002      2.4537        0.08 %
+               MLNodeLaplacian::averageDownCoeffs()          98      0.0010      0.0010      0.0011      0.0000      3.2951        0.01 %
+                         MLNodeLaplacian::compRHS()          98      0.0251      0.0257      0.0260      0.0003      1.3558        0.25 %
+                          MLNodeLaplacian::define()         101      0.0014      0.0015      0.0015      0.0000      1.4475        0.01 %
+                   MLNodeLaplacian::interpolation()        2992      0.1980      0.1997      0.2018      0.0014      0.6900        1.98 %
+                       MLNodeLaplacian::normalize()       26008      0.0040      0.0058      0.0091      0.0020     33.5115        0.06 %
+                 MLNodeLaplacian::prepareForSolve()          98      0.0003      0.0003      0.0003      0.0000      3.7685        0.00 %
+                          MLNodeLaplacian::reflux()         399      0.1738      0.1783      0.1838      0.0036      2.0069        1.77 %
+                     MLNodeLaplacian::restriction()        2992      0.0113      0.0115      0.0118      0.0002      1.5030        0.11 %
+                             MLNodeLinOp::applyBC()       54561      0.0046      0.0061      0.0100      0.0023     37.7137        0.06 %
+                          MLNodeLinOp::buildMasks()          98      0.0060      0.0061      0.0061      0.0000      0.6524        0.06 %
+                                MLTensorOp::apply()        4220      0.2161      0.2210      0.2243      0.0031      1.3949        2.19 %
+                             MLTensorOp::compFlux()         100      0.0236      0.0241      0.0244      0.0003      1.3293        0.24 %
+                               MLTensorOp::define()         346      0.0015      0.0015      0.0017      0.0001      4.7114        0.02 %
+                             MacProj::mac_project()          75      0.0200      0.0221      0.0231      0.0013      5.6571        0.22 %
+                                 MultiFab::Divide()          24      0.0001      0.0001      0.0001      0.0000      1.1262        0.00 %
+                               MultiFab::Multiply()       72639      0.0049      0.0075      0.0131      0.0033     43.9139        0.07 %
+                           MultiFab::contains_nan()         825      0.0379      0.0453      0.0592      0.0086     18.9369        0.45 %
+                            NSB::ComputeAofs_kernel         198      0.9402      0.9681      0.9855      0.0174      1.7969        9.60 %
+                            NavierStokes::advance()          75      0.0017      0.0019      0.0026      0.0004     20.9512        0.02 %
+  NavierStokes::advance_semistaggered_twophase_ls()          75      0.0007      0.0007      0.0008      0.0000      5.5829        0.01 %
+                       NavierStokes::getViscTerms()         251      0.0230      0.0233      0.0238      0.0003      1.4963        0.23 %
+                           NavierStokes::mac_sync()          24      0.0090      0.0098      0.0103      0.0005      5.1275        0.10 %
+                             NavierStokes::reflux()          24      0.0028      0.0029      0.0029      0.0000      1.7436        0.03 %
+                   NavierStokes::scalar_advection()          75      0.0067      0.0069      0.0070      0.0001      1.4104        0.07 %
+                      NavierStokes::scalar_update()         150      0.0001      0.0001      0.0001      0.0000      2.9710        0.00 %
+          NavierStokes::velocity_diffusion_update()          73      0.0330      0.0337      0.0343      0.0005      1.3769        0.33 %
+                     NavierStokesBase::SyncInterp()          48      0.0021      0.0022      0.0023      0.0001      2.8938        0.02 %
+                  NavierStokesBase::advance_setup()          75      0.0024      0.0026      0.0027      0.0001      4.2107        0.03 %
+                 NavierStokesBase::create_mac_rhs()          75      0.0000      0.0000      0.0000      0.0000      2.9856        0.00 %
+                    NavierStokesBase::estTimeStep()          75      0.0053      0.0056      0.0058      0.0002      3.2960        0.06 %
+                NavierStokesBase::level_projector()          71      0.0040      0.0044      0.0048      0.0003      6.2214        0.04 %
+                     NavierStokesBase::level_sync()          24      0.0012      0.0013      0.0014      0.0000      3.5524        0.01 %
+                    NavierStokesBase::mac_project()          75      0.0031      0.0031      0.0033      0.0001      2.7786        0.03 %
+                  NavierStokesBase::post_timestep()          71      0.0007      0.0007      0.0007      0.0000      1.7761        0.01 %
+               NavierStokesBase::predict_velocity()          75      0.2407      0.2462      0.2507      0.0036      1.4687        2.44 %
+        NavierStokesBase::scalar_advection_update()         150      0.0102      0.0105      0.0107      0.0002      1.9043        0.10 %
+             NavierStokesBase::velocity_advection()          75      0.0129      0.0137      0.0143      0.0005      3.6793        0.14 %
+      NavierStokesBase::velocity_advection_update()          75      0.0275      0.0283      0.0290      0.0006      2.1195        0.28 %
+                NavierStokesBase::velocity_update()          75      0.0003      0.0004      0.0005      0.0001     23.3947        0.00 %
+                         NodalProjector::computeRHS          98      0.0001      0.0001      0.0001      0.0000      5.5641        0.00 %
+                NodalProjector::computeSyncResidual          98      0.0012      0.0014      0.0015      0.0001      8.2101        0.01 %
+                            NodalProjector::project          98      0.0124      0.0130      0.0133      0.0003      2.5957        0.13 %
+                             NodeBilinear::interp()         267      0.0034      0.0036      0.0037      0.0001      3.0380        0.04 %
+                              OverrideSync_finish()       15184      0.0017      0.0017      0.0018      0.0001      3.1467        0.02 %
+                              OverrideSync_nowait()       15184      0.0020      0.0020      0.0022      0.0001      4.1573        0.02 %
+                                        OwnerMask()         212      0.0031      0.0033      0.0034      0.0001      3.6988        0.03 %
+                ParallelDescriptor::Gather(TsT1si)d           0      0.0000      0.0000      0.0000      0.0000      0.0000        0.00 %
+                ParallelDescriptor::Gather(TsT1si)l           0      0.0000      0.0000      0.0000      0.0000      0.0000        0.00 %
+                    ParallelDescriptor::Recv(Tsii)i           0      0.0000      0.0000      0.0000      0.0000      0.0000        0.00 %
+                    ParallelDescriptor::Send(Tsii)i           0      0.0000      0.0000      0.0000      0.0000      0.0000        0.00 %
+               Projection:::doMLMGNodalProjection()          98      0.0069      0.0072      0.0077      0.0003      3.9940        0.07 %
+                        Projection::MLsyncProject()          24      0.0036      0.0038      0.0039      0.0001      3.7477        0.04 %
+                        Projection::level_project()          71      0.0212      0.0219      0.0228      0.0006      2.5535        0.22 %
+                      StateData::FillBoundary(geom)         781      0.0002      0.0003      0.0003      0.0000      4.9223        0.00 %
+                            StateData::checkPoint()           9      0.0000      0.0000      0.0001      0.0000    100.5742        0.00 %
+                                StateData::define()          24      0.0001      0.0001      0.0001      0.0000      9.4805        0.00 %
+                           StateDataPhysBCFunct::()        2220      0.0007      0.0008      0.0008      0.0000      5.6842        0.01 %
+                           SyncRegister::CrseInit()          24      0.0003      0.0003      0.0003      0.0000      2.0050        0.00 %
+                            SyncRegister::FineAdd()          24      0.0095      0.0099      0.0103      0.0003      2.9857        0.10 %
+                            SyncRegister::InitRHS()          24      0.0019      0.0021      0.0023      0.0001      6.9513        0.02 %
+                             TagBoxArray::collate()          13      0.0001      0.0001      0.0001      0.0000      2.2626        0.00 %
+                                TagBoxArray::mapPRD          13      0.0000      0.0000      0.0000      0.0000      2.6232        0.00 %
+                     The_Pinned_Arena::Initialize()           1      0.0027      0.0028      0.0028      0.0000      0.8969        0.03 %
+                             VisMF::Write(FabArray)          21      0.0118      0.0191      0.0389      0.0115     60.0822        0.19 %
+                                       amrex::Add()        3966      0.0530      0.0556      0.0568      0.0015      2.7284        0.55 %
+                                      amrex::Copy()       87911      0.1306      0.1320      0.1337      0.0011      0.8259        1.31 %
+                                       amrex::Dot()       88276      0.0143      0.0184      0.0247      0.0040     21.6362        0.18 %
+                                amrex::average_down        6027      0.0531      0.0539      0.0551      0.0008      1.5227        0.53 %
+                         amrex::average_down_w_geom         185      0.0001      0.0001      0.0001      0.0000      3.3649        0.00 %
+                               amrex_mempool_init()           1      0.0032      0.0032      0.0032      0.0000      0.2483        0.03 %
+                                 average_down_faces        3408      0.0117      0.0120      0.0127      0.0004      3.3227        0.12 %
+                                         knapsack()           9      0.0000      0.0000      0.0000      0.0000      2.8604        0.00 %
+                                     knapsack()swap           1      0.0000      0.0000      0.0000      0.0000     18.3400        0.00 %
+                                             main()           1      0.0004      0.0004      0.0004      0.0000      0.8975        0.00 %
+                                            makeSFC         684      0.0003      0.0003      0.0003      0.0000      5.3312        0.00 %
+
+Total Timers     =      10.09 seconds.
+Calc Run Time    =      10.08 seconds.
+Percent Coverage =     100.06 %
+
+
+Total times -----------------------------------------------------------------------------------------------------------------------------
+                                      Function Name      NCalls         Min         Avg         Max      StdDev    CoeffVar     Percent %
+                         MLNodeLaplacian::Fsmooth()       14064      2.3493      2.3958      2.4530      0.0384      1.6018       23.75 %
+                         MLABecLaplacian::Fsmooth()       41264      1.2506      1.2550      1.2665      0.0066      0.5296       12.44 %
+                            NSB::ComputeAofs_kernel         198      0.9402      0.9681      0.9855      0.0174      1.7969        9.60 %
+                    FabArray::ParallelCopy_finish()       19309      0.3684      0.6160      0.7353      0.1455     23.6153        6.11 %
+                          MLNodeLaplacian::Fapply()       41081      0.5480      0.5572      0.5700      0.0087      1.5687        5.52 %
+                              FillBoundary_nowait()      122715      0.5036      0.5312      0.5587      0.0248      4.6692        5.27 %
+                              FillBoundary_finish()      122715      0.4339      0.5244      0.6876      0.1002     19.1010        5.20 %
+               NavierStokesBase::predict_velocity()          75      0.2407      0.2462      0.2507      0.0036      1.4687        2.44 %
+                                MLTensorOp::apply()        4220      0.2161      0.2210      0.2243      0.0031      1.3949        2.19 %
+                    FabArray::ParallelCopy_nowait()       19309      0.2051      0.2081      0.2158      0.0044      2.1287        2.06 %
+                   MLNodeLaplacian::interpolation()        2992      0.1980      0.1997      0.2018      0.0014      0.6900        1.98 %
+                             MLCellLinOp::applyBC()       56495      0.1922      0.1961      0.2035      0.0044      2.2359        1.94 %
+                   CellConservativeLinear::interp()        8006      0.1762      0.1803      0.1831      0.0026      1.4523        1.79 %
+                          MLNodeLaplacian::reflux()         399      0.1738      0.1783      0.1838      0.0036      2.0069        1.77 %
+                          MLABecLaplacian::Fapply()       15032      0.1684      0.1704      0.1729      0.0018      1.0355        1.69 %
+                                      amrex::Copy()       87911      0.1306      0.1320      0.1337      0.0011      0.8259        1.31 %
+                                 FabArray::setVal()       29481      0.1257      0.1275      0.1290      0.0012      0.9621        1.26 %
+                                FabArray::norminf()       68296      0.0819      0.0942      0.1110      0.0105     11.1933        0.93 %
+                        MLMG::addInterpCorrection()        8150      0.0679      0.0683      0.0687      0.0004      0.5790        0.68 %
+                        FabArrayBase::CPC::define()        7191      0.0547      0.0597      0.0682      0.0055      9.2446        0.59 %
+                                       amrex::Add()        3966      0.0530      0.0556      0.0568      0.0015      2.7284        0.55 %
+                                   FabArray::Xpay()       37633      0.0547      0.0554      0.0558      0.0005      0.8283        0.55 %
+                                amrex::average_down        6027      0.0531      0.0539      0.0551      0.0008      1.5227        0.53 %
+                      MLCGSolver::ParallelAllReduce      136416      0.0139      0.0472      0.1001      0.0320     67.8814        0.47 %
+                          MLCellLinOp::setLevelBC()         445      0.0461      0.0471      0.0478      0.0007      1.4360        0.47 %
+                           MultiFab::contains_nan()         825      0.0379      0.0453      0.0592      0.0086     18.9369        0.45 %
+          NavierStokes::velocity_diffusion_update()          73      0.0330      0.0337      0.0343      0.0005      1.3769        0.33 %
+                                  FabArray::Saxpy()      103623      0.0289      0.0333      0.0397      0.0041     12.4461        0.33 %
+      NavierStokesBase::velocity_advection_update()          75      0.0275      0.0283      0.0290      0.0006      2.1195        0.28 %
+                         MLNodeLaplacian::compRHS()          98      0.0251      0.0257      0.0260      0.0003      1.3558        0.25 %
+                       MLCellLinOp::defineAuxData()         445      0.0238      0.0248      0.0261      0.0009      3.6744        0.25 %
+                             MLTensorOp::compFlux()         100      0.0236      0.0241      0.0244      0.0003      1.3293        0.24 %
+                                BndryData::define()         445      0.0230      0.0233      0.0239      0.0004      1.5617        0.23 %
+                       NavierStokes::getViscTerms()         251      0.0230      0.0233      0.0238      0.0003      1.4963        0.23 %
+                             MacProj::mac_project()          75      0.0200      0.0221      0.0231      0.0013      5.6571        0.22 %
+                        Projection::level_project()          71      0.0212      0.0219      0.0228      0.0006      2.5535        0.22 %
+                               MLCGSolver::bicgstab        2318      0.0102      0.0204      0.0456      0.0146     71.6839        0.20 %
+                             VisMF::Write(FabArray)          21      0.0118      0.0191      0.0389      0.0115     60.0822        0.19 %
+                           MLMG::interpCorrection_1         292      0.0178      0.0186      0.0192      0.0005      2.6804        0.18 %
+                                       amrex::Dot()       88276      0.0143      0.0184      0.0247      0.0040     21.6362        0.18 %
+                                  Amr::checkPoint()           2      0.0014      0.0183      0.0245      0.0098     53.3607        0.18 %
+                                 MLMG::ResNormInf()        2719      0.0134      0.0181      0.0259      0.0050     27.8791        0.18 %
+                            MLCellLinOp::compFlux()         199      0.0168      0.0173      0.0179      0.0004      2.3819        0.17 %
+                           FabArray::FillBoundary()      107828      0.0144      0.0161      0.0205      0.0026     15.9108        0.16 %
+                            MLMG::prepareForSolve()         294      0.0134      0.0143      0.0148      0.0006      3.9908        0.14 %
+                             FabArrayBase::getCPC()       28782      0.0139      0.0141      0.0144      0.0002      1.4192        0.14 %
+             NavierStokesBase::velocity_advection()          75      0.0129      0.0137      0.0143      0.0005      3.6793        0.14 %
+                            MLMG::computeResidual()        2318      0.0131      0.0136      0.0140      0.0003      2.4658        0.14 %
+                            NodalProjector::project          98      0.0124      0.0130      0.0133      0.0003      2.5957        0.13 %
+                                 average_down_faces        3408      0.0117      0.0120      0.0127      0.0004      3.3227        0.12 %
+                     MLNodeLaplacian::restriction()        2992      0.0113      0.0115      0.0118      0.0002      1.5030        0.11 %
+                                   FabArray::mult()        1030      0.0106      0.0109      0.0111      0.0002      1.8454        0.11 %
+                     MLLinOp::makeSubCommunicator()         246      0.0069      0.0108      0.0171      0.0040     36.6433        0.11 %
+                           MLABecLaplacian::FFlux()        3496      0.0104      0.0108      0.0109      0.0002      2.0501        0.11 %
+        NavierStokesBase::scalar_advection_update()         150      0.0102      0.0105      0.0107      0.0002      1.9043        0.10 %
+                                    MLMG::oneIter()        2318      0.0097      0.0105      0.0113      0.0006      5.2928        0.10 %
+        FabArray::setVal(val, thecmd, scomp, ncomp)       10201      0.0097      0.0102      0.0106      0.0004      3.5034        0.10 %
+                            SyncRegister::FineAdd()          24      0.0095      0.0099      0.0103      0.0003      2.9857        0.10 %
+                           NavierStokes::mac_sync()          24      0.0090      0.0098      0.0103      0.0005      5.1275        0.10 %
+                           FaceLinear::interp_arr()         370      0.0097      0.0098      0.0099      0.0001      0.8960        0.10 %
+                              FabArrayBase::getFB()      123365      0.0088      0.0097      0.0121      0.0014     14.3854        0.10 %
+                              MLCellLinOp::smooth()       20632      0.0079      0.0082      0.0089      0.0004      4.7114        0.08 %
+                       MLABecLaplacian::normalize()        9429      0.0067      0.0079      0.0092      0.0010     13.0805        0.08 %
+                     MLNodeLaplacian::SyncResFine()          24      0.0073      0.0076      0.0078      0.0002      2.4537        0.08 %
+                                    FabArray::sum()        1451      0.0039      0.0075      0.0088      0.0021     28.2033        0.07 %
+                               MultiFab::Multiply()       72639      0.0049      0.0075      0.0131      0.0033     43.9139        0.07 %
+                                 FillPatchTwoLevels         460      0.0071      0.0074      0.0077      0.0002      2.6076        0.07 %
+               Projection:::doMLMGNodalProjection()          98      0.0069      0.0072      0.0077      0.0003      3.9940        0.07 %
+                     MLCellLinOp::prepareForSolve()         445      0.0065      0.0071      0.0079      0.0005      6.9998        0.07 %
+                              FabArray::BuildMask()         650      0.0068      0.0069      0.0070      0.0001      1.2242        0.07 %
+                   NavierStokes::scalar_advection()          75      0.0067      0.0069      0.0070      0.0001      1.4104        0.07 %
+                     MLNodeLaplacian::SyncResCrse()          24      0.0066      0.0067      0.0067      0.0000      0.5705        0.07 %
+                                      MLMG::solve()         294      0.0054      0.0062      0.0077      0.0009     14.8603        0.06 %
+                             MLNodeLinOp::applyBC()       54561      0.0046      0.0061      0.0100      0.0023     37.7137        0.06 %
+                          MLNodeLinOp::buildMasks()          98      0.0060      0.0061      0.0061      0.0000      0.6524        0.06 %
+                       MLNodeLaplacian::normalize()       26008      0.0040      0.0058      0.0091      0.0020     33.5115        0.06 %
+                             FluxRegister::Reflux()         432      0.0058      0.0058      0.0059      0.0000      0.4775        0.06 %
+                    NavierStokesBase::estTimeStep()          75      0.0053      0.0056      0.0058      0.0002      3.2960        0.06 %
+                             FabArrayBase::FB::FB()        1128      0.0025      0.0052      0.0105      0.0033     63.3207        0.05 %
+                               Amr::writePlotFile()           2      0.0014      0.0046      0.0057      0.0018     39.6767        0.05 %
+                NavierStokesBase::level_projector()          71      0.0040      0.0044      0.0048      0.0003      6.2214        0.04 %
+                          MLABecLaplacian::define()         445      0.0042      0.0043      0.0046      0.0002      3.8421        0.04 %
+                           FabArray::ParallelCopy()       19231      0.0039      0.0041      0.0042      0.0001      2.9297        0.04 %
+                        Projection::MLsyncProject()          24      0.0036      0.0038      0.0039      0.0001      3.7477        0.04 %
+                             NodeBilinear::interp()         267      0.0034      0.0036      0.0037      0.0001      3.0380        0.04 %
+                                      Amr::regrid()          12      0.0035      0.0035      0.0036      0.0001      1.5271        0.03 %
+                                        OwnerMask()         212      0.0031      0.0033      0.0034      0.0001      3.6988        0.03 %
+                               amrex_mempool_init()           1      0.0032      0.0032      0.0032      0.0000      0.2483        0.03 %
+                    NavierStokesBase::mac_project()          75      0.0031      0.0031      0.0033      0.0001      2.7786        0.03 %
+                               MLCellLinOp::apply()       15032      0.0027      0.0031      0.0038      0.0004     13.1469        0.03 %
+                                   FabArray::plus()        2816      0.0029      0.0029      0.0031      0.0001      2.9056        0.03 %
+                           FAbArray::OverrideSync()       15184      0.0028      0.0029      0.0030      0.0001      3.2672        0.03 %
+                      FillPatchIterator::Initialize        1363      0.0028      0.0029      0.0030      0.0001      1.7690        0.03 %
+                             NavierStokes::reflux()          24      0.0028      0.0029      0.0029      0.0000      1.7436        0.03 %
+                                   MLMG::mgVcycle()        2902      0.0027      0.0028      0.0029      0.0001      2.6743        0.03 %
+                     The_Pinned_Arena::Initialize()           1      0.0027      0.0028      0.0028      0.0000      0.8969        0.03 %
+                             MLLinOp::defineGrids()         546      0.0026      0.0027      0.0028      0.0001      3.9237        0.03 %
+                  NavierStokesBase::advance_setup()          75      0.0024      0.0026      0.0027      0.0001      4.2107        0.03 %
+                          MLMG::computeMLResidual()         374      0.0024      0.0024      0.0025      0.0000      0.4725        0.02 %
+                              Amr::coarseTimeStep()          47      0.0016      0.0024      0.0029      0.0005     22.7706        0.02 %
+                                 FabArray::invert()         297      0.0023      0.0023      0.0024      0.0000      1.5700        0.02 %
+               MLMG::computeResWithCrseSolFineCor()         292      0.0022      0.0022      0.0022      0.0000      0.9426        0.02 %
+                     NavierStokesBase::SyncInterp()          48      0.0021      0.0022      0.0023      0.0001      2.8938        0.02 %
+                            SyncRegister::InitRHS()          24      0.0019      0.0021      0.0023      0.0001      6.9513        0.02 %
+                              OverrideSync_nowait()       15184      0.0020      0.0020      0.0022      0.0001      4.1573        0.02 %
+                            FabArray::norminf(mask)         134      0.0020      0.0020      0.0020      0.0000      0.2120        0.02 %
+                            NavierStokes::advance()          75      0.0017      0.0019      0.0026      0.0004     20.9512        0.02 %
+                    FillPatchTwoLevels (Array<MF*>)          26      0.0018      0.0018      0.0019      0.0000      0.8903        0.02 %
+                      MLMG:computeResOfCorrection()        8150      0.0017      0.0018      0.0019      0.0001      3.0100        0.02 %
+                             MLMG::mgVcycle_down::0        2318      0.0017      0.0017      0.0018      0.0000      2.2167        0.02 %
+                              OverrideSync_finish()       15184      0.0017      0.0017      0.0018      0.0001      3.1467        0.02 %
+                            MLCellLinOp::defineBC()         445      0.0016      0.0017      0.0018      0.0001      3.4610        0.02 %
+                               MLTensorOp::define()         346      0.0015      0.0015      0.0017      0.0001      4.7114        0.02 %
+                               FillPatchInterp(Fab)         476      0.0015      0.0015      0.0015      0.0000      1.6994        0.01 %
+                          MLNodeLaplacian::define()         101      0.0014      0.0015      0.0015      0.0000      1.4475        0.01 %
+                                     MLCGSolver::cg         116      0.0000      0.0014      0.0057      0.0025    173.2051        0.01 %
+                NodalProjector::computeSyncResidual          98      0.0012      0.0014      0.0015      0.0001      8.2101        0.01 %
+                     NavierStokesBase::level_sync()          24      0.0012      0.0013      0.0014      0.0000      3.5524        0.01 %
+                                      MLMG::apply()         249      0.0012      0.0013      0.0013      0.0000      3.5444        0.01 %
+                                Amr::FinalizeInit()           1      0.0010      0.0013      0.0014      0.0001     11.5897        0.01 %
+                             MLMG::mgVcycle_down::1        2318      0.0013      0.0013      0.0013      0.0000      1.2930        0.01 %
+                         FabArray::setDomainBndry()        1995      0.0011      0.0012      0.0012      0.0000      2.3474        0.01 %
+                              AmrLevel::FillPatch()         865      0.0011      0.0012      0.0012      0.0000      1.4767        0.01 %
+                          MLMG::actualBottomSolve()        2318      0.0005      0.0011      0.0030      0.0011     93.5494        0.01 %
+                  MLCellLinOp::correctionResidual()        5158      0.0011      0.0011      0.0012      0.0000      2.4561        0.01 %
+                                   FPinfo::FPinfo()           9      0.0009      0.0011      0.0013      0.0002     13.9940        0.01 %
+                               Amr::bldFineLevels()           1      0.0009      0.0010      0.0012      0.0001     11.1246        0.01 %
+                               MLMG::mgVcycle_up::0        2318      0.0010      0.0010      0.0010      0.0000      1.6919        0.01 %
+               MLNodeLaplacian::averageDownCoeffs()          98      0.0010      0.0010      0.0011      0.0000      3.2951        0.01 %
+                        AmrLevel::FillCoarsePatch()          24      0.0009      0.0009      0.0011      0.0001      8.8501        0.01 %
+                               MLMG::mgVcycle_up::1        2318      0.0009      0.0009      0.0009      0.0000      1.5415        0.01 %
+                            AmrMesh::MakeNewGrids()          13      0.0008      0.0009      0.0010      0.0001      6.9669        0.01 %
+                             MLMG::mgVcycle_down::2        1757      0.0008      0.0008      0.0009      0.0000      3.9568        0.01 %
+                           StateDataPhysBCFunct::()        2220      0.0007      0.0008      0.0008      0.0000      5.6842        0.01 %
+                               FillPatchSingleLevel        2220      0.0008      0.0008      0.0008      0.0000      2.6259        0.01 %
+                              MLMG::mgVcycle_bottom        2902      0.0007      0.0008      0.0008      0.0000      2.8746        0.01 %
+  NavierStokes::advance_semistaggered_twophase_ls()          75      0.0007      0.0007      0.0008      0.0000      5.5829        0.01 %
+                    MLCellLinOp::solutionResidual()        1935      0.0007      0.0007      0.0007      0.0000      3.5165        0.01 %
+                             MLMG::mgVcycle_down::3        1757      0.0007      0.0007      0.0007      0.0000      2.5925        0.01 %
+                  NavierStokesBase::post_timestep()          71      0.0007      0.0007      0.0007      0.0000      1.7761        0.01 %
+                               MLMG::mgVcycle_up::3        1757      0.0006      0.0006      0.0006      0.0000      3.9556        0.01 %
+                               MLMG::MLResNormInf()         374      0.0004      0.0006      0.0008      0.0001     25.0385        0.01 %
+                               MLMG::mgVcycle_up::2        1757      0.0005      0.0005      0.0006      0.0000      7.1453        0.01 %
+               MLABecLaplacian::averageDownCoeffs()         445      0.0004      0.0004      0.0005      0.0000      3.9015        0.00 %
+                FillPatchIterator::FillFromLevel0()         903      0.0004      0.0004      0.0004      0.0000      2.5239        0.00 %
+                NavierStokesBase::velocity_update()          75      0.0003      0.0004      0.0005      0.0001     23.3947        0.00 %
+                                             main()           1      0.0004      0.0004      0.0004      0.0000      0.8975        0.00 %
+                 MLABecLaplacian::prepareForSolve()         445      0.0004      0.0004      0.0005      0.0000      8.1176        0.00 %
+                                  MLLinOp::define()         546      0.0004      0.0004      0.0004      0.0000      7.2744        0.00 %
+                                Amr::defBaseLevel()           1      0.0003      0.0003      0.0003      0.0000      1.0636        0.00 %
+             FillPatchIterator::FillFromTwoLevels()         460      0.0003      0.0003      0.0004      0.0000      7.4918        0.00 %
+                                            makeSFC         684      0.0003      0.0003      0.0003      0.0000      5.3312        0.00 %
+                 MLNodeLaplacian::prepareForSolve()          98      0.0003      0.0003      0.0003      0.0000      3.7685        0.00 %
+                          FabArrayBase::TheFPinfo()         478      0.0003      0.0003      0.0003      0.0000      7.6457        0.00 %
+                           SyncRegister::CrseInit()          24      0.0003      0.0003      0.0003      0.0000      2.0050        0.00 %
+                                  MLMG::getFluxes()         374      0.0003      0.0003      0.0003      0.0000      1.2750        0.00 %
+                      StateData::FillBoundary(geom)         781      0.0002      0.0003      0.0003      0.0000      4.9223        0.00 %
+               MLMG::computeResWithCrseCorFineCor()         292      0.0002      0.0002      0.0002      0.0000      0.7335        0.00 %
+               MLNodeLaplacian::FillBoundaryCoeff()         469      0.0001      0.0001      0.0002      0.0000      4.3886        0.00 %
+                                    Amr::timeStep()          71      0.0001      0.0001      0.0002      0.0000      4.3086        0.00 %
+                             TagBoxArray::collate()          13      0.0001      0.0001      0.0001      0.0000      2.2626        0.00 %
+                      MLLinOp::makeAgglomeratedDMap         219      0.0001      0.0001      0.0002      0.0000      3.5080        0.00 %
+                                StateData::define()          24      0.0001      0.0001      0.0001      0.0000      9.4805        0.00 %
+                                 MultiFab::Divide()          24      0.0001      0.0001      0.0001      0.0000      1.1262        0.00 %
+                  DistributionMapping::Distribute()         687      0.0001      0.0001      0.0001      0.0000      1.9632        0.00 %
+                                  MLMG::miniCycle()         584      0.0001      0.0001      0.0001      0.0000      3.2955        0.00 %
+                            AMRErrorTag::operator()          13      0.0001      0.0001      0.0001      0.0000      1.1678        0.00 %
+                                     Amr::InitAmr()           1      0.0001      0.0001      0.0001      0.0000      2.1457        0.00 %
+                      NavierStokes::scalar_update()         150      0.0001      0.0001      0.0001      0.0000      2.9710        0.00 %
+                         amrex::average_down_w_geom         185      0.0001      0.0001      0.0001      0.0000      3.3649        0.00 %
+                         NodalProjector::computeRHS          98      0.0001      0.0001      0.0001      0.0000      5.5641        0.00 %
+               DistributionMapping::LeastUsedCPUs()          12      0.0001      0.0001      0.0001      0.0000      7.9033        0.00 %
+                               MLMG::MLRhsNormInf()         294      0.0001      0.0001      0.0001      0.0000      2.3478        0.00 %
+                          AmrLevel::writePlotFile()           3      0.0000      0.0001      0.0001      0.0000     51.3692        0.00 %
+                                TagBoxArray::mapPRD          13      0.0000      0.0000      0.0000      0.0000      2.6232        0.00 %
+                                 Amr::grid_places()          13      0.0000      0.0000      0.0000      0.0000      2.1989        0.00 %
+                                         knapsack()           9      0.0000      0.0000      0.0000      0.0000      2.8604        0.00 %
+                         FabArray::RecvLayoutMask()          34      0.0000      0.0000      0.0000      0.0000     13.7333        0.00 %
+                            StateData::checkPoint()           9      0.0000      0.0000      0.0001      0.0000    100.5742        0.00 %
+                 NavierStokesBase::create_mac_rhs()          75      0.0000      0.0000      0.0000      0.0000      2.9856        0.00 %
+                             AmrLevel::AmrLevel(dm)           8      0.0000      0.0000      0.0000      0.0000      4.9931        0.00 %
+                    MLLinOp::makeConsolidatedDMap()          27      0.0000      0.0000      0.0000      0.0000      6.3179        0.00 %
+                    FabArray::ParallelCopyToGhost()          78      0.0000      0.0000      0.0000      0.0000      1.5072        0.00 %
+                                 AmrLevel::derive()          13      0.0000      0.0000      0.0000      0.0000      3.5817        0.00 %
+                             AmrLevel::checkPoint()           3      0.0000      0.0000      0.0000      0.0000     75.1038        0.00 %
+                                ClusterList::chop()           7      0.0000      0.0000      0.0001      0.0000    173.2051        0.00 %
+                DistributionMapping::KnapSackDoIt()           9      0.0000      0.0000      0.0000      0.0000      2.9262        0.00 %
+                           ClusterList::intersect()           7      0.0000      0.0000      0.0000      0.0000    173.2051        0.00 %
+         DistributionMapping::SFCProcessorMapDoIt()           3      0.0000      0.0000      0.0000      0.0000     14.0206        0.00 %
+                    BoxList::parallelComplementIn()          26      0.0000      0.0000      0.0000      0.0000      5.4396        0.00 %
+                              BoxList::complementIn          26      0.0000      0.0000      0.0000      0.0000      5.0972        0.00 %
+                                        Amr::init()           1      0.0000      0.0000      0.0000      0.0000     17.6663        0.00 %
+                                    AmrMesh-cluster           7      0.0000      0.0000      0.0000      0.0000    173.2051        0.00 %
+                                Amr::initSubcycle()           1      0.0000      0.0000      0.0000      0.0000      1.3329        0.00 %
+                              Amr::InitializeInit()           1      0.0000      0.0000      0.0000      0.0000     43.4235        0.00 %
+                                 Amr::initialInit()           1      0.0000      0.0000      0.0000      0.0000     22.0781        0.00 %
+                          AmrLevel::checkPointPre()           3      0.0000      0.0000      0.0000      0.0000     19.0016        0.00 %
+                         AmrLevel::checkPointPost()           3      0.0000      0.0000      0.0000      0.0000     20.8526        0.00 %
+                                     knapsack()swap           1      0.0000      0.0000      0.0000      0.0000     18.3400        0.00 %
+                ParallelDescriptor::Gather(TsT1si)d           0      0.0000      0.0000      0.0000      0.0000      0.0000        0.00 %
+=========================================================================================================================================
+
+BLProfiler::Finalize():  time:  0.0081
+AMReX (20.06-2238-g47f539a33e6a) finalized

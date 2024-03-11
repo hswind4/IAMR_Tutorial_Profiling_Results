@@ -1,0 +1,3018 @@
+Initializing AMReX (20.06-2238-g47f539a33e6a)...
+MPI initialized with 4 MPI processes
+MPI initialized with thread support level 0
+AMReX (20.06-2238-g47f539a33e6a) initialized
+phicomp, NUM_STATE 0 5
+xlo set to mass inflow.
+xhi set to pressure outflow.
+Using non-conservative scheme with do_mom_diff = 0
+NavierStokesBase::init_additional_state_types()::have_divu = 0
+NavierStokesBase::init_additional_state_types()::have_dsdt = 0
+NavierStokesBase::init_additional_state_types: num_state_type = 3
+Doing initial redistribution... 
+estTimeStep :: 
+LEV = 0 UMAX = 1  0  0  
+estimated timestep: dt = 0.005625
+Multiplying dt by init_shrink: dt = 0.005625
+Doing initial redistribution... 
+Doing initial redistribution... 
+calling initialVelocityProject
+done calling initialVelocityProject
+estTimeStep :: 
+LEV = 0 UMAX = 2.055145224  1.090747263  1.168603421e-14  
+estimated timestep: dt = 0.002737032855
+Multiplying dt by init_shrink: dt = 0.002737032855
+estTimeStep :: 
+LEV = 1 UMAX = 2.1186455  1.090747263  4.532626614e-14  
+estimated timestep: dt = 0.001327499103
+Multiplying dt by init_shrink: dt = 0.001327499103
+
+post_init_press(): doing initial pressure iterations with dt = 0.001327499103
+
+post_init_press(): iter = 0
+Advancing grids at level 0 : starting time = 0 with dt = 0.001327499103
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 2.055145224  1.090747263  1.168603421e-14
+max(abs(gpx/gpy/gpz/p)) = 0  0  0  0
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.050984111
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.823683897  0.8237444601  7.999041072e-15
+max(abs(gpx/gpy/gpz/p)) = 0  0  0  0
+Advancing grids at level 1 : starting time = 0 with dt = 0.001327499103
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 2.1186455  1.090747263  4.532626614e-14
+max(abs(gpx/gpy/gpz/p)) = 0  0  0  0
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011478269
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.805634674  0.8833420734  3.469976858e-14
+max(abs(gpx/gpy/gpz/p)) = 0  0  0  0
+After sync projection and avgDown:
+max(abs(u/v/w))  = 1.801381931  0.8885639384  1.399208077e-14
+max(abs(gpx/gpy/gpz/p)) = 77.63774718  76.64960199  4.926614672e-12  2.012722959
+
+post_init_press(): iter = 1
+Advancing grids at level 0 : starting time = 0 with dt = 0.001327499103
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 2.055145224  1.090747263  1.168603421e-14
+max(abs(gpx/gpy/gpz/p)) = 77.63774718  76.64960199  4.926614672e-12  2.012722959
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.054070967
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018374784
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.879518473  0.8273796064  1.300607698e-14
+max(abs(gpx/gpy/gpz/p)) = 77.63774718  76.64960199  4.926614672e-12  2.012722959
+Advancing grids at level 1 : starting time = 0 with dt = 0.001327499103
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 2.1186455  1.090747263  4.532626614e-14
+max(abs(gpx/gpy/gpz/p)) = 90.62494564  113.2736552  1.196820421e-11  9.788210998
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011374367
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024266515
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.898356969  0.9021690538  1.463645492e-13
+max(abs(gpx/gpy/gpz/p)) = 90.62494564  113.2736552  1.196820421e-11  9.788210998
+After sync projection and avgDown:
+max(abs(u/v/w))  = 1.837151843  0.8396900543  1.160716492e-14
+max(abs(gpx/gpy/gpz/p)) = 73.8529354  79.95071035  3.333722187e-12  1.955707535
+
+post_init_press(): iter = 2
+Advancing grids at level 0 : starting time = 0 with dt = 0.001327499103
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 2.055145224  1.090747263  1.168603421e-14
+max(abs(gpx/gpy/gpz/p)) = 73.8529354  79.95071035  3.333722187e-12  1.955707535
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.054843012
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018347023
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.875924428  0.8295335098  1.360153014e-14
+max(abs(gpx/gpy/gpz/p)) = 73.8529354  79.95071035  3.333722187e-12  1.955707535
+Advancing grids at level 1 : starting time = 0 with dt = 0.001327499103
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 2.1186455  1.090747263  4.532626614e-14
+max(abs(gpx/gpy/gpz/p)) = 117.1370034  118.1826017  1.216693413e-11  6.183358024
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011410433
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024261084
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.890274827  0.9035478555  1.452893945e-13
+max(abs(gpx/gpy/gpz/p)) = 117.1370034  118.1826017  1.216693413e-11  6.183358024
+After sync projection and avgDown:
+max(abs(u/v/w))  = 1.837015498  0.844236684  1.138519955e-14
+max(abs(gpx/gpy/gpz/p)) = 70.08582424  87.4522106  3.159269721e-12  1.955614369
+
+post_init_press(): exiting after 3 iterations
+After initial iterations: 
+max(abs(u/v/w))  = 2.055145224  1.090747263  1.168603421e-14
+max(abs(gpx/gpy/gpz/p)) = 70.08582424  87.4522106  3.159269721e-12  1.955614369
+
+
+estTimeStep :: 
+LEV = 0 UMAX = 2.055145224  1.090747263  1.168603421e-14  
+estimated timestep: dt = 0.002737032855
+Multiplying dt by init_shrink: dt = 0.002737032855
+estTimeStep :: 
+LEV = 1 UMAX = 2.1186455  1.090747263  4.532626614e-14  
+estimated timestep: dt = 0.001327499103
+Multiplying dt by init_shrink: dt = 0.001327499103
+Advancing grids at level 0 : starting time = 0 with dt = 0.001327499103
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 2.055145224  1.090747263  1.168603421e-14
+max(abs(gpx/gpy/gpz/p)) = 70.08582424  87.4522106  3.159269721e-12  1.955614369
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.055273546
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018357391
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.875319721  0.8299097887  1.392479656e-14
+max(abs(gpx/gpy/gpz/p)) = 70.08582424  87.4522106  3.159269721e-12  1.955614369
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.86767101  0.884956981  1.360512277e-14
+max(abs(gpx/gpy/gpz/p)) = 105.6977504  103.4241246  2.00282996e-12  4.93530409
+Advancing grids at level 1 : starting time = 0 with dt = 0.001327499103
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 2.1186455  1.090747263  4.532626614e-14
+max(abs(gpx/gpy/gpz/p)) = 123.3070192  138.1646516  1.370178892e-11  8.995378514
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011346181
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024260037
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.888016107  0.9032703718  1.45245099e-13
+max(abs(gpx/gpy/gpz/p)) = 123.3070192  138.1646516  1.370178892e-11  8.995378514
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.883721593  0.9037691588  2.106697835e-13
+max(abs(gpx/gpy/gpz/p)) = 109.0623272  130.2881833  7.523671457e-11  4.293946647
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.83717184  0.8312523092  8.020695595e-14  
+estimated timestep: dt = 0.003061771293
+estTimeStep :: 
+LEV = 1 UMAX = 1.887589185  0.9056359081  2.106346118e-13  
+estimated timestep: dt = 0.001489995823
+Advancing grids at level 0 : starting time = 0.001327499103 with dt = 0.001327499103
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.83717184  0.8312523092  8.020695595e-14
+max(abs(gpx/gpy/gpz/p)) = 69.35893932  76.47961643  6.088796134e-11  1.948703805
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.052239267
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018468348
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.805805518  0.8081106924  1.507544411e-13
+max(abs(gpx/gpy/gpz/p)) = 69.35893932  76.47961643  6.088796134e-11  1.948703805
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.79974093  0.8130652607  2.836179239e-14
+max(abs(gpx/gpy/gpz/p)) = 108.6733346  84.82597212  3.226127698e-11  3.722479343
+Advancing grids at level 1 : starting time = 0.001327499103 with dt = 0.001327499103
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.887589185  0.9056359081  2.106346118e-13
+max(abs(gpx/gpy/gpz/p)) = 106.871367  130.0218125  1.27502453e-10  4.313859844
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.01151901
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024358027
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.843726827  0.8714565669  2.886701542e-13
+max(abs(gpx/gpy/gpz/p)) = 106.871367  130.0218125  1.27502453e-10  4.313859844
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.83594024  0.8595918025  1.373904039e-13
+max(abs(gpx/gpy/gpz/p)) = 117.8338281  112.2644441  5.295763827e-11  3.355638609
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.782399175  0.7855488562  8.932627285e-14  
+estimated timestep: dt = 0.003155858733
+estTimeStep :: 
+LEV = 1 UMAX = 1.838962899  0.8611825281  1.904446236e-13  
+estimated timestep: dt = 0.001529394639
+Advancing grids at level 0 : starting time = 0.002654998206 with dt = 0.001460249013
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.782399175  0.7855488562  8.932627285e-14
+max(abs(gpx/gpy/gpz/p)) = 71.87704253  68.22039635  2.388169605e-11  1.733455508
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.053129911
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018432612
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.749586305  0.7803990758  1.005369881e-13
+max(abs(gpx/gpy/gpz/p)) = 71.87704253  68.22039635  2.388169605e-11  1.733455508
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.740182421  0.7849791689  3.792473416e-14
+max(abs(gpx/gpy/gpz/p)) = 90.62021642  66.74820489  3.251843239e-11  3.406941522
+Advancing grids at level 1 : starting time = 0.002654998206 with dt = 0.001460249013
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.838962899  0.8611825281  1.904446236e-13
+max(abs(gpx/gpy/gpz/p)) = 115.9931658  112.0378182  5.986711127e-11  3.323193686
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011606248
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024279888
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.847699888  0.8185727098  2.301004696e-13
+max(abs(gpx/gpy/gpz/p)) = 115.9931658  112.0378182  5.986711127e-11  3.323193686
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.840273021  0.8123386124  2.668214608e-13
+max(abs(gpx/gpy/gpz/p)) = 95.11219904  98.07141349  5.701217276e-11  4.326893239
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.723877214  0.7577422461  9.678869259e-14  
+estimated timestep: dt = 0.003262993417
+estTimeStep :: 
+LEV = 1 UMAX = 1.843277588  0.8138006095  2.667014469e-13  
+estimated timestep: dt = 0.001525814678
+Advancing grids at level 0 : starting time = 0.004115247219 with dt = 0.001525814678
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.723877214  0.7577422461  9.678869259e-14
+max(abs(gpx/gpy/gpz/p)) = 69.18068423  58.55681125  2.758523694e-11  1.587718512
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.049189848
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.01843188
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.680669884  0.7531592444  1.038377448e-13
+max(abs(gpx/gpy/gpz/p)) = 69.18068423  58.55681125  2.758523694e-11  1.587718512
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.673743757  0.7576510082  4.314750872e-14
+max(abs(gpx/gpy/gpz/p)) = 79.87436057  54.32147887  3.008038263e-11  3.019197046
+Advancing grids at level 1 : starting time = 0.004115247219 with dt = 0.001525814678
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.843277588  0.8138006095  2.667014469e-13
+max(abs(gpx/gpy/gpz/p)) = 93.42755349  97.86829767  5.231870492e-11  4.296644325
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011436435
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024493953
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.843125322  0.8032131352  2.93226626e-13
+max(abs(gpx/gpy/gpz/p)) = 93.42755349  97.86829767  5.231870492e-11  4.296644325
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.836494982  0.8034177349  2.94152794e-13
+max(abs(gpx/gpy/gpz/p)) = 84.11421785  80.20696437  5.786926494e-11  4.061798049
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.667256682  0.7342041097  9.798663109e-14  
+estimated timestep: dt = 0.003373805643
+estTimeStep :: 
+LEV = 1 UMAX = 1.839281509  0.8047722635  2.942107228e-13  
+estimated timestep: dt = 0.00152912971
+Advancing grids at level 0 : starting time = 0.005641061897 with dt = 0.001525814678
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.667256682  0.7342041097  9.798663109e-14
+max(abs(gpx/gpy/gpz/p)) = 65.04297064  47.02051944  1.796241903e-11  1.4689499
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.048896062
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.026367216
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.675440226  0.7301390113  9.905602786e-14
+max(abs(gpx/gpy/gpz/p)) = 65.04297064  47.02051944  1.796241903e-11  1.4689499
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.672443601  0.7353828955  4.545820296e-14
+max(abs(gpx/gpy/gpz/p)) = 74.34434516  47.93075849  3.123723502e-11  2.796218863
+Advancing grids at level 1 : starting time = 0.005641061897 with dt = 0.001525814678
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.839281509  0.8047722635  2.942107228e-13
+max(abs(gpx/gpy/gpz/p)) = 82.63152225  80.02883063  4.59155942e-11  4.036347387
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011728811
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024214802
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.831692448  0.7951512063  2.675370982e-13
+max(abs(gpx/gpy/gpz/p)) = 82.63152225  80.02883063  4.59155942e-11  4.036347387
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.826718142  0.7928692  2.945680952e-13
+max(abs(gpx/gpy/gpz/p)) = 67.06054596  63.79363464  5.937028646e-11  1.73523398
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.676295715  0.7330360525  9.562023149e-14  
+estimated timestep: dt = 0.003355613183
+estTimeStep :: 
+LEV = 1 UMAX = 1.829205484  0.794125157  2.94500703e-13  
+estimated timestep: dt = 0.001537552793
+Advancing grids at level 0 : starting time = 0.007166876576 with dt = 0.00152912971
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.676295715  0.7330360525  9.562023149e-14
+max(abs(gpx/gpy/gpz/p)) = 63.20546365  40.23321787  1.177780096e-11  1.376317555
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.053782148
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017861147
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.684543083  0.7305685042  9.335883986e-14
+max(abs(gpx/gpy/gpz/p)) = 63.20546365  40.23321787  1.177780096e-11  1.376317555
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.684327272  0.7212737019  4.570096318e-14
+max(abs(gpx/gpy/gpz/p)) = 71.71401619  46.43087344  2.995603765e-11  2.656612995
+Advancing grids at level 1 : starting time = 0.007166876576 with dt = 0.00152912971
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.829205484  0.794125157  2.94500703e-13
+max(abs(gpx/gpy/gpz/p)) = 65.74921621  63.63464507  3.944400362e-11  1.660728025
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011639927
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024438905
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.817478701  0.7886740891  2.531879417e-13
+max(abs(gpx/gpy/gpz/p)) = 65.74921621  63.63464507  3.944400362e-11  1.660728025
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.81310766  0.785560915  2.516191921e-13
+max(abs(gpx/gpy/gpz/p)) = 62.76684887  49.83551127  5.831779504e-11  2.757233745
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.687462246  0.7363592344  9.208798748e-14  
+estimated timestep: dt = 0.00333340791
+estTimeStep :: 
+LEV = 1 UMAX = 1.815379513  0.7867536392  2.516119683e-13  
+estimated timestep: dt = 0.001549262829
+Advancing grids at level 0 : starting time = 0.008696006286 with dt = 0.001537552793
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.687462246  0.7363592344  9.208798748e-14
+max(abs(gpx/gpy/gpz/p)) = 62.00634857  37.36739296  1.154389084e-11  1.303324865
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.049094919
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017896732
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.691937585  0.73139984  8.875407138e-14
+max(abs(gpx/gpy/gpz/p)) = 62.00634857  37.36739296  1.154389084e-11  1.303324865
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.695117375  0.7218099283  4.486242629e-14
+max(abs(gpx/gpy/gpz/p)) = 69.63543476  44.65578613  2.832623025e-11  2.557370085
+Advancing grids at level 1 : starting time = 0.008696006286 with dt = 0.001537552793
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.815379513  0.7867536392  2.516119683e-13
+max(abs(gpx/gpy/gpz/p)) = 62.00634857  49.68965641  3.783645272e-11  2.774289138
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.010719223
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024322714
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.80018478  0.7807499215  2.539968401e-13
+max(abs(gpx/gpy/gpz/p)) = 62.00634857  49.68965641  3.783645272e-11  2.774289138
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.796474659  0.778907227  2.535567041e-13
+max(abs(gpx/gpy/gpz/p)) = 53.90616193  43.28124611  5.647038392e-11  2.425573254
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.697441235  0.7391340543  8.879362114e-14  
+estimated timestep: dt = 0.003313811332
+estTimeStep :: 
+LEV = 1 UMAX = 1.798599181  0.7800594212  2.534489909e-13  
+estimated timestep: dt = 0.001563716936
+Advancing grids at level 0 : starting time = 0.01023355908 with dt = 0.001549262829
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.697441235  0.7391340543  8.879362114e-14
+max(abs(gpx/gpy/gpz/p)) = 45.04768326  36.07762959  1.129873972e-11  1.242906929
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.047249069
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017984996
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.697901732  0.7322037365  8.571532302e-14
+max(abs(gpx/gpy/gpz/p)) = 45.04768326  36.07762959  1.129873972e-11  1.242906929
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.704460295  0.7227071921  4.372962261e-14
+max(abs(gpx/gpy/gpz/p)) = 67.77817114  43.28765201  2.752464923e-11  2.476353468
+Advancing grids at level 1 : starting time = 0.01023355908 with dt = 0.001549262829
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.798599181  0.7800594212  2.534489909e-13
+max(abs(gpx/gpy/gpz/p)) = 53.56561226  43.26940336  3.776624846e-11  2.439750396
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.01078249
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024379589
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.780866549  0.7739339006  2.611298181e-13
+max(abs(gpx/gpy/gpz/p)) = 53.56561226  43.26940336  3.776624846e-11  2.439750396
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.777805507  0.7722567466  2.795260929e-13
+max(abs(gpx/gpy/gpz/p)) = 56.84296973  42.22395064  5.500488953e-11  2.800269033
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.706193694  0.7411909148  8.534236667e-14  
+estimated timestep: dt = 0.003296812091
+estTimeStep :: 
+LEV = 1 UMAX = 1.779812665  0.7733774825  2.794625836e-13  
+estimated timestep: dt = 0.001580222489
+Advancing grids at level 0 : starting time = 0.01178282191 with dt = 0.001563716936
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.706193694  0.7411909148  8.534236667e-14
+max(abs(gpx/gpy/gpz/p)) = 56.20227394  37.61228485  1.139865979e-11  1.23336219
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.050987234
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017961022
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.70412087  0.7323254608  8.206601588e-14
+max(abs(gpx/gpy/gpz/p)) = 56.20227394  37.61228485  1.139865979e-11  1.23336219
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.712526414  0.723159068  4.240740882e-14
+max(abs(gpx/gpy/gpz/p)) = 66.10362639  42.17662423  2.662980947e-11  2.398049786
+Advancing grids at level 1 : starting time = 0.01178282191 with dt = 0.001563716936
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.779812665  0.7733774825  2.794625836e-13
+max(abs(gpx/gpy/gpz/p)) = 56.20227394  42.56324278  3.726973591e-11  2.722499998
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.010523057
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024286641
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.776239244  0.7670705702  2.544275027e-13
+max(abs(gpx/gpy/gpz/p)) = 56.20227394  42.56324278  3.726973591e-11  2.722499998
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.773713097  0.7651842094  2.497060206e-13
+max(abs(gpx/gpy/gpz/p)) = 56.28410698  41.58533175  5.358824495e-11  2.140585712
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.71383004  0.7423349641  8.256479196e-14  
+estimated timestep: dt = 0.003282122422
+estTimeStep :: 
+LEV = 1 UMAX = 1.775566277  0.7662791918  2.496075474e-13  
+estimated timestep: dt = 0.001584001699
+Advancing grids at level 0 : starting time = 0.01334653884 with dt = 0.001580222489
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.71383004  0.7423349641  8.256479196e-14
+max(abs(gpx/gpy/gpz/p)) = 55.69141547  38.67451012  1.130984195e-11  1.226898865
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.051938032
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018011204
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.710637366  0.7320617346  7.996908804e-14
+max(abs(gpx/gpy/gpz/p)) = 55.69141547  38.67451012  1.130984195e-11  1.226898865
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.71946164  0.723204463  4.111466645e-14
+max(abs(gpx/gpy/gpz/p)) = 64.49059605  41.03854939  2.583711023e-11  2.329992186
+Advancing grids at level 1 : starting time = 0.01334653884 with dt = 0.001580222489
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.775566277  0.7662791918  2.496075474e-13
+max(abs(gpx/gpy/gpz/p)) = 55.69141547  42.48361654  3.622727118e-11  2.150349298
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011677781
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024226089
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.77903694  0.7630212787  2.645717141e-13
+max(abs(gpx/gpy/gpz/p)) = 55.69141547  42.48361654  3.622727118e-11  2.150349298
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.776509268  0.7621171048  2.662723062e-13
+max(abs(gpx/gpy/gpz/p)) = 49.76421055  41.00121709  5.221600929e-11  1.735797996
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.720310024  0.7429805637  8.0082332e-14  
+estimated timestep: dt = 0.003269759474
+estTimeStep :: 
+LEV = 1 UMAX = 1.77827028  0.7630178173  2.66188507e-13  
+estimated timestep: dt = 0.001581593097
+Advancing grids at level 0 : starting time = 0.01492676133 with dt = 0.001581593097
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.720310024  0.7429805637  8.0082332e-14
+max(abs(gpx/gpy/gpz/p)) = 46.63401438  38.84473273  1.148858786e-11  1.221871059
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.053615481
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018134653
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.716131919  0.7316055402  7.82392694e-14
+max(abs(gpx/gpy/gpz/p)) = 46.63401438  38.84473273  1.148858786e-11  1.221871059
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.725278906  0.7231532539  4.000603882e-14
+max(abs(gpx/gpy/gpz/p)) = 63.76466295  40.06241462  2.572830837e-11  2.284371084
+Advancing grids at level 1 : starting time = 0.01492676133 with dt = 0.001581593097
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.77827028  0.7630178173  2.66188507e-13
+max(abs(gpx/gpy/gpz/p)) = 50.71462457  41.87324139  3.551943462e-11  1.743572846
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011771591
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024309116
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.780021646  0.7636615718  2.572031698e-13
+max(abs(gpx/gpy/gpz/p)) = 50.71462457  41.87324139  3.551943462e-11  1.743572846
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.777307884  0.762289252  2.649605692e-13
+max(abs(gpx/gpy/gpz/p)) = 48.77858384  40.49494632  5.156319816e-11  1.358681611
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.725407239  0.7435648121  7.768075385e-14  
+estimated timestep: dt = 0.00326009992
+estTimeStep :: 
+LEV = 1 UMAX = 1.778979561  0.7631712076  2.649195447e-13  
+estimated timestep: dt = 0.001580962514
+Advancing grids at level 0 : starting time = 0.01650835443 with dt = 0.001580962514
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.725407239  0.7435648121  7.768075385e-14
+max(abs(gpx/gpy/gpz/p)) = 47.01585823  38.77957048  1.089350832e-11  1.220257187
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.053314485
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018002098
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.720384956  0.7311689693  7.613774312e-14
+max(abs(gpx/gpy/gpz/p)) = 47.01585823  38.77957048  1.089350832e-11  1.220257187
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.729821072  0.7232592144  3.898535122e-14
+max(abs(gpx/gpy/gpz/p)) = 63.28361485  40.11589941  2.491562512e-11  2.248785483
+Advancing grids at level 1 : starting time = 0.01650835443 with dt = 0.001580962514
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.778979561  0.7631712076  2.649195447e-13
+max(abs(gpx/gpy/gpz/p)) = 49.6950203  41.34738911  3.47855772e-11  1.44626026
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011469612
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024358127
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.779164925  0.7647140911  2.471670897e-13
+max(abs(gpx/gpy/gpz/p)) = 49.6950203  41.34738911  3.47855772e-11  1.44626026
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.776679635  0.7629038528  2.453353607e-13
+max(abs(gpx/gpy/gpz/p)) = 49.573266  40.04121836  5.046185692e-11  1.342216407
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.729311194  0.7442574516  7.680111453e-14  
+estimated timestep: dt = 0.003252740177
+estTimeStep :: 
+LEV = 1 UMAX = 1.778279675  0.7637726585  2.452637907e-13  
+estimated timestep: dt = 0.001581584742
+Advancing grids at level 0 : starting time = 0.01808931694 with dt = 0.001580962514
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.729311194  0.7442574516  7.680111453e-14
+max(abs(gpx/gpy/gpz/p)) = 47.76152711  38.63957012  1.132427485e-11  1.218861908
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.053342906
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018099949
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.723597528  0.7308921272  7.638730803e-14
+max(abs(gpx/gpy/gpz/p)) = 47.76152711  38.63957012  1.132427485e-11  1.218861908
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.732059384  0.7235636959  3.80844689e-14
+max(abs(gpx/gpy/gpz/p)) = 62.87678937  42.1848898  2.472022587e-11  2.218282214
+Advancing grids at level 1 : starting time = 0.01808931694 with dt = 0.001580962514
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.778279675  0.7637726585  2.452637907e-13
+max(abs(gpx/gpy/gpz/p)) = 48.8323316  40.88034506  3.381753211e-11  1.435607355
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011721063
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024255381
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.777289073  0.7654698537  2.397437933e-13
+max(abs(gpx/gpy/gpz/p)) = 48.8323316  40.88034506  3.381753211e-11  1.435607355
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.774947905  0.7638950224  2.41009771e-13
+max(abs(gpx/gpy/gpz/p)) = 49.82017916  39.61327823  4.997335878e-11  1.42306806
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.732210252  0.7450095575  7.662216017e-14  
+estimated timestep: dt = 0.003247296334
+estTimeStep :: 
+LEV = 1 UMAX = 1.776478807  0.7647622145  2.409211596e-13  
+estimated timestep: dt = 0.00158318804
+Advancing grids at level 0 : starting time = 0.01967027946 with dt = 0.001581584742
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.732210252  0.7450095575  7.662216017e-14
+max(abs(gpx/gpy/gpz/p)) = 46.05019647  38.62403374  1.148359186e-11  1.217771771
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.054006784
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017972293
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.725945835  0.7307284635  7.644646232e-14
+max(abs(gpx/gpy/gpz/p)) = 46.05019647  38.62403374  1.148359186e-11  1.217771771
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.73442109  0.724042211  3.73701186e-14
+max(abs(gpx/gpy/gpz/p)) = 62.52242757  42.10010917  2.459588089e-11  2.192800149
+Advancing grids at level 1 : starting time = 0.01967027946 with dt = 0.001581584742
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.776478807  0.7647622145  2.409211596e-13
+max(abs(gpx/gpy/gpz/p)) = 49.12110394  40.44784535  3.337580212e-11  1.419773491
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011688784
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024346219
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.774525611  0.7664597795  2.339939251e-13
+max(abs(gpx/gpy/gpz/p)) = 49.12110394  40.44784535  3.337580212e-11  1.419773491
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.772630058  0.7650339199  2.378167824e-13
+max(abs(gpx/gpy/gpz/p)) = 49.43300933  39.23338694  4.972466883e-11  1.858919136
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.73422762  0.7457855905  7.59996761e-14  
+estimated timestep: dt = 0.003243518864
+estTimeStep :: 
+LEV = 1 UMAX = 1.774092386  0.7658919849  2.377459532e-13  
+estimated timestep: dt = 0.001585317666
+Advancing grids at level 0 : starting time = 0.0212518642 with dt = 0.00158318804
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.73422762  0.7457855905  7.59996761e-14
+max(abs(gpx/gpy/gpz/p)) = 44.30759692  38.60351952  1.121158721e-11  1.216730891
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.055000403
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017804322
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.727513746  0.7307314231  7.550743258e-14
+max(abs(gpx/gpy/gpz/p)) = 44.30759692  38.60351952  1.121158721e-11  1.216730891
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.735940081  0.7247094235  3.679482094e-14
+max(abs(gpx/gpy/gpz/p)) = 62.1941101  41.94606032  2.421396417e-11  2.170419286
+Advancing grids at level 1 : starting time = 0.0212518642 with dt = 0.00158318804
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.774092386  0.7658919849  2.377459532e-13
+max(abs(gpx/gpy/gpz/p)) = 48.89711894  40.05705973  3.265041015e-11  1.856802981
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011765833
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.02444763
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.771330672  0.7675329176  2.306929807e-13
+max(abs(gpx/gpy/gpz/p)) = 48.89711894  40.05705973  3.265041015e-11  1.856802981
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.769658941  0.7661952651  2.305659695e-13
+max(abs(gpx/gpy/gpz/p)) = 48.38071601  38.93576404  4.927613872e-11  2.160610903
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.735447548  0.7465873998  7.570428464e-14  
+estimated timestep: dt = 0.003241238841
+estTimeStep :: 
+LEV = 1 UMAX = 1.771059715  0.7670459305  2.304994586e-13  
+estimated timestep: dt = 0.001588032281
+Advancing grids at level 0 : starting time = 0.02283505224 with dt = 0.001585317666
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.735447548  0.7465873998  7.570428464e-14
+max(abs(gpx/gpy/gpz/p)) = 42.56829092  38.56003218  1.134620176e-11  1.216041508
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.053805482
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.01769513
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.728366589  0.7308941373  7.545279273e-14
+max(abs(gpx/gpy/gpz/p)) = 42.56829092  38.56003218  1.134620176e-11  1.216041508
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.736740981  0.7254645231  3.640658217e-14
+max(abs(gpx/gpy/gpz/p)) = 61.89876207  41.74195094  2.404298982e-11  2.151118381
+Advancing grids at level 1 : starting time = 0.02283505224 with dt = 0.001585317666
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.771059715  0.7670459305  2.304994586e-13
+max(abs(gpx/gpy/gpz/p)) = 47.79381163  39.74953661  3.211972355e-11  2.15952034
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011708697
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024326515
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.767677401  0.768605247  2.266279565e-13
+max(abs(gpx/gpy/gpz/p)) = 47.79381163  39.74953661  3.211972355e-11  2.15952034
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.766208514  0.7673948686  2.274350757e-13
+max(abs(gpx/gpy/gpz/p)) = 47.05276551  38.68088341  4.900080341e-11  2.418027126
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.735983295  0.7474307619  7.529958478e-14  
+estimated timestep: dt = 0.003240238553
+estTimeStep :: 
+LEV = 1 UMAX = 1.76755135  0.7682415371  2.273591916e-13  
+estimated timestep: dt = 0.001591184324
+Advancing grids at level 0 : starting time = 0.02442036991 with dt = 0.001588032281
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.735983295  0.7474307619  7.529958478e-14
+max(abs(gpx/gpy/gpz/p)) = 40.70951536  38.46503385  1.125960436e-11  1.215347762
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.055173813
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018000225
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.728636228  0.7312176766  7.497398673e-14
+max(abs(gpx/gpy/gpz/p)) = 40.70951536  38.46503385  1.125960436e-11  1.215347762
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.736888693  0.7262910394  3.604199674e-14
+max(abs(gpx/gpy/gpz/p)) = 61.61521676  41.64744061  2.376543407e-11  2.134729925
+Advancing grids at level 1 : starting time = 0.02442036991 with dt = 0.001588032281
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.76755135  0.7682415371  2.273591916e-13
+max(abs(gpx/gpy/gpz/p)) = 47.32294987  39.48715301  3.187006214e-11  2.417882601
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011601325
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024476016
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.763811981  0.7697612763  2.242086662e-13
+max(abs(gpx/gpy/gpz/p)) = 47.32294987  39.48715301  3.187006214e-11  2.417882601
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.762517518  0.7685822674  2.244035077e-13
+max(abs(gpx/gpy/gpz/p)) = 45.95720667  38.48582352  4.86721774e-11  2.673583625
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.735947709  0.7482883545  7.498425959e-14  
+estimated timestep: dt = 0.003240304977
+estTimeStep :: 
+LEV = 1 UMAX = 1.763809287  0.769421085  2.243241122e-13  
+estimated timestep: dt = 0.001594560149
+Advancing grids at level 0 : starting time = 0.02600840219 with dt = 0.001591184324
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.735947709  0.7482883545  7.498425959e-14
+max(abs(gpx/gpy/gpz/p)) = 38.77828805  38.38472748  1.127598015e-11  1.212276879
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.055751281
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017947296
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.728389969  0.7316210654  7.475051827e-14
+max(abs(gpx/gpy/gpz/p)) = 38.77828805  38.38472748  1.127598015e-11  1.212276879
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.736519883  0.7271504321  3.575137642e-14
+max(abs(gpx/gpy/gpz/p)) = 61.34830697  41.50646552  2.368549801e-11  2.120679918
+Advancing grids at level 1 : starting time = 0.02600840219 with dt = 0.001591184324
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.763809287  0.769421085  2.243241122e-13
+max(abs(gpx/gpy/gpz/p)) = 46.76692143  39.28177007  3.184369435e-11  2.674240242
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011604391
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024165742
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.759760572  0.7708809103  2.227344325e-13
+max(abs(gpx/gpy/gpz/p)) = 46.76692143  39.28177007  3.184369435e-11  2.674240242
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.758488862  0.7697504305  2.235234264e-13
+max(abs(gpx/gpy/gpz/p)) = 45.36826219  38.33084765  4.849898261e-11  2.947248823
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.73540173  0.7491639079  7.469277264e-14  
+estimated timestep: dt = 0.003241324417
+estTimeStep :: 
+LEV = 1 UMAX = 1.759735525  0.7705836242  2.23442678e-13  
+estimated timestep: dt = 0.001598251533
+Advancing grids at level 0 : starting time = 0.02759958651 with dt = 0.001594560149
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.73540173  0.7491639079  7.469277264e-14
+max(abs(gpx/gpy/gpz/p)) = 37.99143166  38.30679381  1.12493348e-11  1.206720358
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.054239394
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017954469
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.727685188  0.7321089204  7.446471947e-14
+max(abs(gpx/gpy/gpz/p)) = 37.99143166  38.30679381  1.12493348e-11  1.206720358
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.73568506  0.7280387973  3.545399342e-14
+max(abs(gpx/gpy/gpz/p)) = 61.1006573  41.33709923  2.362887663e-11  2.109326717
+Advancing grids at level 1 : starting time = 0.02759958651 with dt = 0.001594560149
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.759735525  0.7705836242  2.23442678e-13
+max(abs(gpx/gpy/gpz/p)) = 46.15578201  39.11833018  3.188338482e-11  2.948613389
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011647216
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024325481
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.755467498  0.7719848742  2.223781883e-13
+max(abs(gpx/gpy/gpz/p)) = 46.15578201  39.11833018  3.188338482e-11  2.948613389
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.754334249  0.7710949056  2.267954721e-13
+max(abs(gpx/gpy/gpz/p)) = 44.50746964  38.16766699  4.8276938e-11  3.230450308
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.734439643  0.7501865111  7.428762584e-14  
+estimated timestep: dt = 0.003243122367
+estTimeStep :: 
+LEV = 1 UMAX = 1.755533709  0.7719252744  2.267313297e-13  
+estimated timestep: dt = 0.001602076899
+Advancing grids at level 0 : starting time = 0.02919414666 with dt = 0.001598251533
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.734439643  0.7501865111  7.428762584e-14
+max(abs(gpx/gpy/gpz/p)) = 38.40958811  38.18722128  1.114774939e-11  1.200558089
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.053929391
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017961993
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.726644387  0.7328823588  7.394515754e-14
+max(abs(gpx/gpy/gpz/p)) = 38.40958811  38.18722128  1.114774939e-11  1.200558089
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.734482021  0.7290914922  3.526483893e-14
+max(abs(gpx/gpy/gpz/p)) = 60.87567119  41.14527255  2.309930025e-11  2.099549829
+Advancing grids at level 1 : starting time = 0.02919414666 with dt = 0.001598251533
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.755533709  0.7719252744  2.267313297e-13
+max(abs(gpx/gpy/gpz/p)) = 45.27633043  38.94930768  3.180067321e-11  3.232571227
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.01167099
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024373071
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.751209503  0.7734463584  2.211032136e-13
+max(abs(gpx/gpy/gpz/p)) = 45.27633043  38.94930768  3.180067321e-11  3.232571227
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.750179192  0.772421137  2.19669486e-13
+max(abs(gpx/gpy/gpz/p)) = 44.38675764  38.06813673  4.793054842e-11  3.493759413
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.733156834  0.7512083751  7.399745379e-14  
+estimated timestep: dt = 0.003245522787
+estTimeStep :: 
+LEV = 1 UMAX = 1.751344306  0.773248866  2.195974923e-13  
+estimated timestep: dt = 0.001605909238
+Advancing grids at level 0 : starting time = 0.03079239819 with dt = 0.001602076899
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.733156834  0.7512083751  7.399745379e-14
+max(abs(gpx/gpy/gpz/p)) = 38.2860584  38.09773506  1.118993787e-11  1.195644129
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.054684317
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017935254
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.725340079  0.7335992322  7.375669252e-14
+max(abs(gpx/gpy/gpz/p)) = 38.2860584  38.09773506  1.118993787e-11  1.195644129
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.732990848  0.7301615511  3.509885746e-14
+max(abs(gpx/gpy/gpz/p)) = 60.67375628  40.92440032  2.283395695e-11  2.091742068
+Advancing grids at level 1 : starting time = 0.03079239819 with dt = 0.001602076899
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.751344306  0.773248866  2.195974923e-13
+max(abs(gpx/gpy/gpz/p)) = 45.14408473  38.84390027  3.176542362e-11  3.496441125
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011682819
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024403188
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.747052559  0.7747332051  2.207222638e-13
+max(abs(gpx/gpy/gpz/p)) = 45.14408473  38.84390027  3.176542362e-11  3.496441125
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.746024117  0.7737213968  2.19251509e-13
+max(abs(gpx/gpy/gpz/p)) = 44.04981197  37.9924595  4.770850381e-11  3.741613689
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.73163149  0.7522437414  7.39592431e-14  
+estimated timestep: dt = 0.003248381676
+estTimeStep :: 
+LEV = 1 UMAX = 1.747159673  0.7745485436  2.191674467e-13  
+estimated timestep: dt = 0.001609755561
+Advancing grids at level 0 : starting time = 0.03239447509 with dt = 0.001605909238
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.73163149  0.7522437414  7.39592431e-14
+max(abs(gpx/gpy/gpz/p)) = 38.07330819  38.01474196  1.132566263e-11  1.19107997
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.055765669
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018056227
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.723813593  0.7343719343  7.389766611e-14
+max(abs(gpx/gpy/gpz/p)) = 38.07330819  38.01474196  1.132566263e-11  1.19107997
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.731247323  0.7312560084  3.493154838e-14
+max(abs(gpx/gpy/gpz/p)) = 60.49626155  40.68953067  2.268185639e-11  2.086004353
+Advancing grids at level 1 : starting time = 0.03239447509 with dt = 0.001605909238
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.747159673  0.7745485436  2.191674467e-13
+max(abs(gpx/gpy/gpz/p)) = 44.79851697  38.76423689  3.176098273e-11  3.744826031
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.01163162
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024404333
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.742830337  0.7759823131  2.210322696e-13
+max(abs(gpx/gpy/gpz/p)) = 44.79851697  38.76423689  3.176098273e-11  3.744826031
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.741937883  0.7749755605  2.233848272e-13
+max(abs(gpx/gpy/gpz/p)) = 43.68903023  37.93997752  4.761080419e-11  3.977800683
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.729921542  0.7532906124  7.394542582e-14  
+estimated timestep: dt = 0.003251592551
+estTimeStep :: 
+LEV = 1 UMAX = 1.74304489  0.7758019855  2.233309096e-13  
+estimated timestep: dt = 0.00161355569
+Advancing grids at level 0 : starting time = 0.03400038433 with dt = 0.001609755561
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.729921542  0.7532906124  7.394542582e-14
+max(abs(gpx/gpy/gpz/p)) = 37.85904406  37.938932  1.136452044e-11  1.186758365
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.054561179
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018057069
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.722110556  0.7351918065  7.393153829e-14
+max(abs(gpx/gpy/gpz/p)) = 37.85904406  37.938932  1.136452044e-11  1.186758365
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.729217652  0.7323703545  3.470525962e-14
+max(abs(gpx/gpy/gpz/p)) = 60.33961985  40.4492027  2.259414877e-11  2.082348054
+Advancing grids at level 1 : starting time = 0.03400038433 with dt = 0.001609755561
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.74304489  0.7758019855  2.233309096e-13
+max(abs(gpx/gpy/gpz/p)) = 44.42937417  38.70778228  3.168409979e-11  3.981546428
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011627703
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024415353
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.738736195  0.7771767352  2.202108711e-13
+max(abs(gpx/gpy/gpz/p)) = 44.42937417  38.70778228  3.168409979e-11  3.981546428
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.737863005  0.7761798506  2.180006537e-13
+max(abs(gpx/gpy/gpz/p)) = 43.35237875  37.90618949  4.762412686e-11  4.208484073
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.728029346  0.7543576013  7.392380755e-14  
+estimated timestep: dt = 0.003255153052
+estTimeStep :: 
+LEV = 1 UMAX = 1.738937323  0.7770049121  2.179875395e-13  
+estimated timestep: dt = 0.001617367091
+Advancing grids at level 0 : starting time = 0.03561013989 with dt = 0.00161355569
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.728029346  0.7543576013  7.392380755e-14
+max(abs(gpx/gpy/gpz/p)) = 37.66772292  37.86390781  1.136868377e-11  1.182715642
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.056383553
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018054514
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.720082488  0.7360654219  7.388159655e-14
+max(abs(gpx/gpy/gpz/p)) = 37.66772292  37.86390781  1.136868377e-11  1.182715642
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.726951741  0.7335133518  3.461581274e-14
+max(abs(gpx/gpy/gpz/p)) = 60.20413264  40.20654191  2.243871755e-11  2.079566288
+Advancing grids at level 1 : starting time = 0.03561013989 with dt = 0.00161355569
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.738937323  0.7770049121  2.179875395e-13
+max(abs(gpx/gpy/gpz/p)) = 44.08328452  38.66939117  3.185035569e-11  4.212763989
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011551137
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024337973
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.735610673  0.7783360455  2.216878244e-13
+max(abs(gpx/gpy/gpz/p)) = 44.08328452  38.66939117  3.185035569e-11  4.212763989
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.73431273  0.7773588781  2.212720616e-13
+max(abs(gpx/gpy/gpz/p)) = 43.03633166  37.88559623  4.753086813e-11  4.421140626
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.726004773  0.7554569161  7.401274043e-14  
+estimated timestep: dt = 0.00325897129
+estTimeStep :: 
+LEV = 1 UMAX = 1.735420374  0.7781838135  2.21191908e-13  
+estimated timestep: dt = 0.001620644797
+Advancing grids at level 0 : starting time = 0.03722369558 with dt = 0.001617367091
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.726004773  0.7554569161  7.401274043e-14
+max(abs(gpx/gpy/gpz/p)) = 37.49600272  37.78934787  1.145888939e-11  1.179111054
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.054251113
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018022995
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.717921341  0.7369998487  7.40773454e-14
+max(abs(gpx/gpy/gpz/p)) = 37.49600272  37.78934787  1.145888939e-11  1.179111054
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.724591254  0.7346946785  3.452469482e-14
+max(abs(gpx/gpy/gpz/p)) = 60.0853848  39.93976987  2.247868558e-11  2.078071247
+Advancing grids at level 1 : starting time = 0.03722369558 with dt = 0.001617367091
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.735420374  0.7781838135  2.21191908e-13
+max(abs(gpx/gpy/gpz/p)) = 43.76087328  38.64579683  3.188782571e-11  4.425761203
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011691837
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.02439085
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.732591935  0.7794927438  2.231932657e-13
+max(abs(gpx/gpy/gpz/p)) = 43.76087328  38.64579683  3.188782571e-11  4.425761203
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.731399101  0.7785334136  2.226049111e-13
+max(abs(gpx/gpy/gpz/p)) = 42.7389788  37.88090324  4.755085214e-11  4.6163735
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.723893608  0.7565937876  7.408560404e-14  
+estimated timestep: dt = 0.003262962385
+estTimeStep :: 
+LEV = 1 UMAX = 1.732484847  0.7793580213  2.22531337e-13  
+estimated timestep: dt = 0.001623390822
+Advancing grids at level 0 : starting time = 0.03884106267 with dt = 0.001620644797
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.723893608  0.7565937876  7.408560404e-14
+max(abs(gpx/gpy/gpz/p)) = 37.33699922  37.71462285  1.147276718e-11  1.17569034
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.054750838
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018234236
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.715731368  0.7379957283  7.414064507e-14
+max(abs(gpx/gpy/gpz/p)) = 37.33699922  37.71462285  1.147276718e-11  1.17569034
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.722185013  0.735920327  3.44614698e-14
+max(abs(gpx/gpy/gpz/p)) = 60.00593851  39.66129958  2.241651309e-11  2.077834992
+Advancing grids at level 1 : starting time = 0.03884106267 with dt = 0.001620644797
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.732484847  0.7793580213  2.22531337e-13
+max(abs(gpx/gpy/gpz/p)) = 43.45729254  38.6380836  3.194833287e-11  4.621339903
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011730175
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024456234
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.729434651  0.7806628413  2.246476185e-13
+max(abs(gpx/gpy/gpz/p)) = 43.45729254  38.6380836  3.194833287e-11  4.621339903
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.728375529  0.7797309007  2.252954785e-13
+max(abs(gpx/gpy/gpz/p)) = 42.45700839  37.88908636  4.753974991e-11  4.816167229
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.721732003  0.757780952  7.422902913e-14  
+estimated timestep: dt = 0.003267058979
+estTimeStep :: 
+LEV = 1 UMAX = 1.729444822  0.7805555571  2.252227594e-13  
+estimated timestep: dt = 0.001626244425
+Advancing grids at level 0 : starting time = 0.04046170747 with dt = 0.001623390822
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.721732003  0.757780952  7.422902913e-14
+max(abs(gpx/gpy/gpz/p)) = 37.18740875  37.64173716  1.153604989e-11  1.172085882
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.057178596
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018148518
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.713482965  0.7390614396  7.432409336e-14
+max(abs(gpx/gpy/gpz/p)) = 37.18740875  37.64173716  1.153604989e-11  1.172085882
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.719742846  0.7371969385  3.436491937e-14
+max(abs(gpx/gpy/gpz/p)) = 59.96499906  39.38968081  2.237210417e-11  2.07897997
+Advancing grids at level 1 : starting time = 0.04046170747 with dt = 0.001623390822
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.729444822  0.7805555571  2.252227594e-13
+max(abs(gpx/gpy/gpz/p)) = 43.17090945  38.64416495  3.194472464e-11  4.821326166
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011672328
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024369474
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.726679006  0.7818757079  2.256252152e-13
+max(abs(gpx/gpy/gpz/p)) = 43.17090945  38.64416495  3.194472464e-11  4.821326166
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.72563848  0.7809659601  2.26578293e-13
+max(abs(gpx/gpy/gpz/p)) = 42.19285002  37.9091319  4.755529304e-11  4.895971444
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.719517014  0.7590280237  7.450060406e-14  
+estimated timestep: dt = 0.003271267428
+estTimeStep :: 
+LEV = 1 UMAX = 1.72664467  0.7817901712  2.26515687e-13  
+estimated timestep: dt = 0.001628881755
+Advancing grids at level 0 : starting time = 0.04208509829 with dt = 0.001626244425
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.719517014  0.7590280237  7.450060406e-14
+max(abs(gpx/gpy/gpz/p)) = 37.04851272  37.5739766  1.165345598e-11  1.168630999
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.054568226
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017999861
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.711159296  0.7402001361  7.470116205e-14
+max(abs(gpx/gpy/gpz/p)) = 37.04851272  37.5739766  1.165345598e-11  1.168630999
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.717219353  0.738531127  3.430210287e-14
+max(abs(gpx/gpy/gpz/p)) = 59.93300855  39.11737545  2.238653707e-11  2.080920648
+Advancing grids at level 1 : starting time = 0.04208509829 with dt = 0.001626244425
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.72664467  0.7817901712  2.26515687e-13
+max(abs(gpx/gpy/gpz/p)) = 42.90228678  38.66204221  3.219147171e-11  4.901308205
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011784432
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024394423
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.726082068  0.7831136953  2.262780813e-13
+max(abs(gpx/gpy/gpz/p)) = 42.90228678  38.66204221  3.219147171e-11  4.901308205
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.725053258  0.7822314489  2.315019758e-13
+max(abs(gpx/gpy/gpz/p)) = 41.94347836  37.93978759  4.767297668e-11  4.869621539
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.717212883  0.7603371717  7.461456608e-14  
+estimated timestep: dt = 0.003275656767
+estTimeStep :: 
+LEV = 1 UMAX = 1.726041199  0.7830551578  2.314448924e-13  
+estimated timestep: dt = 0.001629451256
+Advancing grids at level 0 : starting time = 0.04371134272 with dt = 0.001628881755
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.717212883  0.7603371717  7.461456608e-14
+max(abs(gpx/gpy/gpz/p)) = 36.91933956  37.50852804  1.16087695e-11  1.165116089
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.05566493
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017991576
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.708691692  0.7414135659  7.469937827e-14
+max(abs(gpx/gpy/gpz/p)) = 36.91933956  37.50852804  1.16087695e-11  1.165116089
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.714613137  0.7399149359  3.430745549e-14
+max(abs(gpx/gpy/gpz/p)) = 59.92237445  38.84547775  2.234101792e-11  2.177852129
+Advancing grids at level 1 : starting time = 0.04371134272 with dt = 0.001628881755
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.726041199  0.7830551578  2.314448924e-13
+max(abs(gpx/gpy/gpz/p)) = 42.64850306  38.69048923  3.249123193e-11  4.875098204
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011598426
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024386058
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.72543346  0.7843945817  2.305506261e-13
+max(abs(gpx/gpy/gpz/p)) = 42.64850306  38.69048923  3.249123193e-11  4.875098204
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.724433556  0.783535714  2.286540495e-13
+max(abs(gpx/gpy/gpz/p)) = 41.76580887  37.98424511  4.770184248e-11  4.815286488
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.714790465  0.7617118223  7.474646002e-14  
+estimated timestep: dt = 0.003280284159
+estTimeStep :: 
+LEV = 1 UMAX = 1.725406918  0.7843585502  2.286048795e-13  
+estimated timestep: dt = 0.001630050263
+Advancing grids at level 0 : starting time = 0.04534022447 with dt = 0.001629451256
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.714790465  0.7617118223  7.474646002e-14
+max(abs(gpx/gpy/gpz/p)) = 36.83147197  37.45517211  1.164623953e-11  1.161835795
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.055008332
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018024746
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.706079389  0.7427064025  7.485102275e-14
+max(abs(gpx/gpy/gpz/p)) = 36.83147197  37.45517211  1.164623953e-11  1.161835795
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.712256148  0.7413527647  3.433108676e-14
+max(abs(gpx/gpy/gpz/p)) = 60.02011805  38.21572382  2.234878949e-11  2.543104946
+Advancing grids at level 1 : starting time = 0.04534022447 with dt = 0.001629451256
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.725406918  0.7843585502  2.286048795e-13
+max(abs(gpx/gpy/gpz/p)) = 42.46712831  38.73276235  3.254507774e-11  4.820851587
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011626284
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024323615
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.724792996  0.7857307179  2.279672676e-13
+max(abs(gpx/gpy/gpz/p)) = 42.46712831  38.73276235  3.254507774e-11  4.820851587
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.723835503  0.7849294593  2.267023567e-13
+max(abs(gpx/gpy/gpz/p)) = 41.50160453  38.0338775  4.774403095e-11  4.745679493
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.712528828  0.763168465  7.497551453e-14  
+estimated timestep: dt = 0.003284616239
+estTimeStep :: 
+LEV = 1 UMAX = 1.724793805  0.7857502979  2.266634e-13  
+estimated timestep: dt = 0.001630629697
+Advancing grids at level 0 : starting time = 0.04696967573 with dt = 0.001630050263
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.712528828  0.763168465  7.497551453e-14
+max(abs(gpx/gpy/gpz/p)) = 36.67729266  37.40366259  1.173117159e-11  1.167417477
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.055758203
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018040866
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.703835308  0.744092448  7.516120265e-14
+max(abs(gpx/gpy/gpz/p)) = 36.67729266  37.40366259  1.173117159e-11  1.167417477
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.70966364  0.7428378592  3.437797937e-14
+max(abs(gpx/gpy/gpz/p)) = 60.12027299  37.99319263  2.257638521e-11  2.780650335
+Advancing grids at level 1 : starting time = 0.04696967573 with dt = 0.001630050263
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.724793805  0.7857502979  2.266634e-13
+max(abs(gpx/gpy/gpz/p)) = 42.19919085  38.78024787  3.265498982e-11  4.751321114
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011611126
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024325969
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.724223718  0.7871849513  2.303774216e-13
+max(abs(gpx/gpy/gpz/p)) = 42.19919085  38.78024787  3.265498982e-11  4.751321114
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.723194746  0.7863653804  2.310028815e-13
+max(abs(gpx/gpy/gpz/p)) = 41.27200468  37.98419996  4.798383912e-11  4.613711243
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.71005017  0.7647543268  7.506148624e-14  
+estimated timestep: dt = 0.003289377176
+estTimeStep :: 
+LEV = 1 UMAX = 1.72413578  0.7871845435  2.309661807e-13  
+estimated timestep: dt = 0.001631252035
+Advancing grids at level 0 : starting time = 0.04859972599 with dt = 0.001630629697
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.71005017  0.7647543268  7.506148624e-14
+max(abs(gpx/gpy/gpz/p)) = 36.69702638  36.34895508  1.1678436e-11  1.161897395
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.056174332
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017993518
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.70104288  0.7456255437  7.513026367e-14
+max(abs(gpx/gpy/gpz/p)) = 36.69702638  36.34895508  1.1678436e-11  1.161897395
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.707224507  0.7444603348  3.43817347e-14
+max(abs(gpx/gpy/gpz/p)) = 60.24597694  37.47861832  2.252864562e-11  2.913921559
+Advancing grids at level 1 : starting time = 0.04859972599 with dt = 0.001630629697
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.72413578  0.7871845435  2.309661807e-13
+max(abs(gpx/gpy/gpz/p)) = 41.96603036  38.72904014  3.245181901e-11  4.619468349
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011565027
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.02435776
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.723460114  0.7887388656  2.231190411e-13
+max(abs(gpx/gpy/gpz/p)) = 41.96603036  38.72904014  3.245181901e-11  4.619468349
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.722521671  0.787919111  2.295209646e-13
+max(abs(gpx/gpy/gpz/p)) = 40.97753111  37.98018849  4.805933429e-11  4.461931767
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.707704825  0.7664558417  7.513376025e-14  
+estimated timestep: dt = 0.003293894774
+estTimeStep :: 
+LEV = 1 UMAX = 1.723446196  0.788735961  2.294850649e-13  
+estimated timestep: dt = 0.001631904731
+Advancing grids at level 0 : starting time = 0.05023035569 with dt = 0.001631252035
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.707704825  0.7664558417  7.513376025e-14
+max(abs(gpx/gpy/gpz/p)) = 36.56821551  35.63775052  1.168898311e-11  1.163155351
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.056734471
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018015649
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.69870477  0.7472387165  7.518929684e-14
+max(abs(gpx/gpy/gpz/p)) = 36.56821551  35.63775052  1.168898311e-11  1.163155351
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.704318634  0.7461172804  3.426437017e-14
+max(abs(gpx/gpy/gpz/p)) = 60.36431908  37.62167325  2.241873354e-11  2.996907547
+Advancing grids at level 1 : starting time = 0.05023035569 with dt = 0.001631252035
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.723446196  0.788735961  2.294850649e-13
+max(abs(gpx/gpy/gpz/p)) = 41.66721203  38.72261494  3.209849053e-11  4.467805118
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011760539
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.02450858
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.722766637  0.7903948883  2.257651095e-13
+max(abs(gpx/gpy/gpz/p)) = 41.66721203  38.72261494  3.209849053e-11  4.467805118
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.721783507  0.7895523759  2.242109295e-13
+max(abs(gpx/gpy/gpz/p)) = 40.91900587  38.02900388  4.802824805e-11  4.30274189
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.705018968  0.7682397102  7.51204014e-14  
+estimated timestep: dt = 0.003299083533
+estTimeStep :: 
+LEV = 1 UMAX = 1.722693415  0.7903670942  2.241744689e-13  
+estimated timestep: dt = 0.001632617838
+Advancing grids at level 0 : starting time = 0.05186160772 with dt = 0.001631904731
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.705018968  0.7682397102  7.51204014e-14
+max(abs(gpx/gpy/gpz/p)) = 36.54994414  35.26654644  1.165512131e-11  1.148464705
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.055673532
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018182539
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.695614564  0.7489174038  7.512138642e-14
+max(abs(gpx/gpy/gpz/p)) = 36.54994414  35.26654644  1.165512131e-11  1.148464705
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.701755953  0.747902266  3.416123217e-14
+max(abs(gpx/gpy/gpz/p)) = 60.50440837  37.75603861  2.236211216e-11  3.039881955
+Advancing grids at level 1 : starting time = 0.05186160772 with dt = 0.001631904731
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.722693415  0.7903670942  2.241744689e-13
+max(abs(gpx/gpy/gpz/p)) = 41.60491754  38.76960565  3.218286748e-11  4.308676104
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011751147
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024393699
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.72184965  0.7920985737  2.234866035e-13
+max(abs(gpx/gpy/gpz/p)) = 41.60491754  38.76960565  3.218286748e-11  4.308676104
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.720970747  0.7912924235  2.237652642e-13
+max(abs(gpx/gpy/gpz/p)) = 40.6689449  38.08914666  4.802380715e-11  4.148876072
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.702439801  0.770107149  7.523685258e-14  
+estimated timestep: dt = 0.003304081587
+estTimeStep :: 
+LEV = 1 UMAX = 1.721869239  0.7921069921  2.237291946e-13  
+estimated timestep: dt = 0.001633399294
+Advancing grids at level 0 : starting time = 0.05349351245 with dt = 0.001632617838
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.702439801  0.770107149  7.523685258e-14
+max(abs(gpx/gpy/gpz/p)) = 36.39027302  35.05763481  1.17342247e-11  1.151664917
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.056056012
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018054139
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.693008131  0.7508584332  7.532112959e-14
+max(abs(gpx/gpy/gpz/p)) = 36.39027302  35.05763481  1.17342247e-11  1.151664917
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.69884415  0.7498258119  3.405242245e-14
+max(abs(gpx/gpy/gpz/p)) = 60.62254136  37.88623097  2.23687735e-11  2.995508311
+Advancing grids at level 1 : starting time = 0.05349351245 with dt = 0.001632617838
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.721869239  0.7921069921  2.237291946e-13
+max(abs(gpx/gpy/gpz/p)) = 41.35392996  38.8294578  3.242711655e-11  4.154914288
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011604435
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024467857
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.721054651  0.7939242463  2.248822763e-13
+max(abs(gpx/gpy/gpz/p)) = 41.35392996  38.8294578  3.242711655e-11  4.154914288
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.72017594  0.7931054233  2.244343748e-13
+max(abs(gpx/gpy/gpz/p)) = 40.59976721  38.19395362  4.806377518e-11  3.996678286
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.69968407  0.7720277626  7.530713526e-14  
+estimated timestep: dt = 0.00330943856
+estTimeStep :: 
+LEV = 1 UMAX = 1.721064835  0.7939181414  2.244008911e-13  
+estimated timestep: dt = 0.001634162725
+Advancing grids at level 0 : starting time = 0.05512613029 with dt = 0.001633399294
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.69968407  0.7720277626  7.530713526e-14
+max(abs(gpx/gpy/gpz/p)) = 36.34141587  35.11278002  1.173394715e-11  1.143649508
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.052984811
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018098632
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.690002186  0.7528756008  7.536735345e-14
+max(abs(gpx/gpy/gpz/p)) = 36.34141587  35.11278002  1.173394715e-11  1.143649508
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.696160261  0.7518624171  3.395466301e-14
+max(abs(gpx/gpy/gpz/p)) = 60.75008513  38.00535293  2.230216012e-11  2.871953072
+Advancing grids at level 1 : starting time = 0.05512613029 with dt = 0.001633399294
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.721064835  0.7939181414  2.244008911e-13
+max(abs(gpx/gpy/gpz/p)) = 41.28204978  38.93284578  3.269495785e-11  4.002693499
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011576911
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024505078
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.720217544  0.7957911628  2.211446773e-13
+max(abs(gpx/gpy/gpz/p)) = 41.28204978  38.93284578  3.269495785e-11  4.002693499
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.719369289  0.7950114555  2.215519379e-13
+max(abs(gpx/gpy/gpz/p)) = 40.36257261  38.30871106  4.809930232e-11  3.844361313
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.697053443  0.774004045  7.533186774e-14  
+estimated timestep: dt = 0.003314568569
+estTimeStep :: 
+LEV = 1 UMAX = 1.720244507  0.7958234352  2.21515551e-13  
+estimated timestep: dt = 0.001634942003
+Advancing grids at level 0 : starting time = 0.05675952959 with dt = 0.001634162725
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.697053443  0.774004045  7.533186774e-14
+max(abs(gpx/gpy/gpz/p)) = 36.17782837  35.31375398  1.172034692e-11  1.14602624
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.054414153
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017996141
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.687365407  0.7549786119  7.535318183e-14
+max(abs(gpx/gpy/gpz/p)) = 36.17782837  35.31375398  1.172034692e-11  1.14602624
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.693110754  0.7539013546  3.382274194e-14
+max(abs(gpx/gpy/gpz/p)) = 60.85513241  38.1334782  2.230660101e-11  2.136451516
+Advancing grids at level 1 : starting time = 0.05675952959 with dt = 0.001634162725
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.720244507  0.7958234352  2.21515551e-13
+max(abs(gpx/gpy/gpz/p)) = 41.04236416  39.04668027  3.266664717e-11  3.850439112
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.01169538
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.02436061
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.719471131  0.7977614826  2.242051798e-13
+max(abs(gpx/gpy/gpz/p)) = 41.04236416  39.04668027  3.266664717e-11  3.850439112
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.718617965  0.7969698724  2.238729853e-13
+max(abs(gpx/gpy/gpz/p)) = 40.35442645  38.46846995  4.817035659e-11  3.688036074
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.694205949  0.7760043917  3.009369529e-14  
+estimated timestep: dt = 0.003320139446
+estTimeStep :: 
+LEV = 1 UMAX = 1.719487713  0.7977792923  2.238675885e-13  
+estimated timestep: dt = 0.001635661586
+Advancing grids at level 0 : starting time = 0.05839369231 with dt = 0.001634942003
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.694205949  0.7760043917  3.009369529e-14
+max(abs(gpx/gpy/gpz/p)) = 36.15838538  35.79147768  2.697862767e-11  1.133269402
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.057383703
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.017981843
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.684182468  0.7571135133  3.854863379e-14
+max(abs(gpx/gpy/gpz/p)) = 36.15838538  35.79147768  2.697862767e-11  1.133269402
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.690377547  0.7560457298  1.882732071e-14
+max(abs(gpx/gpy/gpz/p)) = 60.98048683  38.24519191  5.77371484e-12  2.145392866
+Advancing grids at level 1 : starting time = 0.05839369231 with dt = 0.001634942003
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.719487713  0.7977792923  2.238675885e-13
+max(abs(gpx/gpy/gpz/p)) = 41.03109166  39.20465411  5.458689056e-11  3.693887823
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011585021
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024374789
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.718691194  0.7997480794  2.193007839e-13
+max(abs(gpx/gpy/gpz/p)) = 41.03109166  39.20465411  5.458689056e-11  3.693887823
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.717876022  0.7990077319  2.189973464e-13
+max(abs(gpx/gpy/gpz/p)) = 40.13693445  38.62650817  2.587529658e-11  3.506132996
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.691522479  0.7780352796  1.950558421e-14  
+estimated timestep: dt = 0.003325406591
+estTimeStep :: 
+LEV = 1 UMAX = 1.718733202  0.7998176031  2.189996197e-13  
+estimated timestep: dt = 0.001636379629
+Advancing grids at level 0 : starting time = 0.06002863431 with dt = 0.001635661586
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.691522479  0.7780352796  1.950558421e-14
+max(abs(gpx/gpy/gpz/p)) = 35.99073946  36.40387457  7.348496811e-12  1.136230238
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.053917669
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018019945
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.681480579  0.7593088812  2.037209747e-14
+max(abs(gpx/gpy/gpz/p)) = 35.99073946  36.40387457  7.348496811e-12  1.136230238
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.687347955  0.7581484747  1.663407839e-14
+max(abs(gpx/gpy/gpz/p)) = 61.0759167  38.3655284  6.201705816e-12  2.154787342
+Advancing grids at level 1 : starting time = 0.06002863431 with dt = 0.001635661586
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.718733202  0.7998176031  2.189996197e-13
+max(abs(gpx/gpy/gpz/p)) = 40.81228513  39.36276761  2.585760348e-11  3.51202929
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011773241
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024339134
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.718045502  0.8018322  2.249962826e-13
+max(abs(gpx/gpy/gpz/p)) = 40.81228513  39.36276761  2.585760348e-11  3.51202929
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.717209052  0.8010807901  2.239653571e-13
+max(abs(gpx/gpy/gpz/p)) = 40.18338787  38.79471004  2.740005703e-11  3.310239248
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.688658188  0.780081767  6.481247546e-14  
+estimated timestep: dt = 0.003331047123
+estTimeStep :: 
+LEV = 1 UMAX = 1.71805399  0.8018876277  2.239223931e-13  
+estimated timestep: dt = 0.001637026553
+Advancing grids at level 0 : starting time = 0.0616642959 with dt = 0.001636379629
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.688658188  0.780081767  6.481247546e-14
+max(abs(gpx/gpy/gpz/p)) = 35.99798362  36.96233171  3.40785733e-11  1.125501805
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.052329638
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018129056
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.678287322  0.761507492  1.015818096e-13
+max(abs(gpx/gpy/gpz/p)) = 35.99798362  36.96233171  3.40785733e-11  1.125501805
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.68460408  0.7603348715  2.29491398e-14
+max(abs(gpx/gpy/gpz/p)) = 61.19636678  38.47233022  1.82120985e-11  2.164347698
+Advancing grids at level 1 : starting time = 0.0616642959 with dt = 0.001636379629
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.71805399  0.8018876277  2.239223931e-13
+max(abs(gpx/gpy/gpz/p)) = 40.85389205  39.52857451  6.730727087e-11  3.316060076
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011616035
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024305784
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.71737253  0.8039319212  2.191589164e-13
+max(abs(gpx/gpy/gpz/p)) = 40.85389205  39.52857451  6.730727087e-11  3.316060076
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.716554289  0.8032172819  2.167940899e-13
+max(abs(gpx/gpy/gpz/p)) = 40.09205677  38.90098881  3.739675236e-11  3.12864834
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.685954261  0.7821808429  7.248676502e-14  
+estimated timestep: dt = 0.003336389444
+estTimeStep :: 
+LEV = 1 UMAX = 1.717385352  0.8040249739  2.167553725e-13  
+estimated timestep: dt = 0.001637663903
+Advancing grids at level 0 : starting time = 0.06330067553 with dt = 0.001637026553
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.685954261  0.7821808429  7.248676502e-14
+max(abs(gpx/gpy/gpz/p)) = 35.91947559  37.07822473  1.629835156e-11  1.128880332
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.056152215
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018030163
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.676279979  0.7637428016  8.028848625e-14
+max(abs(gpx/gpy/gpz/p)) = 35.91947559  37.07822473  1.629835156e-11  1.128880332
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.681635965  0.7624192651  2.776089348e-14
+max(abs(gpx/gpy/gpz/p)) = 61.28208773  38.59865108  2.096323115e-11  2.174414898
+Advancing grids at level 1 : starting time = 0.06330067553 with dt = 0.001637026553
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.717385352  0.8040249739  2.167553725e-13
+max(abs(gpx/gpy/gpz/p)) = 40.76086899  39.63518598  4.129557807e-11  3.134481925
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011674268
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024463528
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.716795696  0.8061278105  2.250986486e-13
+max(abs(gpx/gpy/gpz/p)) = 40.76086899  39.63518598  4.129557807e-11  3.134481925
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.715928832  0.8053782335  2.239450682e-13
+max(abs(gpx/gpy/gpz/p)) = 40.23436732  39.02195529  4.411138121e-11  2.173809046
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.683051789  0.7843095493  3.423651592e-14  
+estimated timestep: dt = 0.003342143145
+estTimeStep :: 
+LEV = 1 UMAX = 1.716740858  0.8061814172  2.239638393e-13  
+estimated timestep: dt = 0.001638278711
+Advancing grids at level 0 : starting time = 0.06493770208 with dt = 0.001637663903
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.683051789  0.7843095493  3.423651592e-14
+max(abs(gpx/gpy/gpz/p)) = 35.99918326  37.13695323  2.490736783e-11  1.117674046
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.053052277
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018147309
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.674914034  0.7659527753  4.119984719e-14
+max(abs(gpx/gpy/gpz/p)) = 35.99918326  37.13695323  2.490736783e-11  1.117674046
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.678900404  0.7646112333  1.954359513e-14
+max(abs(gpx/gpy/gpz/p)) = 61.40753626  38.70655223  1.298960939e-11  2.184440702
+Advancing grids at level 1 : starting time = 0.06493770208 with dt = 0.001637663903
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.716740858  0.8061814172  2.239638393e-13
+max(abs(gpx/gpy/gpz/p)) = 40.89553337  39.7524496  4.847344748e-11  2.17960486
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011480799
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.02435671
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.716121203  0.8082846902  2.203262828e-13
+max(abs(gpx/gpy/gpz/p)) = 40.89553337  39.7524496  4.847344748e-11  2.17960486
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.71531716  0.8075681246  2.215333458e-13
+max(abs(gpx/gpy/gpz/p)) = 40.15982568  39.12546204  4.048658555e-11  1.901210831
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.680778838  0.7864770605  3.889016968e-14  
+estimated timestep: dt = 0.003346662793
+estTimeStep :: 
+LEV = 1 UMAX = 1.716097057  0.8083694928  2.2155927e-13  
+estimated timestep: dt = 0.001638893318
+Advancing grids at level 0 : starting time = 0.06657536599 with dt = 0.001638278711
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.680778838  0.7864770605  3.889016968e-14
+max(abs(gpx/gpy/gpz/p)) = 35.93467172  37.13340256  8.745873843e-12  1.121594993
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.051474195
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018084913
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.674095264  0.7681785391  4.288788658e-14
+max(abs(gpx/gpy/gpz/p)) = 35.93467172  37.13340256  8.745873843e-12  1.121594993
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.67603804  0.766627263  1.910541008e-14
+max(abs(gpx/gpy/gpz/p)) = 61.47340506  38.84341892  1.463718036e-11  2.194574912
+Advancing grids at level 1 : starting time = 0.06657536599 with dt = 0.001638278711
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.716097057  0.8083694928  2.2155927e-13
+max(abs(gpx/gpy/gpz/p)) = 40.81370797  39.85338914  4.048711528e-11  1.907177453
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011643237
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024465473
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.715556461  0.8105067852  2.268547213e-13
+max(abs(gpx/gpy/gpz/p)) = 40.81370797  39.85338914  4.048711528e-11  1.907177453
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.714708256  0.8097500797  2.334222507e-13
+max(abs(gpx/gpy/gpz/p)) = 40.30160403  39.24563817  3.279985078e-11  1.857367438
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.679521416  0.7886532307  3.704808257e-14  
+estimated timestep: dt = 0.003349168368
+estTimeStep :: 
+LEV = 1 UMAX = 1.715479392  0.8105485622  2.334100369e-13  
+estimated timestep: dt = 0.001639483408
+Advancing grids at level 0 : starting time = 0.0682136447 with dt = 0.001638893318
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.679521416  0.7886532307  3.704808257e-14
+max(abs(gpx/gpy/gpz/p)) = 36.0141732  37.1627705  7.382379351e-12  1.110273031
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.056004046
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018118043
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.672503074  0.7703650629  3.769814086e-14
+max(abs(gpx/gpy/gpz/p)) = 36.0141732  37.1627705  7.382379351e-12  1.110273031
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.673620557  0.768783671  2.168601895e-14
+max(abs(gpx/gpy/gpz/p)) = 61.59037946  39.21739961  1.340927369e-11  2.203459126
+Advancing grids at level 1 : starting time = 0.0682136447 with dt = 0.001638893318
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.715479392  0.8105485622  2.334100369e-13
+max(abs(gpx/gpy/gpz/p)) = 40.95058308  39.97171481  3.278823425e-11  1.863289225
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011545386
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.02437716
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.714901666  0.8126955298  2.218649324e-13
+max(abs(gpx/gpy/gpz/p)) = 40.95058308  39.97171481  3.278823425e-11  1.863289225
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.714144875  0.8119555163  2.21828902e-13
+max(abs(gpx/gpy/gpz/p)) = 40.21022498  39.3416127  3.761138436e-11  1.816645896
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.678389985  0.7908421714  3.979679621e-14  
+estimated timestep: dt = 0.0033514261
+estTimeStep :: 
+LEV = 1 UMAX = 1.714914861  0.8127572224  2.218430972e-13  
+estimated timestep: dt = 0.001640023108
+Advancing grids at level 0 : starting time = 0.06985253801 with dt = 0.001639483408
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.678389985  0.7908421714  3.979679621e-14
+max(abs(gpx/gpy/gpz/p)) = 35.93612381  37.15125225  7.922187952e-12  1.114795537
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.052120289
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018033695
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.671607569  0.7725445548  4.139865319e-14
+max(abs(gpx/gpy/gpz/p)) = 35.93612381  37.15125225  7.922187952e-12  1.114795537
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.670925139  0.770711183  2.109003285e-14
+max(abs(gpx/gpy/gpz/p)) = 61.63839546  45.03004683  1.454392162e-11  2.713077368
+Advancing grids at level 1 : starting time = 0.06985253801 with dt = 0.001639483408
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.714914861  0.8127572224  2.218430972e-13
+max(abs(gpx/gpy/gpz/p)) = 40.86152738  40.07056532  3.768071717e-11  1.822524394
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011638163
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024427004
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.714453733  0.8149302335  2.280069235e-13
+max(abs(gpx/gpy/gpz/p)) = 40.86152738  40.07056532  3.768071717e-11  1.822524394
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.713666242  0.8141526136  2.347595031e-13
+max(abs(gpx/gpy/gpz/p)) = 40.34618025  39.45841063  2.952895878e-11  1.786209254
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.677319953  0.7930103678  3.535298475e-14  
+estimated timestep: dt = 0.003353564112
+estTimeStep :: 
+LEV = 1 UMAX = 1.714430469  0.8149532572  2.347411506e-13  
+estimated timestep: dt = 0.001640486477
+Advancing grids at level 0 : starting time = 0.07149202142 with dt = 0.001640023108
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.677319953  0.7930103678  3.535298475e-14
+max(abs(gpx/gpy/gpz/p)) = 36.01129827  37.17914937  5.534702864e-12  1.101800192
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.05257998
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.01806804
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.670215515  0.77466269  3.504779855e-14
+max(abs(gpx/gpy/gpz/p)) = 36.01129827  37.17914937  5.534702864e-12  1.101800192
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.668618081  0.7728646192  1.959295252e-14
+max(abs(gpx/gpy/gpz/p)) = 61.77077576  45.15703592  1.257438598e-11  2.72589016
+Advancing grids at level 1 : starting time = 0.07149202142 with dt = 0.001640023108
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.714430469  0.8149532572  2.347411506e-13
+max(abs(gpx/gpy/gpz/p)) = 40.99441973  40.18709966  2.959378155e-11  1.792179334
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011753097
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024391848
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.713932802  0.8171193143  2.219763974e-13
+max(abs(gpx/gpy/gpz/p)) = 40.99441973  40.18709966  2.959378155e-11  1.792179334
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.713227431  0.8163684439  2.394172031e-13
+max(abs(gpx/gpy/gpz/p)) = 40.27396387  39.5599862  3.616726709e-11  1.714436851
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.676371664  0.7951594015  4.016464727e-14  
+estimated timestep: dt = 0.003355461155
+estTimeStep :: 
+LEV = 1 UMAX = 1.713984806  0.8171708369  2.394233129e-13  
+estimated timestep: dt = 0.001640913029
+Advancing grids at level 0 : starting time = 0.07313204453 with dt = 0.001640486477
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.676371664  0.7951594015  4.016464727e-14
+max(abs(gpx/gpy/gpz/p)) = 35.95211476  37.17046483  8.956489891e-12  1.105328342
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.055843011
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018049834
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.669488805  0.7767555772  4.776061656e-14
+max(abs(gpx/gpy/gpz/p)) = 35.95211476  37.17046483  8.956489891e-12  1.105328342
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.667043797  0.7749621674  1.837539047e-14
+max(abs(gpx/gpy/gpz/p)) = 61.89918644  45.31361  1.624316804e-11  2.731418457
+Advancing grids at level 1 : starting time = 0.07313204453 with dt = 0.001640486477
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.713984806  0.8171708369  2.394233129e-13
+max(abs(gpx/gpy/gpz/p)) = 40.92174541  40.28982395  3.615885741e-11  1.764716558
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011642357
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024449717
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.713510108  0.8193416187  2.255727102e-13
+max(abs(gpx/gpy/gpz/p)) = 40.92174541  40.28982395  3.615885741e-11  1.764716558
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.712885551  0.8185577635  2.181036292e-13
+max(abs(gpx/gpy/gpz/p)) = 40.42642472  39.68248134  3.102655211e-11  1.725231076
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.675481063  0.7972519103  6.505830156e-14  
+estimated timestep: dt = 0.003357244749
+estTimeStep :: 
+LEV = 1 UMAX = 1.713637182  0.819357109  2.180711553e-13  
+estimated timestep: dt = 0.001641245901
+Advancing grids at level 0 : starting time = 0.07477253101 with dt = 0.001640913029
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.675481063  0.7972519103  6.505830156e-14
+max(abs(gpx/gpy/gpz/p)) = 36.04740091  37.20070267  3.562788953e-11  1.094466634
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.049006605
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018033934
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.668157889  0.7787420198  1.045473832e-13
+max(abs(gpx/gpy/gpz/p)) = 36.04740091  37.20070267  3.562788953e-11  1.094466634
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.665488868  0.776979827  1.785790152e-14
+max(abs(gpx/gpy/gpz/p)) = 62.02219424  45.4120412  2.022382262e-11  2.697256125
+Advancing grids at level 1 : starting time = 0.07477253101 with dt = 0.001640913029
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.713637182  0.819357109  2.180711553e-13
+max(abs(gpx/gpy/gpz/p)) = 41.06994153  40.40995691  7.6099127e-11  1.775219294
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011663385
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.02445052
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.713071545  0.8214960456  2.197691001e-13
+max(abs(gpx/gpy/gpz/p)) = 41.06994153  40.40995691  7.6099127e-11  1.775219294
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.712429992  0.8207386803  2.201070165e-13
+max(abs(gpx/gpy/gpz/p)) = 40.36279188  39.78107757  3.64197561e-11  1.736550074
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.674689622  0.7992872369  7.373379289e-14  
+estimated timestep: dt = 0.003358831348
+estTimeStep :: 
+LEV = 1 UMAX = 1.713174857  0.82154023  2.201039138e-13  
+estimated timestep: dt = 0.001641688815
+Advancing grids at level 0 : starting time = 0.07641344404 with dt = 0.001641245901
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.674689622  0.7992872369  7.373379289e-14
+max(abs(gpx/gpy/gpz/p)) = 35.99951226  37.19431401  1.684291595e-11  1.098414101
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.054347767
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018091992
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.667610105  0.7806696801  8.237392302e-14
+max(abs(gpx/gpy/gpz/p)) = 35.99951226  37.19431401  1.684291595e-11  1.098414101
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.665450482  0.7789090213  2.353429349e-14
+max(abs(gpx/gpy/gpz/p)) = 62.14038729  45.53998932  2.30726549e-11  2.65511191
+Advancing grids at level 1 : starting time = 0.07641344404 with dt = 0.001641245901
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.713174857  0.82154023  2.201039138e-13
+max(abs(gpx/gpy/gpz/p)) = 41.00590753  40.5099447  4.121647468e-11  1.786385909
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.0116521
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024338813
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.712692476  0.8236546577  2.253612276e-13
+max(abs(gpx/gpy/gpz/p)) = 41.00590753  40.5099447  4.121647468e-11  1.786385909
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.712083063  0.8228640528  2.274810558e-13
+max(abs(gpx/gpy/gpz/p)) = 40.52369922  39.89722292  4.475531057e-11  1.745775406
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+estTimeStep :: 
+LEV = 0 UMAX = 1.673961885  0.801228429  7.628067822e-14  
+estimated timestep: dt = 0.003360291563
+estTimeStep :: 
+LEV = 1 UMAX = 1.712824206  0.8236632749  2.274836869e-13  
+estimated timestep: dt = 0.001642024903
+Advancing grids at level 0 : starting time = 0.07805468994 with dt = 0.001641688815
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.673961885  0.801228429  7.628067822e-14
+max(abs(gpx/gpy/gpz/p)) = 36.10448407  37.22885288  1.312921993e-11  1.087608916
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 0, time: 0.052804258
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 0, time: 0.018028974
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.66646877  0.7824571254  7.860007254e-14
+max(abs(gpx/gpy/gpz/p)) = 36.10448407  37.22885288  1.312921993e-11  1.087608916
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.664084836  0.7807290656  2.636689754e-14
+max(abs(gpx/gpy/gpz/p)) = 62.24517893  45.60252113  2.412736677e-11  2.613920178
+Advancing grids at level 1 : starting time = 0.07805468994 with dt = 0.001641688815
+NavierStokes::advance_semistaggered_twophase_ls(): before velocity update:
+max(abs(u/v/w))  = 1.712824206  0.8236632749  2.274836869e-13
+max(abs(gpx/gpy/gpz/p)) = 41.16309765  40.62422076  3.478245469e-11  1.79538384
+... predict edge velocities
+... mac_projection
+NavierStokesBase:mac_project(): lev: 1, time: 0.011742919
+... advect velocities
+... advect scalars
+... update scalars
+... update scalars
+scalar_diffusion_update 4 of 4
+... update velocities 
+NavierStokes:velocity_diffusion_update(): lev: 1, time: 0.024349394
+NavierStokes::advance_semistaggered_twophase_ls(): before nodal projection 
+max(abs(u/v/w))  = 1.712308146  0.8257143756  2.196051421e-13
+max(abs(gpx/gpy/gpz/p)) = 41.16309765  40.62422076  3.478245469e-11  1.79538384
+NavierStokes::advance(): exiting.
+max(abs(u/v/w))  = 1.711680593  0.824948509  2.191853949e-13
+max(abs(gpx/gpy/gpz/p)) = 40.46941392  39.98733046  4.803268894e-11  1.755664845
+
+mac_sync() on level 0
+Bypassing call trace flush, nCT < traceFlushSize:  0  8192000
+Run time = 27.62809679
+
+
+Total times -----------------------------------------------------------------------------------------------------------------------------
+                                      Function Name      NCalls         Min         Avg         Max      StdDev    CoeffVar     Percent %
+                            AMRErrorTag::operator()          14      0.0002      0.0002      0.0002      0.0000      3.0671        0.00 %
+                                Amr::FinalizeInit()           1      0.0030      0.0039      0.0045      0.0005     13.9904        0.01 %
+                                     Amr::InitAmr()           1      0.0001      0.0001      0.0001      0.0000      0.7819        0.00 %
+                              Amr::InitializeInit()           1      0.0000      0.0000      0.0000      0.0000     11.9042        0.00 %
+                               Amr::bldFineLevels()           1      0.0022      0.0023      0.0023      0.0000      1.3443        0.01 %
+                                  Amr::checkPoint()           2      0.0008      0.0039      0.0051      0.0018     46.1303        0.01 %
+                              Amr::coarseTimeStep()          50      0.0022      0.0097      0.0286      0.0110    113.3057        0.04 %
+                                Amr::defBaseLevel()           1      0.0003      0.0009      0.0023      0.0008     85.6433        0.00 %
+                                 Amr::grid_places()          14      0.0001      0.0001      0.0001      0.0000     13.0977        0.00 %
+                                        Amr::init()           1      0.0000      0.0000      0.0000      0.0000     14.0285        0.00 %
+                                Amr::initSubcycle()           1      0.0000      0.0000      0.0000      0.0000      2.2841        0.00 %
+                                 Amr::initialInit()           1      0.0000      0.0000      0.0000      0.0000     24.9363        0.00 %
+                                      Amr::regrid()          13      0.0068      0.0076      0.0086      0.0007      8.7045        0.03 %
+                                    Amr::timeStep()         100      0.0003      0.0003      0.0003      0.0000      4.6344        0.00 %
+                               Amr::writePlotFile()           2      0.0017      0.0020      0.0022      0.0002     10.9841        0.01 %
+                             AmrLevel::AmrLevel(dm)          15      0.0078      0.0093      0.0109      0.0013     13.7033        0.03 %
+                        AmrLevel::FillCoarsePatch()          50      0.0011      0.0011      0.0012      0.0000      2.6402        0.00 %
+                              AmrLevel::FillPatch()        1966      0.0027      0.0027      0.0028      0.0001      1.8966        0.01 %
+                             AmrLevel::checkPoint()           4      0.0000      0.0000      0.0001      0.0000     94.0114        0.00 %
+                         AmrLevel::checkPointPost()           4      0.0000      0.0000      0.0000      0.0000     11.9103        0.00 %
+                          AmrLevel::checkPointPre()           4      0.0000      0.0000      0.0000      0.0000     14.6845        0.00 %
+                                 AmrLevel::derive()          22      0.0005      0.0005      0.0005      0.0000      3.2810        0.00 %
+                          AmrLevel::writePlotFile()           4      0.0001      0.0001      0.0002      0.0001     76.6333        0.00 %
+                                    AmrMesh-cluster          14      0.0000      0.0000      0.0000      0.0000    173.2051        0.00 %
+                            AmrMesh::MakeNewGrids()          14      0.0009      0.0011      0.0012      0.0001      8.0699        0.00 %
+                                BndryData::define()        1146      0.0642      0.0649      0.0661      0.0007      1.1033        0.23 %
+                              BoxList::complementIn        3188      0.0005      0.0007      0.0012      0.0003     50.7345        0.00 %
+                    BoxList::parallelComplementIn()          28      0.0000      0.0000      0.0000      0.0000      5.4143        0.00 %
+                   CellConservativeLinear::interp()        2962      0.0539      0.0614      0.0689      0.0067     10.8738        0.22 %
+                                ClusterList::chop()          14      0.0000      0.0000      0.0000      0.0000    173.2051        0.00 %
+                           ClusterList::intersect()          14      0.0000      0.0000      0.0000      0.0000    173.2051        0.00 %
+                  DistributionMapping::Distribute()         839      0.0003      0.0004      0.0004      0.0000      5.3068        0.00 %
+                DistributionMapping::KnapSackDoIt()           4      0.0000      0.0000      0.0000      0.0000     12.1527        0.00 %
+               DistributionMapping::LeastUsedCPUs()          11      0.0004      0.0007      0.0008      0.0002     24.7361        0.00 %
+         DistributionMapping::SFCProcessorMapDoIt()           7      0.0000      0.0000      0.0000      0.0000      9.0323        0.00 %
+                           EB2::GShopLevel()-coarse           3      0.0056      0.0079      0.0103      0.0021     26.7029        0.03 %
+                             EB2::GShopLevel()-fine           1      0.0238      0.0239      0.0241      0.0001      0.5379        0.09 %
+                                  EB2::Initialize()           1      0.0000      0.0000      0.0000      0.0000      4.8422        0.00 %
+                      EBGodunov::ExtrapVelToFaces()         106      0.4092      0.4622      0.5878      0.0738     15.9634        1.67 %
+                                    EB_average_down         174      0.0052      0.0053      0.0057      0.0002      4.0729        0.02 %
+                           FAbArray::OverrideSync()       11259      0.0028      0.0029      0.0031      0.0001      4.1213        0.01 %
+                                   FPinfo::FPinfo()           4      0.0001      0.0001      0.0001      0.0000      8.1661        0.00 %
+                              FabArray::BuildMask()        2576      0.0195      0.0199      0.0204      0.0003      1.6290        0.07 %
+                           FabArray::FillBoundary()      392765      0.0650      0.0680      0.0714      0.0023      3.3702        0.25 %
+                           FabArray::ParallelCopy()       42737      0.0089      0.0091      0.0093      0.0001      1.6102        0.03 %
+                    FabArray::ParallelCopyToGhost()         159      0.0000      0.0000      0.0000      0.0000      0.5612        0.00 %
+                    FabArray::ParallelCopy_finish()       42896      0.8945      1.1387      1.3218      0.1564     13.7364        4.12 %
+                    FabArray::ParallelCopy_nowait()       42896      0.2713      0.3111      0.3390      0.0250      8.0267        1.13 %
+                         FabArray::RecvLayoutMask()          72      0.0000      0.0001      0.0002      0.0000     70.1263        0.00 %
+                                  FabArray::Saxpy()      754630      0.3245      0.3297      0.3381      0.0052      1.5812        1.19 %
+                                   FabArray::Xpay()      163058      0.1052      0.1072      0.1103      0.0021      1.9156        0.39 %
+                                 FabArray::invert()         468      0.0016      0.0016      0.0017      0.0000      1.1389        0.01 %
+                                   FabArray::mult()        3002      0.0123      0.0127      0.0132      0.0003      2.6646        0.05 %
+                                FabArray::norminf()      467651      0.4050      0.4125      0.4327      0.0117      2.8284        1.49 %
+                            FabArray::norminf(mask)         244      0.0037      0.0045      0.0049      0.0004      9.9358        0.02 %
+                         FabArray::setDomainBndry()        4373      0.0093      0.0136      0.0176      0.0039     28.8373        0.05 %
+                                 FabArray::setVal()       65596      0.2977      0.3070      0.3217      0.0093      3.0215        1.11 %
+        FabArray::setVal(val, thecmd, scomp, ncomp)       20317      0.0440      0.0469      0.0504      0.0027      5.7051        0.17 %
+     FabArray::setVal(val,region,comp,ncomp,nghost)         250      0.0001      0.0002      0.0004      0.0001     82.5225        0.00 %
+                        FabArrayBase::CPC::define()       13354      0.0340      0.0354      0.0359      0.0008      2.2164        0.13 %
+                             FabArrayBase::FB::FB()        3054      0.0151      0.0180      0.0208      0.0027     14.7638        0.07 %
+                          FabArrayBase::TheFPinfo()        1134      0.0005      0.0005      0.0006      0.0000      7.0362        0.00 %
+                             FabArrayBase::getCPC()       60478      0.0305      0.0313      0.0323      0.0007      2.1115        0.11 %
+                              FabArrayBase::getFB()      405664      0.0319      0.0332      0.0356      0.0015      4.4666        0.12 %
+                           FaceLinear::interp_arr()         106      0.0021      0.0022      0.0022      0.0001      3.2220        0.01 %
+                              FillBoundary_finish()      403088      1.2189      2.1947      2.9928      0.6437     29.3318        7.94 %
+                              FillBoundary_nowait()      403088      2.2019      2.4672      2.7792      0.2214      8.9752        8.93 %
+                               FillPatchInterp(Fab)        1131      0.0008      0.0345      0.0689      0.0337     97.6248        0.12 %
+                FillPatchIterator::FillFromLevel0()        1598      0.0008      0.0008      0.0009      0.0001      6.6434        0.00 %
+             FillPatchIterator::FillFromTwoLevels()        1107      0.0006      0.0006      0.0007      0.0000      1.3465        0.00 %
+                      FillPatchIterator::Initialize        2705      0.0082      0.0086      0.0089      0.0002      2.7676        0.03 %
+                               FillPatchSingleLevel        4472      0.0013      0.0013      0.0014      0.0000      2.4699        0.00 %
+                                 FillPatchTwoLevels        1107      0.0039      0.0042      0.0046      0.0003      7.0159        0.02 %
+                    FillPatchTwoLevels (Array<MF*>)          53      0.0021      0.0021      0.0022      0.0000      1.3306        0.01 %
+                             FluxRegister::Reflux()         900      0.0136      0.0143      0.0147      0.0004      3.0772        0.05 %
+                 MLABecLaplacian::prepareForSolve()        1096      0.0164      0.0183      0.0202      0.0014      7.7993        0.07 %
+                      MLCGSolver::ParallelAllReduce      918585      0.9476      3.2399      4.8205      1.4556     44.9283       11.72 %
+                               MLCGSolver::bicgstab        5755      0.4508      0.8450      1.6878      0.5044     59.6862        3.06 %
+                            MLCellLinOp::compFlux()         626      0.0085      0.0088      0.0090      0.0002      2.1075        0.03 %
+                  MLCellLinOp::correctionResidual()        5849      0.0016      0.0017      0.0017      0.0000      2.3813        0.01 %
+                       MLCellLinOp::defineAuxData()        1146      0.0443      0.0450      0.0458      0.0006      1.3067        0.16 %
+                            MLCellLinOp::defineBC()        1146      0.0035      0.0036      0.0037      0.0001      2.1296        0.01 %
+                     MLCellLinOp::prepareForSolve()        1096      0.0100      0.0112      0.0119      0.0007      6.4406        0.04 %
+                          MLCellLinOp::setLevelBC()        1096      0.0354      0.0361      0.0369      0.0006      1.5604        0.13 %
+                              MLCellLinOp::smooth()       23396      0.0116      0.0120      0.0125      0.0003      2.8092        0.04 %
+                    MLCellLinOp::solutionResidual()        5460      0.0018      0.0018      0.0019      0.0000      1.5253        0.01 %
+                               MLEBABecLap::FFlux()        6460      0.0224      0.0305      0.0359      0.0052     16.9529        0.11 %
+                              MLEBABecLap::Fapply()      204115      0.6950      1.6291      3.2616      1.0157     62.3437        5.90 %
+                             MLEBABecLap::Fsmooth()       46792      1.7427      1.9341      2.1979      0.1659      8.5773        7.00 %
+                               MLEBABecLap::apply()      204115      0.0404      0.0430      0.0479      0.0029      6.7988        0.16 %
+                             MLEBABecLap::applyBC()      251533      0.6288      0.7370      0.8753      0.0924     12.5434        2.67 %
+                              MLEBABecLap::define()        1146      0.0154      0.0161      0.0168      0.0006      4.0146        0.06 %
+                       MLEBABecLap::interpolation()        5849      0.0322      0.0348      0.0370      0.0018      5.2078        0.13 %
+                              MLEBTensorOp::apply()       24574      0.4935      0.5773      0.7283      0.0896     15.5242        2.09 %
+                           MLEBTensorOp::compFlux()         208      0.0266      0.0302      0.0345      0.0028      9.2726        0.11 %
+                             MLEBTensorOp::define()         522      0.0087      0.0090      0.0096      0.0003      3.7075        0.03 %
+                                  MLLinOp::define()        1307      0.0009      0.0010      0.0011      0.0001      6.4479        0.00 %
+                             MLLinOp::defineGrids()        1307      0.0204      0.0229      0.0272      0.0026     11.3394        0.08 %
+                      MLLinOp::makeAgglomeratedDMap         624      0.0003      0.0004      0.0004      0.0000      7.1686        0.00 %
+                     MLLinOp::makeSubCommunicator()         624      0.0251      0.4549      0.8778      0.3037     66.7656        1.65 %
+                               MLMG::MLResNormInf()         752      0.0003      0.0044      0.0066      0.0025     57.1255        0.02 %
+                               MLMG::MLRhsNormInf()         624      0.0027      0.0028      0.0028      0.0000      1.0835        0.01 %
+                                 MLMG::ResNormInf()        6565      0.0626      0.1091      0.1508      0.0346     31.6862        0.39 %
+                          MLMG::actualBottomSolve()        5755      0.0028      0.0030      0.0037      0.0004     13.2583        0.01 %
+                        MLMG::addInterpCorrection()        7641      0.0129      0.0132      0.0135      0.0002      1.6678        0.05 %
+                                      MLMG::apply()         630      0.0030      0.0030      0.0031      0.0000      1.5885        0.01 %
+                          MLMG::computeMLResidual()         752      0.0026      0.0027      0.0028      0.0001      2.9966        0.01 %
+               MLMG::computeResWithCrseCorFineCor()         540      0.0003      0.0003      0.0003      0.0000      1.6114        0.00 %
+               MLMG::computeResWithCrseSolFineCor()         540      0.0037      0.0037      0.0038      0.0000      0.6139        0.01 %
+                            MLMG::computeResidual()        5755      0.0074      0.0076      0.0078      0.0001      1.7504        0.03 %
+                                  MLMG::getFluxes()        1202      0.0007      0.0007      0.0007      0.0000      1.1027        0.00 %
+                           MLMG::interpCorrection_1         540      0.0064      0.0065      0.0066      0.0001      1.0536        0.02 %
+                                   MLMG::mgVcycle()        6835      0.0037      0.0038      0.0039      0.0001      1.6404        0.01 %
+                              MLMG::mgVcycle_bottom        6835      0.0015      0.0016      0.0016      0.0000      1.4196        0.01 %
+                             MLMG::mgVcycle_down::0        5755      0.0472      0.0516      0.0553      0.0031      5.9441        0.19 %
+                             MLMG::mgVcycle_down::1        1886      0.0037      0.0038      0.0039      0.0001      1.3906        0.01 %
+                               MLMG::mgVcycle_up::0        5755      0.0025      0.0026      0.0027      0.0001      2.6800        0.01 %
+                               MLMG::mgVcycle_up::1        1886      0.0006      0.0006      0.0007      0.0000      2.0953        0.00 %
+                                  MLMG::miniCycle()        1080      0.0002      0.0002      0.0002      0.0000      2.6193        0.00 %
+                                    MLMG::oneIter()        5755      0.0034      0.0034      0.0035      0.0000      1.0288        0.01 %
+                            MLMG::prepareForSolve()         624      0.0284      0.0298      0.0309      0.0009      3.1647        0.11 %
+                                      MLMG::solve()         624      0.0081      0.0135      0.0175      0.0040     29.6659        0.05 %
+                      MLMG:computeResOfCorrection()        7641      0.0020      0.0020      0.0021      0.0000      1.8821        0.01 %
+                          MLNodeLaplacian::Fapply()      115693      1.6445      1.7259      1.7644      0.0490      2.8387        6.25 %
+               MLNodeLaplacian::FillBoundaryCoeff()         216      0.0000      0.0000      0.0000      0.0000      1.5117        0.00 %
+                         MLNodeLaplacian::Fsmooth()        9328      2.1910      2.2310      2.2799      0.0317      1.4229        8.07 %
+                     MLNodeLaplacian::SyncResCrse()          50      0.0025      0.0081      0.0194      0.0069     84.3777        0.03 %
+                     MLNodeLaplacian::SyncResFine()          50      0.0120      0.0138      0.0157      0.0018     13.1905        0.05 %
+               MLNodeLaplacian::averageDownCoeffs()         158      0.0006      0.0006      0.0007      0.0000      5.6467        0.00 %
+                   MLNodeLaplacian::buildIntegral()         161      0.1044      0.1294      0.1835      0.0316     24.4472        0.47 %
+                         MLNodeLaplacian::compRHS()         158      0.0293      0.0337      0.0435      0.0058     17.1461        0.12 %
+                          MLNodeLaplacian::define()         161      0.0027      0.0028      0.0032      0.0002      7.1650        0.01 %
+                   MLNodeLaplacian::interpolation()        1792      0.0804      0.0814      0.0828      0.0010      1.1735        0.29 %
+                       MLNodeLaplacian::normalize()      111937      0.1352      0.1440      0.1486      0.0053      3.6581        0.52 %
+                 MLNodeLaplacian::prepareForSolve()         158      0.6581      0.6872      0.7081      0.0190      2.7629        2.49 %
+                          MLNodeLaplacian::reflux()         726      0.1120      0.1194      0.1368      0.0101      8.4724        0.43 %
+                     MLNodeLaplacian::restriction()        1792      0.2088      0.2142      0.2189      0.0037      1.7155        0.78 %
+                             MLNodeLinOp::applyBC()      123941      0.0135      0.0138      0.0142      0.0003      2.0658        0.05 %
+                          MLNodeLinOp::buildMasks()         158      0.0049      0.0051      0.0053      0.0002      3.2361        0.02 %
+                             MacProj::mac_project()         106      0.0278      0.0318      0.0404      0.0051     15.9707        0.11 %
+                                 MultiFab::Divide()          50      0.0002      0.0002      0.0003      0.0000     13.8984        0.00 %
+                               MultiFab::Multiply()      221546      0.0987      0.1009      0.1041      0.0021      2.0341        0.37 %
+                           MultiFab::contains_nan()        1166      0.0313      0.2459      0.3738      0.1320     53.6747        0.89 %
+                            NSB::ComputeAofs_kernel         312      1.4847      2.0347      3.2491      0.7192     35.3458        7.36 %
+                            NavierStokes::advance()         106      0.0021      0.0025      0.0034      0.0005     22.0360        0.01 %
+  NavierStokes::advance_semistaggered_twophase_ls()         106      0.0027      0.0030      0.0038      0.0004     15.0417        0.01 %
+                       NavierStokes::getViscTerms()         370      0.1006      0.1235      0.1711      0.0279     22.5939        0.45 %
+                           NavierStokes::mac_sync()          50      0.0373      0.0419      0.0527      0.0062     14.8553        0.15 %
+                             NavierStokes::reflux()          50      0.0024      0.0040      0.0066      0.0016     40.4744        0.01 %
+                   NavierStokes::scalar_advection()         106      0.0067      0.0069      0.0071      0.0002      2.7523        0.02 %
+            NavierStokes::scalar_diffusion_update()         106      0.0352      0.0383      0.0437      0.0032      8.3658        0.14 %
+                      NavierStokes::scalar_update()         212      0.0004      0.0005      0.0009      0.0002     42.9416        0.00 %
+          NavierStokes::velocity_diffusion_update()         104      0.0542      0.0613      0.0736      0.0073     11.9904        0.22 %
+                     NavierStokesBase::SyncInterp()         100      0.0084      0.0085      0.0088      0.0001      1.5517        0.03 %
+                  NavierStokesBase::advance_setup()         106      0.0040      0.0040      0.0041      0.0001      1.3527        0.01 %
+                 NavierStokesBase::create_mac_rhs()         106      0.0000      0.0000      0.0000      0.0000      3.7494        0.00 %
+                    NavierStokesBase::estTimeStep()         103      0.0071      0.0080      0.0085      0.0005      6.5459        0.03 %
+                NavierStokesBase::level_projector()         100      0.0011      0.0012      0.0012      0.0001      4.9605        0.00 %
+                     NavierStokesBase::level_sync()          50      0.0025      0.0027      0.0031      0.0002      8.3407        0.01 %
+                    NavierStokesBase::mac_project()         106      0.0021      0.0025      0.0032      0.0004     17.8342        0.01 %
+                  NavierStokesBase::post_timestep()         100      0.0055      0.0060      0.0066      0.0004      7.0648        0.02 %
+               NavierStokesBase::predict_velocity()         106      0.0156      0.0168      0.0187      0.0012      7.0623        0.06 %
+        NavierStokesBase::scalar_advection_update()         212      0.0061      0.0064      0.0067      0.0002      3.6597        0.02 %
+             NavierStokesBase::velocity_advection()         106      0.0090      0.0096      0.0101      0.0004      4.1180        0.03 %
+      NavierStokesBase::velocity_advection_update()         106      0.0136      0.0149      0.0158      0.0008      5.5151        0.05 %
+                NavierStokesBase::velocity_update()         106      0.0004      0.0006      0.0008      0.0002     27.6281        0.00 %
+                         NodalProjector::computeRHS         158      0.0001      0.0001      0.0001      0.0000      7.1700        0.00 %
+                NodalProjector::computeSyncResidual         158      0.0050      0.0054      0.0057      0.0002      4.4188        0.02 %
+                            NodalProjector::project         158      0.0124      0.0145      0.0154      0.0012      8.1588        0.05 %
+                             NodeBilinear::interp()         400      0.0011      0.0011      0.0012      0.0000      1.8129        0.00 %
+                              OverrideSync_finish()       11259      0.0014      0.0015      0.0016      0.0001      5.5819        0.01 %
+                              OverrideSync_nowait()       11259      0.0018      0.0019      0.0020      0.0001      3.6564        0.01 %
+                                        OwnerMask()         333      0.0028      0.0031      0.0034      0.0002      6.0931        0.01 %
+                ParallelDescriptor::Gather(TsT1si)d           0      0.0000      0.0000      0.0000      0.0000      0.0000        0.00 %
+                ParallelDescriptor::Gather(TsT1si)l           0      0.0000      0.0000      0.0000      0.0000      0.0000        0.00 %
+                    ParallelDescriptor::Recv(Tsii)i           0      0.0000      0.0000      0.0000      0.0000      0.0000        0.00 %
+                    ParallelDescriptor::Send(Tsii)i           0      0.0000      0.0000      0.0000      0.0000      0.0000        0.00 %
+               Projection:::doMLMGNodalProjection()         158      0.0253      0.0397      0.0452      0.0083     20.9810        0.14 %
+                        Projection::MLsyncProject()          50      0.0050      0.0053      0.0056      0.0002      4.0331        0.02 %
+                        Projection::level_project()         100      0.0260      0.0267      0.0275      0.0005      1.9492        0.10 %
+                      StateData::FillBoundary(geom)       41844      0.1506      0.1932      0.2370      0.0413     21.3970        0.70 %
+                            StateData::checkPoint()          12      0.0000      0.0001      0.0002      0.0001    130.9866        0.00 %
+                                StateData::define()          45      0.0002      0.0003      0.0004      0.0001     20.5513        0.00 %
+                           StateDataPhysBCFunct::()        4472      0.0146      0.0168      0.0193      0.0022     13.0473        0.06 %
+                           SyncRegister::CrseInit()          50      0.0003      0.0004      0.0004      0.0000      7.5479        0.00 %
+                            SyncRegister::FineAdd()          50      0.0049      0.0050      0.0051      0.0001      1.4756        0.02 %
+                            SyncRegister::InitRHS()          50      0.0022      0.0023      0.0026      0.0002      7.1106        0.01 %
+                             TagBoxArray::collate()          14      0.0002      0.0003      0.0003      0.0000     11.7387        0.00 %
+                                TagBoxArray::mapPRD          14      0.0001      0.0001      0.0001      0.0000      1.2643        0.00 %
+                     The_Pinned_Arena::Initialize()           1      0.0023      0.0023      0.0023      0.0000      0.7422        0.01 %
+                             VisMF::Write(FabArray)          28      0.0234      0.0248      0.0286      0.0022      8.8562        0.09 %
+                                       amrex::Add()        8783      0.0456      0.0463      0.0468      0.0004      0.9350        0.17 %
+                                      amrex::Copy()      252185      0.1841      0.1889      0.1950      0.0041      2.1488        0.68 %
+                                       amrex::Dot()      606704      0.5222      0.5345      0.5539      0.0121      2.2626        1.93 %
+                                amrex::average_down         598      0.0010      0.0010      0.0011      0.0000      2.0269        0.00 %
+                               amrex_mempool_init()           1      0.0027      0.0027      0.0027      0.0000      0.5918        0.01 %
+                                   iMultiFab::min()         158      0.0027      0.0045      0.0064      0.0014     31.7069        0.02 %
+                                         knapsack()           4      0.0000      0.0000      0.0000      0.0000     12.9822        0.00 %
+                                             main()           1      0.0006      0.0009      0.0011      0.0002     24.7608        0.00 %
+                                            makeSFC         832      0.0006      0.0007      0.0008      0.0001     10.5883        0.00 %
+
+Total Timers     =      27.63 seconds.
+Calc Run Time    =      27.63 seconds.
+Percent Coverage =     100.02 %
+
+
+Total times -----------------------------------------------------------------------------------------------------------------------------
+                                      Function Name      NCalls         Min         Avg         Max      StdDev    CoeffVar     Percent %
+                      MLCGSolver::ParallelAllReduce      918585      0.9476      3.2399      4.8205      1.4556     44.9283       11.72 %
+                              FillBoundary_nowait()      403088      2.2019      2.4672      2.7792      0.2214      8.9752        8.93 %
+                         MLNodeLaplacian::Fsmooth()        9328      2.1910      2.2310      2.2799      0.0317      1.4229        8.07 %
+                              FillBoundary_finish()      403088      1.2189      2.1947      2.9928      0.6437     29.3318        7.94 %
+                            NSB::ComputeAofs_kernel         312      1.4847      2.0347      3.2491      0.7192     35.3458        7.36 %
+                             MLEBABecLap::Fsmooth()       46792      1.7427      1.9341      2.1979      0.1659      8.5773        7.00 %
+                          MLNodeLaplacian::Fapply()      115693      1.6445      1.7259      1.7644      0.0490      2.8387        6.25 %
+                              MLEBABecLap::Fapply()      204115      0.6950      1.6291      3.2616      1.0157     62.3437        5.90 %
+                    FabArray::ParallelCopy_finish()       42896      0.8945      1.1387      1.3218      0.1564     13.7364        4.12 %
+                               MLCGSolver::bicgstab        5755      0.4508      0.8450      1.6878      0.5044     59.6862        3.06 %
+                             MLEBABecLap::applyBC()      251533      0.6288      0.7370      0.8753      0.0924     12.5434        2.67 %
+                 MLNodeLaplacian::prepareForSolve()         158      0.6581      0.6872      0.7081      0.0190      2.7629        2.49 %
+                              MLEBTensorOp::apply()       24574      0.4935      0.5773      0.7283      0.0896     15.5242        2.09 %
+                                       amrex::Dot()      606704      0.5222      0.5345      0.5539      0.0121      2.2626        1.93 %
+                      EBGodunov::ExtrapVelToFaces()         106      0.4092      0.4622      0.5878      0.0738     15.9634        1.67 %
+                     MLLinOp::makeSubCommunicator()         624      0.0251      0.4549      0.8778      0.3037     66.7656        1.65 %
+                                FabArray::norminf()      467651      0.4050      0.4125      0.4327      0.0117      2.8284        1.49 %
+                                  FabArray::Saxpy()      754630      0.3245      0.3297      0.3381      0.0052      1.5812        1.19 %
+                    FabArray::ParallelCopy_nowait()       42896      0.2713      0.3111      0.3390      0.0250      8.0267        1.13 %
+                                 FabArray::setVal()       65596      0.2977      0.3070      0.3217      0.0093      3.0215        1.11 %
+                           MultiFab::contains_nan()        1166      0.0313      0.2459      0.3738      0.1320     53.6747        0.89 %
+                     MLNodeLaplacian::restriction()        1792      0.2088      0.2142      0.2189      0.0037      1.7155        0.78 %
+                      StateData::FillBoundary(geom)       41844      0.1506      0.1932      0.2370      0.0413     21.3970        0.70 %
+                                      amrex::Copy()      252185      0.1841      0.1889      0.1950      0.0041      2.1488        0.68 %
+                       MLNodeLaplacian::normalize()      111937      0.1352      0.1440      0.1486      0.0053      3.6581        0.52 %
+                   MLNodeLaplacian::buildIntegral()         161      0.1044      0.1294      0.1835      0.0316     24.4472        0.47 %
+                       NavierStokes::getViscTerms()         370      0.1006      0.1235      0.1711      0.0279     22.5939        0.45 %
+                          MLNodeLaplacian::reflux()         726      0.1120      0.1194      0.1368      0.0101      8.4724        0.43 %
+                                 MLMG::ResNormInf()        6565      0.0626      0.1091      0.1508      0.0346     31.6862        0.39 %
+                                   FabArray::Xpay()      163058      0.1052      0.1072      0.1103      0.0021      1.9156        0.39 %
+                               MultiFab::Multiply()      221546      0.0987      0.1009      0.1041      0.0021      2.0341        0.37 %
+                   MLNodeLaplacian::interpolation()        1792      0.0804      0.0814      0.0828      0.0010      1.1735        0.29 %
+                           FabArray::FillBoundary()      392765      0.0650      0.0680      0.0714      0.0023      3.3702        0.25 %
+                                BndryData::define()        1146      0.0642      0.0649      0.0661      0.0007      1.1033        0.23 %
+                   CellConservativeLinear::interp()        2962      0.0539      0.0614      0.0689      0.0067     10.8738        0.22 %
+          NavierStokes::velocity_diffusion_update()         104      0.0542      0.0613      0.0736      0.0073     11.9904        0.22 %
+                             MLMG::mgVcycle_down::0        5755      0.0472      0.0516      0.0553      0.0031      5.9441        0.19 %
+        FabArray::setVal(val, thecmd, scomp, ncomp)       20317      0.0440      0.0469      0.0504      0.0027      5.7051        0.17 %
+                                       amrex::Add()        8783      0.0456      0.0463      0.0468      0.0004      0.9350        0.17 %
+                       MLCellLinOp::defineAuxData()        1146      0.0443      0.0450      0.0458      0.0006      1.3067        0.16 %
+                               MLEBABecLap::apply()      204115      0.0404      0.0430      0.0479      0.0029      6.7988        0.16 %
+                           NavierStokes::mac_sync()          50      0.0373      0.0419      0.0527      0.0062     14.8553        0.15 %
+               Projection:::doMLMGNodalProjection()         158      0.0253      0.0397      0.0452      0.0083     20.9810        0.14 %
+            NavierStokes::scalar_diffusion_update()         106      0.0352      0.0383      0.0437      0.0032      8.3658        0.14 %
+                          MLCellLinOp::setLevelBC()        1096      0.0354      0.0361      0.0369      0.0006      1.5604        0.13 %
+                        FabArrayBase::CPC::define()       13354      0.0340      0.0354      0.0359      0.0008      2.2164        0.13 %
+                       MLEBABecLap::interpolation()        5849      0.0322      0.0348      0.0370      0.0018      5.2078        0.13 %
+                               FillPatchInterp(Fab)        1131      0.0008      0.0345      0.0689      0.0337     97.6248        0.12 %
+                         MLNodeLaplacian::compRHS()         158      0.0293      0.0337      0.0435      0.0058     17.1461        0.12 %
+                              FabArrayBase::getFB()      405664      0.0319      0.0332      0.0356      0.0015      4.4666        0.12 %
+                             MacProj::mac_project()         106      0.0278      0.0318      0.0404      0.0051     15.9707        0.11 %
+                             FabArrayBase::getCPC()       60478      0.0305      0.0313      0.0323      0.0007      2.1115        0.11 %
+                               MLEBABecLap::FFlux()        6460      0.0224      0.0305      0.0359      0.0052     16.9529        0.11 %
+                           MLEBTensorOp::compFlux()         208      0.0266      0.0302      0.0345      0.0028      9.2726        0.11 %
+                            MLMG::prepareForSolve()         624      0.0284      0.0298      0.0309      0.0009      3.1647        0.11 %
+                        Projection::level_project()         100      0.0260      0.0267      0.0275      0.0005      1.9492        0.10 %
+                             VisMF::Write(FabArray)          28      0.0234      0.0248      0.0286      0.0022      8.8562        0.09 %
+                             EB2::GShopLevel()-fine           1      0.0238      0.0239      0.0241      0.0001      0.5379        0.09 %
+                             MLLinOp::defineGrids()        1307      0.0204      0.0229      0.0272      0.0026     11.3394        0.08 %
+                              FabArray::BuildMask()        2576      0.0195      0.0199      0.0204      0.0003      1.6290        0.07 %
+                 MLABecLaplacian::prepareForSolve()        1096      0.0164      0.0183      0.0202      0.0014      7.7993        0.07 %
+                             FabArrayBase::FB::FB()        3054      0.0151      0.0180      0.0208      0.0027     14.7638        0.07 %
+                           StateDataPhysBCFunct::()        4472      0.0146      0.0168      0.0193      0.0022     13.0473        0.06 %
+               NavierStokesBase::predict_velocity()         106      0.0156      0.0168      0.0187      0.0012      7.0623        0.06 %
+                              MLEBABecLap::define()        1146      0.0154      0.0161      0.0168      0.0006      4.0146        0.06 %
+      NavierStokesBase::velocity_advection_update()         106      0.0136      0.0149      0.0158      0.0008      5.5151        0.05 %
+                            NodalProjector::project         158      0.0124      0.0145      0.0154      0.0012      8.1588        0.05 %
+                             FluxRegister::Reflux()         900      0.0136      0.0143      0.0147      0.0004      3.0772        0.05 %
+                     MLNodeLaplacian::SyncResFine()          50      0.0120      0.0138      0.0157      0.0018     13.1905        0.05 %
+                             MLNodeLinOp::applyBC()      123941      0.0135      0.0138      0.0142      0.0003      2.0658        0.05 %
+                         FabArray::setDomainBndry()        4373      0.0093      0.0136      0.0176      0.0039     28.8373        0.05 %
+                                      MLMG::solve()         624      0.0081      0.0135      0.0175      0.0040     29.6659        0.05 %
+                        MLMG::addInterpCorrection()        7641      0.0129      0.0132      0.0135      0.0002      1.6678        0.05 %
+                                   FabArray::mult()        3002      0.0123      0.0127      0.0132      0.0003      2.6646        0.05 %
+                              MLCellLinOp::smooth()       23396      0.0116      0.0120      0.0125      0.0003      2.8092        0.04 %
+                     MLCellLinOp::prepareForSolve()        1096      0.0100      0.0112      0.0119      0.0007      6.4406        0.04 %
+                              Amr::coarseTimeStep()          50      0.0022      0.0097      0.0286      0.0110    113.3057        0.04 %
+             NavierStokesBase::velocity_advection()         106      0.0090      0.0096      0.0101      0.0004      4.1180        0.03 %
+                             AmrLevel::AmrLevel(dm)          15      0.0078      0.0093      0.0109      0.0013     13.7033        0.03 %
+                           FabArray::ParallelCopy()       42737      0.0089      0.0091      0.0093      0.0001      1.6102        0.03 %
+                             MLEBTensorOp::define()         522      0.0087      0.0090      0.0096      0.0003      3.7075        0.03 %
+                            MLCellLinOp::compFlux()         626      0.0085      0.0088      0.0090      0.0002      2.1075        0.03 %
+                      FillPatchIterator::Initialize        2705      0.0082      0.0086      0.0089      0.0002      2.7676        0.03 %
+                     NavierStokesBase::SyncInterp()         100      0.0084      0.0085      0.0088      0.0001      1.5517        0.03 %
+                     MLNodeLaplacian::SyncResCrse()          50      0.0025      0.0081      0.0194      0.0069     84.3777        0.03 %
+                    NavierStokesBase::estTimeStep()         103      0.0071      0.0080      0.0085      0.0005      6.5459        0.03 %
+                           EB2::GShopLevel()-coarse           3      0.0056      0.0079      0.0103      0.0021     26.7029        0.03 %
+                                      Amr::regrid()          13      0.0068      0.0076      0.0086      0.0007      8.7045        0.03 %
+                            MLMG::computeResidual()        5755      0.0074      0.0076      0.0078      0.0001      1.7504        0.03 %
+                   NavierStokes::scalar_advection()         106      0.0067      0.0069      0.0071      0.0002      2.7523        0.02 %
+                           MLMG::interpCorrection_1         540      0.0064      0.0065      0.0066      0.0001      1.0536        0.02 %
+        NavierStokesBase::scalar_advection_update()         212      0.0061      0.0064      0.0067      0.0002      3.6597        0.02 %
+                  NavierStokesBase::post_timestep()         100      0.0055      0.0060      0.0066      0.0004      7.0648        0.02 %
+                NodalProjector::computeSyncResidual         158      0.0050      0.0054      0.0057      0.0002      4.4188        0.02 %
+                                    EB_average_down         174      0.0052      0.0053      0.0057      0.0002      4.0729        0.02 %
+                        Projection::MLsyncProject()          50      0.0050      0.0053      0.0056      0.0002      4.0331        0.02 %
+                          MLNodeLinOp::buildMasks()         158      0.0049      0.0051      0.0053      0.0002      3.2361        0.02 %
+                            SyncRegister::FineAdd()          50      0.0049      0.0050      0.0051      0.0001      1.4756        0.02 %
+                                   iMultiFab::min()         158      0.0027      0.0045      0.0064      0.0014     31.7069        0.02 %
+                            FabArray::norminf(mask)         244      0.0037      0.0045      0.0049      0.0004      9.9358        0.02 %
+                               MLMG::MLResNormInf()         752      0.0003      0.0044      0.0066      0.0025     57.1255        0.02 %
+                                 FillPatchTwoLevels        1107      0.0039      0.0042      0.0046      0.0003      7.0159        0.02 %
+                             NavierStokes::reflux()          50      0.0024      0.0040      0.0066      0.0016     40.4744        0.01 %
+                  NavierStokesBase::advance_setup()         106      0.0040      0.0040      0.0041      0.0001      1.3527        0.01 %
+                                Amr::FinalizeInit()           1      0.0030      0.0039      0.0045      0.0005     13.9904        0.01 %
+                                  Amr::checkPoint()           2      0.0008      0.0039      0.0051      0.0018     46.1303        0.01 %
+                                   MLMG::mgVcycle()        6835      0.0037      0.0038      0.0039      0.0001      1.6404        0.01 %
+                             MLMG::mgVcycle_down::1        1886      0.0037      0.0038      0.0039      0.0001      1.3906        0.01 %
+               MLMG::computeResWithCrseSolFineCor()         540      0.0037      0.0037      0.0038      0.0000      0.6139        0.01 %
+                            MLCellLinOp::defineBC()        1146      0.0035      0.0036      0.0037      0.0001      2.1296        0.01 %
+                                    MLMG::oneIter()        5755      0.0034      0.0034      0.0035      0.0000      1.0288        0.01 %
+                                        OwnerMask()         333      0.0028      0.0031      0.0034      0.0002      6.0931        0.01 %
+                          MLMG::actualBottomSolve()        5755      0.0028      0.0030      0.0037      0.0004     13.2583        0.01 %
+                                      MLMG::apply()         630      0.0030      0.0030      0.0031      0.0000      1.5885        0.01 %
+  NavierStokes::advance_semistaggered_twophase_ls()         106      0.0027      0.0030      0.0038      0.0004     15.0417        0.01 %
+                           FAbArray::OverrideSync()       11259      0.0028      0.0029      0.0031      0.0001      4.1213        0.01 %
+                          MLNodeLaplacian::define()         161      0.0027      0.0028      0.0032      0.0002      7.1650        0.01 %
+                               MLMG::MLRhsNormInf()         624      0.0027      0.0028      0.0028      0.0000      1.0835        0.01 %
+                              AmrLevel::FillPatch()        1966      0.0027      0.0027      0.0028      0.0001      1.8966        0.01 %
+                     NavierStokesBase::level_sync()          50      0.0025      0.0027      0.0031      0.0002      8.3407        0.01 %
+                          MLMG::computeMLResidual()         752      0.0026      0.0027      0.0028      0.0001      2.9966        0.01 %
+                               amrex_mempool_init()           1      0.0027      0.0027      0.0027      0.0000      0.5918        0.01 %
+                               MLMG::mgVcycle_up::0        5755      0.0025      0.0026      0.0027      0.0001      2.6800        0.01 %
+                            NavierStokes::advance()         106      0.0021      0.0025      0.0034      0.0005     22.0360        0.01 %
+                    NavierStokesBase::mac_project()         106      0.0021      0.0025      0.0032      0.0004     17.8342        0.01 %
+                            SyncRegister::InitRHS()          50      0.0022      0.0023      0.0026      0.0002      7.1106        0.01 %
+                     The_Pinned_Arena::Initialize()           1      0.0023      0.0023      0.0023      0.0000      0.7422        0.01 %
+                               Amr::bldFineLevels()           1      0.0022      0.0023      0.0023      0.0000      1.3443        0.01 %
+                           FaceLinear::interp_arr()         106      0.0021      0.0022      0.0022      0.0001      3.2220        0.01 %
+                    FillPatchTwoLevels (Array<MF*>)          53      0.0021      0.0021      0.0022      0.0000      1.3306        0.01 %
+                      MLMG:computeResOfCorrection()        7641      0.0020      0.0020      0.0021      0.0000      1.8821        0.01 %
+                               Amr::writePlotFile()           2      0.0017      0.0020      0.0022      0.0002     10.9841        0.01 %
+                              OverrideSync_nowait()       11259      0.0018      0.0019      0.0020      0.0001      3.6564        0.01 %
+                    MLCellLinOp::solutionResidual()        5460      0.0018      0.0018      0.0019      0.0000      1.5253        0.01 %
+                  MLCellLinOp::correctionResidual()        5849      0.0016      0.0017      0.0017      0.0000      2.3813        0.01 %
+                                 FabArray::invert()         468      0.0016      0.0016      0.0017      0.0000      1.1389        0.01 %
+                              MLMG::mgVcycle_bottom        6835      0.0015      0.0016      0.0016      0.0000      1.4196        0.01 %
+                              OverrideSync_finish()       11259      0.0014      0.0015      0.0016      0.0001      5.5819        0.01 %
+                               FillPatchSingleLevel        4472      0.0013      0.0013      0.0014      0.0000      2.4699        0.00 %
+                NavierStokesBase::level_projector()         100      0.0011      0.0012      0.0012      0.0001      4.9605        0.00 %
+                        AmrLevel::FillCoarsePatch()          50      0.0011      0.0011      0.0012      0.0000      2.6402        0.00 %
+                             NodeBilinear::interp()         400      0.0011      0.0011      0.0012      0.0000      1.8129        0.00 %
+                            AmrMesh::MakeNewGrids()          14      0.0009      0.0011      0.0012      0.0001      8.0699        0.00 %
+                                amrex::average_down         598      0.0010      0.0010      0.0011      0.0000      2.0269        0.00 %
+                                  MLLinOp::define()        1307      0.0009      0.0010      0.0011      0.0001      6.4479        0.00 %
+                                Amr::defBaseLevel()           1      0.0003      0.0009      0.0023      0.0008     85.6433        0.00 %
+                                             main()           1      0.0006      0.0009      0.0011      0.0002     24.7608        0.00 %
+                FillPatchIterator::FillFromLevel0()        1598      0.0008      0.0008      0.0009      0.0001      6.6434        0.00 %
+                                  MLMG::getFluxes()        1202      0.0007      0.0007      0.0007      0.0000      1.1027        0.00 %
+               DistributionMapping::LeastUsedCPUs()          11      0.0004      0.0007      0.0008      0.0002     24.7361        0.00 %
+                                            makeSFC         832      0.0006      0.0007      0.0008      0.0001     10.5883        0.00 %
+                              BoxList::complementIn        3188      0.0005      0.0007      0.0012      0.0003     50.7345        0.00 %
+             FillPatchIterator::FillFromTwoLevels()        1107      0.0006      0.0006      0.0007      0.0000      1.3465        0.00 %
+                               MLMG::mgVcycle_up::1        1886      0.0006      0.0006      0.0007      0.0000      2.0953        0.00 %
+               MLNodeLaplacian::averageDownCoeffs()         158      0.0006      0.0006      0.0007      0.0000      5.6467        0.00 %
+                NavierStokesBase::velocity_update()         106      0.0004      0.0006      0.0008      0.0002     27.6281        0.00 %
+                          FabArrayBase::TheFPinfo()        1134      0.0005      0.0005      0.0006      0.0000      7.0362        0.00 %
+                      NavierStokes::scalar_update()         212      0.0004      0.0005      0.0009      0.0002     42.9416        0.00 %
+                                 AmrLevel::derive()          22      0.0005      0.0005      0.0005      0.0000      3.2810        0.00 %
+                      MLLinOp::makeAgglomeratedDMap         624      0.0003      0.0004      0.0004      0.0000      7.1686        0.00 %
+                  DistributionMapping::Distribute()         839      0.0003      0.0004      0.0004      0.0000      5.3068        0.00 %
+                           SyncRegister::CrseInit()          50      0.0003      0.0004      0.0004      0.0000      7.5479        0.00 %
+                             TagBoxArray::collate()          14      0.0002      0.0003      0.0003      0.0000     11.7387        0.00 %
+                                StateData::define()          45      0.0002      0.0003      0.0004      0.0001     20.5513        0.00 %
+               MLMG::computeResWithCrseCorFineCor()         540      0.0003      0.0003      0.0003      0.0000      1.6114        0.00 %
+                                    Amr::timeStep()         100      0.0003      0.0003      0.0003      0.0000      4.6344        0.00 %
+                                 MultiFab::Divide()          50      0.0002      0.0002      0.0003      0.0000     13.8984        0.00 %
+                                  MLMG::miniCycle()        1080      0.0002      0.0002      0.0002      0.0000      2.6193        0.00 %
+                            AMRErrorTag::operator()          14      0.0002      0.0002      0.0002      0.0000      3.0671        0.00 %
+     FabArray::setVal(val,region,comp,ncomp,nghost)         250      0.0001      0.0002      0.0004      0.0001     82.5225        0.00 %
+                                     Amr::InitAmr()           1      0.0001      0.0001      0.0001      0.0000      0.7819        0.00 %
+                          AmrLevel::writePlotFile()           4      0.0001      0.0001      0.0002      0.0001     76.6333        0.00 %
+                         NodalProjector::computeRHS         158      0.0001      0.0001      0.0001      0.0000      7.1700        0.00 %
+                                 Amr::grid_places()          14      0.0001      0.0001      0.0001      0.0000     13.0977        0.00 %
+                                   FPinfo::FPinfo()           4      0.0001      0.0001      0.0001      0.0000      8.1661        0.00 %
+                         FabArray::RecvLayoutMask()          72      0.0000      0.0001      0.0002      0.0000     70.1263        0.00 %
+                                TagBoxArray::mapPRD          14      0.0001      0.0001      0.0001      0.0000      1.2643        0.00 %
+                            StateData::checkPoint()          12      0.0000      0.0001      0.0002      0.0001    130.9866        0.00 %
+                 NavierStokesBase::create_mac_rhs()         106      0.0000      0.0000      0.0000      0.0000      3.7494        0.00 %
+               MLNodeLaplacian::FillBoundaryCoeff()         216      0.0000      0.0000      0.0000      0.0000      1.5117        0.00 %
+                    FabArray::ParallelCopyToGhost()         159      0.0000      0.0000      0.0000      0.0000      0.5612        0.00 %
+                             AmrLevel::checkPoint()           4      0.0000      0.0000      0.0001      0.0000     94.0114        0.00 %
+                                  EB2::Initialize()           1      0.0000      0.0000      0.0000      0.0000      4.8422        0.00 %
+         DistributionMapping::SFCProcessorMapDoIt()           7      0.0000      0.0000      0.0000      0.0000      9.0323        0.00 %
+                           ClusterList::intersect()          14      0.0000      0.0000      0.0000      0.0000    173.2051        0.00 %
+                                         knapsack()           4      0.0000      0.0000      0.0000      0.0000     12.9822        0.00 %
+                    BoxList::parallelComplementIn()          28      0.0000      0.0000      0.0000      0.0000      5.4143        0.00 %
+                DistributionMapping::KnapSackDoIt()           4      0.0000      0.0000      0.0000      0.0000     12.1527        0.00 %
+                                        Amr::init()           1      0.0000      0.0000      0.0000      0.0000     14.0285        0.00 %
+                                    AmrMesh-cluster          14      0.0000      0.0000      0.0000      0.0000    173.2051        0.00 %
+                                Amr::initSubcycle()           1      0.0000      0.0000      0.0000      0.0000      2.2841        0.00 %
+                              Amr::InitializeInit()           1      0.0000      0.0000      0.0000      0.0000     11.9042        0.00 %
+                          AmrLevel::checkPointPre()           4      0.0000      0.0000      0.0000      0.0000     14.6845        0.00 %
+                                 Amr::initialInit()           1      0.0000      0.0000      0.0000      0.0000     24.9363        0.00 %
+                                ClusterList::chop()          14      0.0000      0.0000      0.0000      0.0000    173.2051        0.00 %
+                         AmrLevel::checkPointPost()           4      0.0000      0.0000      0.0000      0.0000     11.9103        0.00 %
+                ParallelDescriptor::Gather(TsT1si)d           0      0.0000      0.0000      0.0000      0.0000      0.0000        0.00 %
+=========================================================================================================================================
+
+BLProfiler::Finalize():  time:  0.008
+AMReX (20.06-2238-g47f539a33e6a) finalized
