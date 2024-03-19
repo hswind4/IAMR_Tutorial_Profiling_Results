@@ -13,6 +13,8 @@ import io
 
 class Result:
     def __init__(self) -> None:
+        self.name = ""
+        self.dim = ""
 
         self.skip:int = -1 
         self.cycling:str = ""
@@ -87,11 +89,13 @@ def CheckInput(path_input, case_res):
 
 # 打印列表 [Result1, Result2, ... ]
 def Print(list_result):
-    header = ["skip_level_projector", "cycling", "max_level", "max_grid_size", "regrid_int", "cpu_time", "cpu_step", "gpu_time", "gpu_memory", "gpu step"]
+    header = ["name", "dim", "skip_level_projector", "cycling", "max_level", "max_grid_size", "regrid_int", "cpu_time/s", "cpu_step", "gpu_time/s", "gpu_memory/MB", "gpu step"]
     table = []
     for v in list_result:
         # cpu2d_skip0_Auto_mgs16_1_regrid8
         row = []
+        row.append(v.name)
+        row.append(v.dim)
         row.append(v.skip)
         row.append(v.cycling)
         row.append(v.max_level)
@@ -105,11 +109,12 @@ def Print(list_result):
         table.append(row)
             
     df = pd.DataFrame(table, columns= header, index=range(1, len(table)+1))    
-    # print("###################################################################################################################")
-    print("-------------------------------------------------------------------------------------------------------------------")
-    print(df)    
+    if not df.empty:
+        # print("###################################################################################################################")
+        print("-------------------------------------------------------------------------------------------------------------------")
+        print(df)    
 
-    # df.to_csv(f'table_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.csv', index=False)
+        # df.to_csv(f'table_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.csv', index=False)
 
 def Save(list_result):
     output_name = f'table_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.txt'
@@ -118,8 +123,7 @@ def Save(list_result):
     # 恢复标准输出
     sys.stdout = sys.__stdout__
 
-
-def CollectData(case):
+def Collect(case, dim):
         """
         1. 读取某个 case 文件夹下，所有参数组合的结果 log，提取其中的关键信息，如 cpu_time, gpu_time, function and time...
         2. 提供 check input 功能，保证结果文件夹名和实际算例所用的参数是一致的
@@ -127,10 +131,14 @@ def CollectData(case):
         """
         flag_checkInput = True
         res = []
-        types2d = ["case_results_cpu2d", "case_results_gpu2d"]
-        types3d = ["case_results_cpu3d", "case_results_gpu3d"]
 
-        for type in types2d:
+        types = []
+        if dim == "2d":
+            types = ["case_results_cpu2d", "case_results_gpu2d"]
+        if dim == "3d":
+            types = ["case_results_cpu3d", "case_results_gpu3d"]
+
+        for type in types:
             path = f"{case}/{type}"
             if os.path.exists(path):
                 folders = os.listdir(path)
@@ -141,6 +149,9 @@ def CollectData(case):
                     files = os.listdir(file_path)
                     
                     case_res = Result()
+                    
+                    case_res.name = case
+                    case_res.dim = dim
 
                     match = re.search(r'skip(\d+)', folder)
                     if match:
@@ -256,11 +267,18 @@ def CollectData(case):
                                     numbers = [float(s) for s in line.split() if s.replace('.', '', 1).isdigit()]
                                     case_res.gpu_time = numbers[0]
                                     break
-                                
-
                                 if line == '':
                                     break
                         
+                        with open(f"{file_path}/log.txt", 'r') as file:
+                            while(True):
+                                line = file.readline()
+                                if "[The         Arena] space allocated" in line:
+                                    numbers = [float(s) for s in line.split() if s.replace('.', '', 1).isdigit()]
+                                    case_res.gpu_memory = numbers[0]
+                                    break
+                                if line == '':
+                                    break                        
                         with open(f"{file_path}/log.txt", 'r') as file:                      
                                 found_start = False
                                 flag = 2
@@ -285,15 +303,20 @@ def CollectData(case):
                             break
                     if not found:
                         res.append(case_res)
-        
-
-        
+                
         if not flag_checkInput:
             print("已退出")
             exit()
 
         return res
-   
+
+def CollectData(case):
+    res = []
+    res.append(Collect(case,"2d"))
+    res.append(Collect(case,"3d"))
+    return res
+    
+
 # 从所有结果中挑选符合输入参数的结果， 如输入参数factors = {"skip" : [1]} 则会找到所有skip = 1的结果， 本例子中则有16个，并返回该列表
 def Get(vec_res, factors = {}):    
     vec_factor = {
@@ -402,25 +425,32 @@ def CompareAndShow(vec_res, factor, processor = "cpu"):
     for items in items_false:
         Print(items)
 
-
 def AdjustResult(list_result, para):
-    print(f"按{para} 排序")
-    # 按参数调整, 
-    if para == 'cpu_time':
-        list_result.sort(key=lambda x: x.cpu_time)
-    elif para == 'gpu_time':
-        list_result.sort(key=lambda x: x.gpu_time)
-    elif para == 'max_grid_size':
-        # import pdb ; pdb.set_trace()  # 在这里设置一个断点
-        list_result.sort(key=lambda x: (x.max_grid_size, x.cpu_time, x.gpu_time))  
-    elif para == "cycling":
-        list_result.sort(key=lambda x: (x.cycling, x.cpu_time, x.gpu_time))  
+    if len(list_result) != 0:
+        print(f"按{para} 排序")
+        # 按参数调整, 
+        if para == 'cpu_time':
+            list_result.sort(key=lambda x: x.cpu_time)
+        elif para == 'gpu_time':
+            list_result.sort(key=lambda x: x.gpu_time)
+        elif para == 'max_grid_size':
+            # import pdb ; pdb.set_trace()  # 在这里设置一个断点
+            list_result.sort(key=lambda x: (x.max_grid_size, x.cpu_time, x.gpu_time))  
+        elif para == "cycling":
+            list_result.sort(key=lambda x: (x.cycling, x.cpu_time, x.gpu_time))  
+        Print(list_result)
 
+def TopFunc(list_result,n=3):
 
-def TopFunc(list_result):
-    for res in list_result:
-        for i in range(3):
-            print(f"{res.cpu_function_name[i]} : {res.cpu_function_percent[i]}")
+    for v in list_result:
+        print(f"{v.skip} {v.cycling} {v.max_level} {v.max_grid_size} {v.regrid_int}      || skip cycling max_level max_grid_size regid_int")
+        for i in range(n):
+            if(len(v.cpu_function_name) != 0):
+                print(f"cpu {i+1}. {v.cpu_function_name[i]} : {v.cpu_function_percent[i]}%")
+        for i in range(n):
+            if(len(v.gpu_function_name) != 0):
+                print(f"gpu {i+1}. {v.gpu_function_name[i]} : {v.gpu_function_percent[i]}%")            
+        print("")
 
 def GetFuncOnEveryCase(dictionary, str):
     for k, v in dictionary.items():
@@ -439,13 +469,12 @@ def GetFuncOnEveryCase(dictionary, str):
         print(case_res)
 
 
+# 给参数，找到一个结果。展示一个结果。展示一个结果的memory。对比两个case，对比两个case，展示对比
 
 # def AdjustResult(dictionary, factor):
     
 #     return
 
-# # 调整数据 按时间排序, 按max_grid_size排序 相同的max_grid_size 按时间排序
-# AdjustResult(cases_res, "skip")
 
 
 

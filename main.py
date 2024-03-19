@@ -60,42 +60,40 @@ def Get(cases):
         print("###################################################################################################################")
         print(f"-----------------------------------------    {case}     -------------------------------------------------")
 
-        res = getCaseResult.CollectData(case)
-        
-        # 原始数据
-        # print("原始数据")
-        # # print(len(res))
-        # getCaseResult.Print(res)
+        results_dim = getCaseResult.CollectData(case)
+        for res in results_dim:
+            # 原始数据
+            # print("原始数据")
+            # # print(len(res))
+            # getCaseResult.Print(res)
 
-        # # 按 cpu_time 排序
-        getCaseResult.AdjustResult(res, "cpu_time")
-        getCaseResult.Print(res)
-        # # gpu_time 排序
-        # getCaseResult.AdjustResult(res, "gpu_time")
-        # getCaseResult.Print(res)
-        # # cycling 排序
-        # getResult.AdjustResult(res, "cycling")
-        # getResult.Print(res)
-        
-        
-        # getCaseResult.CompareAndShow(res, "max_grid_size")  # cpu 和 gpu 合并， 控制是否打印detail
-        # getCaseResult.CompareAndShow(res, "max_grid_size", "gpu")
-        # getCaseResult.CompareAndShow(res, "cycling")
-        # getCaseResult.CompareAndShow(res, "cycling", "gpu")
-        # getCaseResult.CompareAndShow(res, "max_level")
-        # getCaseResult.CompareAndShow(res, "max_level", "gpu")
-        # getCaseResult.CompareAndShow(res, "regrid_int")
-        # getCaseResult.CompareAndShow(res, "regrid_int", "gpu")
-        getCaseResult.CompareAndShow(res, "skip")
-        # getCaseResult.CompareA "gpu")
-        
-        
-        # getResult.TopFunc(res)
+            # # 按 cpu_time 排序
+            getCaseResult.AdjustResult(res, "cpu_time")
+            # # gpu_time 排序
+            getCaseResult.AdjustResult(res, "gpu_time")
+            # # cycling 排序
+            # getResult.AdjustResult(res, "cycling")
 
-        # ans = getCaseResult.Get(cases_res["LidDrivenCavity"], {"skip" : [1], "cycling" : ['None'], "max_grid_size": [8], "max_level": [2], "regrid_int": [4]})
-        # getCaseResult.Print(ans)
+            
+            
+            getCaseResult.CompareAndShow(res, "max_grid_size")  # cpu 和 gpu 合并， 控制是否打印detail
+            # getCaseResult.CompareAndShow(res, "max_grid_size", "gpu")
+            # getCaseResult.CompareAndShow(res, "cycling")
+            # getCaseResult.CompareAndShow(res, "cycling", "gpu")
+            # getCaseResult.CompareAndShow(res, "max_level")
+            # getCaseResult.CompareAndShow(res, "max_level", "gpu")
+            # getCaseResult.CompareAndShow(res, "regrid_int")
+            # getCaseResult.CompareAndShow(res, "regrid_int", "gpu")
+            # getCaseResult.CompareAndShow(res, "skip")
+            # getCaseResult.CompareA "gpu")
+            
+            
+            # getCaseResult.TopFunc(res,10)
 
-        cases_res[case] = res
+            # ans = getCaseResult.Get(cases_res["LidDrivenCavity"], {"skip" : [1], "cycling" : ['None'], "max_grid_size": [8], "max_level": [2], "regrid_int": [4]})
+            # getCaseResult.Print(ans)
+
+            cases_res[case] = res
     return cases_res
 
 
@@ -104,8 +102,8 @@ if __name__ == "__main__":
     # 主函数运行部分
     
     ## 请自己修改 get 函数，调用各种排序，比较等功能
-    # "DoubleShearLayer",
-    cases_get = ["LidDrivenCavity",  "ConvectedVortex", "RayleighTaylor", "TaylorGreen", "Bubble", "FlowPastCylinder"]  
+    # 
+    cases_get = ["bubble", "LidDrivenCavity",  "ConvectedVortex", "RayleighTaylor", "TaylorGreen", "Bubble", "FlowPastCylinder","DoubleShearLayer"]  
     cases_res = Get(cases_get)
 
 
