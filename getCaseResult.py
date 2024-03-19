@@ -63,18 +63,18 @@ def CheckInput(path_input, case_res):
             line = file.readline()
             list_para = ["skip", "max_grid_size", "max_level", "cycling", "regrid_int"]
             for para in list_para: 
-                if para in line:
+                if para in line and "=" in line:
                     line.strip()
                     if not line.startswith("#"):
                         pattern = re.compile(r'=(.*?)#')
                         match = pattern.search(line)
                         if match:
                             value = match.group(1).strip()
-                        if not value == str(getattr(case_res,para)):
-                            print("\033[0;31mERROR: 参数和文件名不同\033[0m")
-                            print(f"path : {path_input}")  
-                            print(f"line : {line}")
-                            flag = False
+                            if not value == str(getattr(case_res,para)):
+                                print("\033[0;31mERROR: 参数和文件名不同\033[0m")
+                                print(f"path : {path_input}")  
+                                print(f"line : {line}")
+                                flag = False
                     else:
                         print("\033[0;31mERROR: 注释，未生效\033[0m")
                         print(f"path : {path_input}")
@@ -127,8 +127,10 @@ def CollectData(case):
         """
         flag_checkInput = True
         res = []
-        types = ["case_results_cpu2d", "case_results_gpu2d"]
-        for type in types:
+        types2d = ["case_results_cpu2d", "case_results_gpu2d"]
+        types3d = ["case_results_cpu3d", "case_results_gpu3d"]
+
+        for type in types2d:
             path = f"{case}/{type}"
             if os.path.exists(path):
                 folders = os.listdir(path)
@@ -183,7 +185,7 @@ def CollectData(case):
                     #             if "gpu" in type:
                     #                 setattr(case_res, "gpu_time", numbers[0])
                     #                 break
-
+                    
                     #         if line == '':
                     #             break                    
                     
@@ -209,6 +211,11 @@ def CollectData(case):
 
                     
                     if "cpu" in type:
+                        for file in files:
+                            match = re.match(r"chk(\d+)", file)
+                            if match:
+                                case_res.cpu_step = max(int(match.group(1)), case_res.cpu_step)
+
                         with open(f"{file_path}/log.txt", 'r') as file:
                             while(True):
                                 line = file.readline()
@@ -237,6 +244,11 @@ def CollectData(case):
                                         case_res.cpu_function_percent.append(line_data[len(line_data)-2])
                     
                     if "gpu" in type:
+                        for file in files:
+                            match = re.match(r"chk(\d+)", file)
+                            if match:
+                                case_res.gpu_step = max(int(match.group(1)), case_res.gpu_step)       
+
                         with open(f"{file_path}/log.txt", 'r') as file:
                             while(True):
                                 line = file.readline()
@@ -245,6 +257,7 @@ def CollectData(case):
                                     case_res.gpu_time = numbers[0]
                                     break
                                 
+
                                 if line == '':
                                     break
                         
@@ -272,6 +285,8 @@ def CollectData(case):
                             break
                     if not found:
                         res.append(case_res)
+        
+
         
         if not flag_checkInput:
             print("已退出")
@@ -389,6 +404,7 @@ def CompareAndShow(vec_res, factor, processor = "cpu"):
 
 
 def AdjustResult(list_result, para):
+    print(f"按{para} 排序")
     # 按参数调整, 
     if para == 'cpu_time':
         list_result.sort(key=lambda x: x.cpu_time)

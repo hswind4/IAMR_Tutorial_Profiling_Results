@@ -69,46 +69,43 @@ def Get(cases):
 
         # # 按 cpu_time 排序
         getCaseResult.AdjustResult(res, "cpu_time")
-        print("cpu_time 排序")
         getCaseResult.Print(res)
         # # gpu_time 排序
         # getCaseResult.AdjustResult(res, "gpu_time")
-        # print("gpu_time 排序")
         # getCaseResult.Print(res)
         # # cycling 排序
         # getResult.AdjustResult(res, "cycling")
-        # print("cycling 排序")
         # getResult.Print(res)
         
         
-        # getResult.CompareAndShow(res, "max_grid_size")  // cpu 和 gpu 合并， 控制是否打印detail
-        # getResult.CompareAndShow(res, "max_grid_size", "gpu")
-        # getResult.CompareAndShow(res, "cycling")
-        # getResult.CompareAndShow(res, "cycling", "gpu")
-        # getResult.CompareAndShow(res, "max_level")
-        # getResult.CompareAndShow(res, "max_level", "gpu")
+        # getCaseResult.CompareAndShow(res, "max_grid_size")  # cpu 和 gpu 合并， 控制是否打印detail
+        # getCaseResult.CompareAndShow(res, "max_grid_size", "gpu")
+        # getCaseResult.CompareAndShow(res, "cycling")
+        # getCaseResult.CompareAndShow(res, "cycling", "gpu")
+        # getCaseResult.CompareAndShow(res, "max_level")
+        # getCaseResult.CompareAndShow(res, "max_level", "gpu")
         # getCaseResult.CompareAndShow(res, "regrid_int")
         # getCaseResult.CompareAndShow(res, "regrid_int", "gpu")
-        # getCaseResult.CompareAndShow(res, "skip")
-        # getCaseResult.CompareAndShow(res, "skip", "gpu")
+        getCaseResult.CompareAndShow(res, "skip")
+        # getCaseResult.CompareA "gpu")
         
         
         # getResult.TopFunc(res)
 
-        # ans = getResult.Get(cases_res["LidDrivenCavity"], {"skip" : [1], "cycling" : ['None'], "max_grid_size": [8], "max_level": [2], "regrid_int": [4]})
-        # getResult.Print(ans)
+        # ans = getCaseResult.Get(cases_res["LidDrivenCavity"], {"skip" : [1], "cycling" : ['None'], "max_grid_size": [8], "max_level": [2], "regrid_int": [4]})
+        # getCaseResult.Print(ans)
 
         cases_res[case] = res
     return cases_res
-
 
 
 if __name__ == "__main__":
 
     # 主函数运行部分
     
-    ## 请自己写 get 函数，调用各种排序，比较等功能
-    cases_get = ["FlowPastCylinder", "LidDrivenCavity", "RayleighTaylor", "TaylorGreen"] #  "Bubble" , ，"Bubble", "ConvectedVortex", "DoubleShearLayer", 
+    ## 请自己修改 get 函数，调用各种排序，比较等功能
+    # "DoubleShearLayer",
+    cases_get = ["LidDrivenCavity",  "ConvectedVortex", "RayleighTaylor", "TaylorGreen", "Bubble", "FlowPastCylinder"]  
     cases_res = Get(cases_get)
 
 
