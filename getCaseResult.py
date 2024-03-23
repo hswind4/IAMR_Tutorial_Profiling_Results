@@ -124,11 +124,6 @@ def Save(list_result):
     sys.stdout = sys.__stdout__
 
 def Collect(case, dim):
-        """
-        1. 读取某个 case 文件夹下，所有参数组合的结果 log，提取其中的关键信息，如 cpu_time, gpu_time, function and time...
-        2. 提供 check input 功能，保证结果文件夹名和实际算例所用的参数是一致的
-        3. return: 返回一个 list = [Result1, Result2, ... Result32] 用以存取结果
-        """
         flag_checkInput = True
         res = []
 
@@ -141,10 +136,9 @@ def Collect(case, dim):
         for type in types:
             path = f"{case}/{type}"
             if os.path.exists(path):
+                # folds = ['cpu2d_skip0_Auto_mgs16_1_regrid4', ...]
                 folders = os.listdir(path)
                 for folder in folders:
-                    # folder = cpu2d_skip0_Auto_mgs16_1_regrid8
-
                     file_path = f"{case}/{type}/{folder}"
                     files = os.listdir(file_path)
                     
@@ -222,6 +216,8 @@ def Collect(case, dim):
 
                     
                     if "cpu" in type:
+                        # get cpu_steps
+
                         for file in files:
                             match = re.match(r"chk(\d+)", file)
                             if match:
@@ -307,10 +303,16 @@ def Collect(case, dim):
         if not flag_checkInput:
             print("已退出")
             exit()
-
         return res
 
-def CollectData(case):
+def CollectData(case_path):
+    """
+    1. 读取某个 case 文件夹下，所有参数组合的结果 log，提取其中的关键信息，如 cpu_time, gpu_time, function and time...
+    2. 提供 check input 功能，保证结果文件夹名和实际算例所用的参数是一致的
+    3. 输入参数为case文件夹路径，可以是当前文件路径："lidDrivenCavity", 也其可以是其他路径 "../../result/lidDrivenCavity"
+    3. return: 返回一个 list = [Result1, Result2, ... Result32] 用以存取结果
+    """
+    case = os.path.basename(case_path)
     res = []
     res.append(Collect(case,"2d"))
     res.append(Collect(case,"3d"))
