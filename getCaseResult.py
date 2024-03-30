@@ -1,5 +1,5 @@
-# 本文件提供的所有功能，只为处理单个 case 的计算结果
-
+# All the functionality provided in this document is intended to process the results of calculations for a single case
+ 
 import os
 import pandas as pd
 import re
@@ -73,12 +73,12 @@ def CheckInput(path_input, case_res):
                         if match:
                             value = match.group(1).strip()
                             if not value == str(getattr(case_res,para)):
-                                print("\033[0;31mERROR: 参数和文件名不同\033[0m")
+                                print("\033[0;31mERROR: Parameters and filenames are different\033[0m")
                                 print(f"path : {path_input}")  
                                 print(f"line : {line}")
                                 flag = False
                     else:
-                        print("\033[0;31mERROR: 注释，未生效\033[0m")
+                        print("\033[0;31mERROR:  comment error\033[0m")
                         print(f"path : {path_input}")
                         print(f"line : {line}")
                         flag = False
@@ -87,7 +87,8 @@ def CheckInput(path_input, case_res):
 
     return flag            
 
-# 打印列表 [Result1, Result2, ... ]
+ 
+# Print the list [Result1, Result2, ... ]
 def Print(list_result):
     header = ["name", "dim", "skip_level_projector", "cycling", "max_level", "max_grid_size", "regrid_int", "cpu_time/s", "cpu_step", "gpu_time/s", "gpu_memory/MB", "gpu step"]
     table = []
@@ -120,7 +121,6 @@ def Save(list_result):
     output_name = f'table_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.txt'
     sys.stdout = open(output_name, 'w')
     Print(list_result)
-    # 恢复标准输出
     sys.stdout = sys.__stdout__
 
 def Collect(case, dim):
@@ -147,37 +147,32 @@ def Collect(case, dim):
                     case_res.name = case
                     case_res.dim = dim
 
-                    match = re.search(r'skip(\d+)', folder)
-                    if match:
-                        skip = match.group(1)
-                        case_res.skip = int(skip)
-
-                    match = re.search(r'(auto|none)', folder, re.IGNORECASE)
-                    if match:
-                        cycling = match.group(0)
-                        case_res.cycling = cycling
-                    match = re.search(r'_(\d+)_', folder)
-                    if match:
-                        max_level = match.group(1)
-                        case_res.max_level = int(max_level)         
+                    # get parameters
+                    patterns = {
+                        'skip(\d+)': 'skip',
+                        '(auto|none)': 'cycling',
+                        '_(\d+)_': 'max_level',
+                        'mgs(\d+)': 'max_grid_size',
+                        'regrid(\d+)': 'regrid_int'
+                    }
+                    for pattern, attribute in patterns.items():
+                        match = re.search(pattern, folder, re.IGNORECASE)
+                        if match:
+                            # value  = int(match.group(1))
+                            value = match.group(1)
+                            if value.isdigit():
+                                value = int(value)
                     
-                    match = re.search(r'mgs(\d+)', folder)
-                    if match:
-                        mgs = match.group(1)
-                        case_res.max_grid_size = int(mgs)
+                            setattr(case_res, attribute, value)
+      
                     
-                    match = re.search(r'regrid(\d+)', folder)
-                    if match:
-                        regrid = match.group(1)
-                        case_res.regrid_int = int(regrid)             
-                    
-
                     pattern = f"{file_path}/input*"
                     input_files = glob.glob(pattern)
                     if not CheckInput(input_files[0],case_res):
                         flag_checkInput = False
 
 
+                    # get total time step fuction function percent  memory for cpu and gpu
 
                     # with open(f"{file_path}/log.txt", 'r') as file:
                     #     while(True):
@@ -307,10 +302,10 @@ def Collect(case, dim):
 
 def CollectData(case_path):
     """
-    1. 读取某个 case 文件夹下，所有参数组合的结果 log，提取其中的关键信息，如 cpu_time, gpu_time, function and time...
-    2. 提供 check input 功能，保证结果文件夹名和实际算例所用的参数是一致的
-    3. 输入参数为case文件夹路径，可以是当前文件路径："lidDrivenCavity", 也其可以是其他路径 "../../result/lidDrivenCavity"
-    3. return: 返回一个 list = [Result1, Result2, ... Result32] 用以存取结果
+    1. read the result log of all the parameter combinations under a certain case folder, and extract the key information, such as cpu_time, gpu_time, function and time...
+    2. provide check input function to make sure the result folder name is the same as the parameters used in the actual case.
+    3. the input parameter is the case folder path, it can be the current file path: "lidDrivenCavity", or any other path "... /... /result/lidDrivenCavity".
+    3. return: returns a list = [Result1, Result2, ... Result32] to access the results
     """
     case = os.path.basename(case_path)
     res = []
@@ -319,7 +314,6 @@ def CollectData(case_path):
     return res
     
 
-# 从所有结果中挑选符合输入参数的结果， 如输入参数factors = {"skip" : [1]} 则会找到所有skip = 1的结果， 本例子中则有16个，并返回该列表
 def Get(vec_res, factors = {}):    
     vec_factor = {
         "skip" : [0 , 1],
@@ -429,29 +423,30 @@ def CompareAndShow(vec_res, factor, processor = "cpu"):
 
 def AdjustResult(list_result, para):
     if len(list_result) != 0:
-        print(f"按{para} 排序")
-        # 按参数调整, 
+        print(f"sort by {para}")
+        # sort by parameter
         if para == 'cpu_time':
             list_result.sort(key=lambda x: x.cpu_time)
         elif para == 'gpu_time':
             list_result.sort(key=lambda x: x.gpu_time)
         elif para == 'max_grid_size':
-            # import pdb ; pdb.set_trace()  # 在这里设置一个断点
             list_result.sort(key=lambda x: (x.max_grid_size, x.cpu_time, x.gpu_time))  
         elif para == "cycling":
             list_result.sort(key=lambda x: (x.cycling, x.cpu_time, x.gpu_time))  
         Print(list_result)
 
-def TopFunc(list_result,n=3):
+def TopFunc(list_result,n=3, cpu_print = True, gpu_print = True):
 
     for v in list_result:
         print(f"{v.skip} {v.cycling} {v.max_level} {v.max_grid_size} {v.regrid_int}      || skip cycling max_level max_grid_size regid_int")
-        for i in range(n):
-            if(len(v.cpu_function_name) != 0):
-                print(f"cpu {i+1}. {v.cpu_function_name[i]} : {v.cpu_function_percent[i]}%")
-        for i in range(n):
-            if(len(v.gpu_function_name) != 0):
-                print(f"gpu {i+1}. {v.gpu_function_name[i]} : {v.gpu_function_percent[i]}%")            
+        if cpu_print:
+            for i in range(n):
+                if(len(v.cpu_function_name) != 0):
+                    print(f"cpu {v.cpu_function_name[i]}  {v.cpu_function_percent[i]}%")
+        if gpu_print:
+            for i in range(n):
+                if(len(v.gpu_function_name) != 0):
+                    print(f"gpu {v.gpu_function_name[i]}  {v.gpu_function_percent[i]}%")            
         print("")
 
 def GetFuncOnEveryCase(dictionary, str):

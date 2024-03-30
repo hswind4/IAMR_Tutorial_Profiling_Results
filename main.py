@@ -53,7 +53,7 @@ def Check(cases):
 
 def Get(cases):
     """
-    基于 getCaseResult 提供的处理单个 case 的能力，对所有的 case 进行处理和展示
+    Process and display all cases based on the ability to process individual cases provided by getCaseResult.
     """
     cases_res = {}
     for case in cases:
@@ -62,21 +62,17 @@ def Get(cases):
 
         results_dim = getCaseResult.CollectData(case)
         for res in results_dim:
-            # 原始数据
-            # print("原始数据")
-            # # print(len(res))
-            # getCaseResult.Print(res)
+            print("Original data")
+            getCaseResult.Print(res)
 
-            # # 按 cpu_time 排序
+            # sort by cpu_time
             getCaseResult.AdjustResult(res, "cpu_time")
-            # # gpu_time 排序
-            getCaseResult.AdjustResult(res, "gpu_time")
-            # # cycling 排序
+            # getCaseResult.AdjustResult(res, "gpu_time")
             # getResult.AdjustResult(res, "cycling")
 
             
-            
-            getCaseResult.CompareAndShow(res, "max_grid_size")  # cpu 和 gpu 合并， 控制是否打印detail
+            # cpu 和 gpu 合并， 控制是否打印detail
+            getCaseResult.CompareAndShow(res, "max_grid_size")  
             # getCaseResult.CompareAndShow(res, "max_grid_size", "gpu")
             # getCaseResult.CompareAndShow(res, "cycling")
             # getCaseResult.CompareAndShow(res, "cycling", "gpu")
@@ -85,10 +81,10 @@ def Get(cases):
             # getCaseResult.CompareAndShow(res, "regrid_int")
             # getCaseResult.CompareAndShow(res, "regrid_int", "gpu")
             # getCaseResult.CompareAndShow(res, "skip")
-            # getCaseResult.CompareA "gpu")
+
             
             
-            # getCaseResult.TopFunc(res,10)
+            getCaseResult.TopFunc(res,10)
 
             # ans = getCaseResult.Get(cases_res["LidDrivenCavity"], {"skip" : [1], "cycling" : ['None'], "max_grid_size": [8], "max_level": [2], "regrid_int": [4]})
             # getCaseResult.Print(ans)
@@ -100,10 +96,16 @@ def Get(cases):
 if __name__ == "__main__":
 
     # 主函数运行部分
-    
     ## 请自己修改 get 函数，调用各种排序，比较等功能
-    # 
-    cases_get = ["bubble", "LidDrivenCavity",  "ConvectedVortex", "RayleighTaylor", "TaylorGreen", "Bubble", "FlowPastCylinder","DoubleShearLayer"]  
+     
+    # The main function running part
+    # Please modify the get function yourself to call various sorting, comparing and other functions.
+
+
+    # "bubble",,  "ConvectedVortex", "RayleighTaylor", "TaylorGreen", "Bubble", "FlowPastCylinder","DoubleShearLayer"  "LidDrivenCavity",
+    # cases_get = [ ]  
+    cases_get = [ "bubble"]  
+
     cases_res = Get(cases_get)
 
 
