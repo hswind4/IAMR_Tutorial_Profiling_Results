@@ -27,12 +27,16 @@ make -j12
 On this step, if you want to select cpu or gpu as your calcutlation  platform you need to manually modify the makefile and compile; to modify the parameters, please manually modify the input and run it.  
 
 For makefile:
-* cpu: omp = TRUE, mpi = TRUE, CUDA = FALSE
-* gpu: omp = FALSE, mpi = FALSE, CUDA = TRUE
-* dim: 
+* cpu: USE_OMP = TRUE, USE_MPI = TRUE, USE_CUDA = FALSE
+* gpu: USE_OMP = FALSE, USE_MPI = FALSE, USE_CUDA = TRUE
+* dim: DIM         = 2/3
 
 For input:
-* kl
+* amr.max_grid_size	= 8 # max_grid_size
+* amr.max_level		= 0 # max_level
+* amr.regrid_int		= 4 # regrid_int
+* ns.skip_level_projector = 0 # skip_level_projector
+* amr.subcycling_mode     = Auto # subcycling_mode
 
 
 Or you can also use our scripts to compile, run, and get the results in one click!
@@ -81,7 +85,7 @@ For example,
 
 At the same time, we have organized the data into an Runtime statistics.xlsx for data presentation, which you can also view.
 
-## Python scripts
+## Analysis tools
 After you got the data results, we provided some python scripts for solve the data. 
 
 * getCaseResult.py - Provide core functionality for processing the results of single case 
