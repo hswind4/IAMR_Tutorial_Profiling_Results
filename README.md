@@ -12,15 +12,15 @@ Firstly, you need to have AMREX，AMREX-Hydro, IAMR，we recommend you use follo
 ```bash
 git clone https://github.com/ruohai0925/amrex
 git clone https://github.com/ruohai0925/AMReX-Hydro
-git clone https://github.com/ruohai0925/IAMR/tree/development
+git clone https://github.com/ruohai0925/IAMR
 ```
 
 You can compile and run it manually. 
 
 ```bash
-cd IAMR/Tutorials_profiling/Bubble
+cd IAMR
 git checkout development
-cd IAMR/Tutorials_profiling/Bubble
+cd Tutorials_profiling/Bubble
 make -j12 
 ./amr2d.gnu.PROF.MPI.ex inputs.2d.bubble
 ```
