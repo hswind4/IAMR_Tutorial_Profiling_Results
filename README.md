@@ -42,8 +42,9 @@ For input:
 Or you can also use our scripts to compile, run, and get the results in one click!
 
 ```bash
-cd IAMR/Tutorials_profiling
+cd IAMR
 git checkout development
+cd Tutorials_profiling
 ./jobiamr2dcpu
 ```
  
